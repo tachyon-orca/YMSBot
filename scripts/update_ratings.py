@@ -29,6 +29,7 @@ def get_movie_id(imdb_id):
     movie_id = result["id"]
     return movie_id, result
 
+
 def get_info(movie_id, meta):
     metadata = dict()
     match meta["media_type"]:
@@ -59,7 +60,7 @@ def main(basefile, updated):
         base = json.load(fin)
     with open(updated) as fin:
         updated = json.load(fin)
-    
+
     for entry in tqdm(updated):
         imdb_id = entry["id"]
         if imdb_id not in base:
@@ -68,8 +69,12 @@ def main(basefile, updated):
                 metadata = dict()
             else:
                 metadata = get_info(movie_id, meta)
-            base[imdb_id] = {"review_date": entry["date"], "rating": entry["rating"], **metadata}
-    
+            base[imdb_id] = {
+                "review_date": entry["date"],
+                "rating": entry["rating"],
+                **metadata,
+            }
+
     with open(basefile, "w") as fout:
         json.dump(base, fout, indent=2, ensure_ascii=False)
 

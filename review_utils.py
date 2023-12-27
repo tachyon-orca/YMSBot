@@ -68,7 +68,7 @@ class ReviewGetter:
             return "I didn't find YMS's rating for that title."
 
         rating = self.ratings[imdb_id]
-        resp = "Adum rated {}".format(rating["title"])
+        resp = "Adum gave {}".format(rating["title"])
         if rating.get("release_date", "") != "":
             resp += " ({})".format(rating["release_date"][:4])
         if rating["rating"].isnumeric():

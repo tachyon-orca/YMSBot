@@ -1,5 +1,7 @@
 import random
+import time
 
+import inflect
 from twitchio.ext import commands, routines
 from dotenv import dotenv_values
 
@@ -8,6 +10,8 @@ from review_utils import ReviewGetter
 secrets = dotenv_values(".env")
 
 active_channels = ["tachyon_orca"]
+
+inflect_engine = inflect.engine()
 
 scoot_shills = [
     ["Send Scoot money!", 5],
@@ -23,6 +27,24 @@ def _generate_scoot_shill():
     msgs, weights = zip(*scoot_shills)
     msg = random.choices(msgs, weights=weights)[0]
     return msg + scoot_links
+
+
+def _format_time_interval(nano_seconds):
+    seconds = nano_seconds / 1_000_000_000
+
+    minutes, seconds = divmod(seconds, 60)
+    hours, minutes = divmod(minutes, 60)
+    days, hours = divmod(hours, 24)
+
+    parts = []
+    for n, v in zip(
+        ["day", "hour", "minute", "second"], [days, hours, minutes, seconds]
+    ):
+        if v:
+            v = int(v)
+            parts.append(f"{v} {inflect_engine.plural_noun(n, v)}")
+
+    return " ".join(parts)
 
 
 @routines.routine(minutes=5)
@@ -41,6 +63,7 @@ class Bot(commands.Bot):
             token=secrets["ACCESS_TOKEN"], prefix="!", initial_channels=active_channels
         )
         self.review_getter = ReviewGetter()
+        self.brbtimer = None
 
     async def event_ready(self):
         # Notify us when everything is ready!
@@ -77,6 +100,37 @@ class Bot(commands.Bot):
                 shill_scoot_recurr.stop()
             case _:
                 await ctx.send(_generate_scoot_shill())
+
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command()
+    async def brb(self, ctx: commands.Context):
+        await ctx.send(
+            "BRB Playlist: https://www.youtube.com/playlist?list=PLRoNIkmOtWKSmvxBBer9WQHnIuwFu1kBe"
+        )
+
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command()
+    async def left(self, ctx: commands.Context):
+        if self.brbtimer is None:
+            self.brbtimer = time.time_ns()
+        await ctx.send("peepoLeave Oh no, Adum has left the stream!")
+
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command()
+    async def back(self, ctx: commands.Context):
+        msg = "peepoArrive Adum is back!"
+        if self.brbtimer is not None:
+            brbtime = time.time_ns() - self.brbtimer
+            self.brbtimer = None
+            msg += f" He was gone for {_format_time_interval(brbtime)}."
+        await ctx.send(msg)
+
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command()
+    async def brbtime(self, ctx: commands.Context):
+        if self.brbtimer is not None:
+            brbtime = time.time_ns() - self.brbtimer
+            await ctx.send(f"Adum has been gone for {_format_time_interval(brbtime)}.")
 
 
 bot = Bot()
