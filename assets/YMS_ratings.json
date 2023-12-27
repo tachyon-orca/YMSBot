@@ -30093,5 +30093,43 @@
     "release_date": "2001-06-03",
     "original_title": "Six Feet Under",
     "alt_titles": []
+  },
+  "tt10481868": {
+    "review_date": "2023-12-27",
+    "rating": "2",
+    "title": "Black Christmas",
+    "release_date": "2019-12-11",
+    "original_title": "Black Christmas",
+    "alt_titles": []
+  },
+  "tt0071222": {
+    "review_date": "2023-12-26",
+    "rating": "6",
+    "title": "Black Christmas",
+    "release_date": "1974-10-11",
+    "original_title": "Black Christmas",
+    "alt_titles": [
+      "Silent Night Evil Night",
+      "Stranger in the House"
+    ]
+  },
+  "tt6495056": {
+    "review_date": "2023-12-23",
+    "rating": "3",
+    "title": "Migration",
+    "release_date": "2023-12-06",
+    "original_title": "Migration",
+    "alt_titles": []
+  },
+  "tt30061777": {
+    "review_date": "2023-12-23",
+    "rating": "2",
+    "title": "Mooned",
+    "release_date": "2023-12-06",
+    "original_title": "Mooned",
+    "alt_titles": [
+      "MOONED",
+      "Vector: Mooned"
+    ]
   }
 }
