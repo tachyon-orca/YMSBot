@@ -23,6 +23,8 @@ class ReviewGetter:
             self.ratings = json.load(f)
         with open("assets/YMS_videos.json") as f:
             self.videos = json.load(f)
+        with open("assets/YMS_watchlist.json") as f:
+            self.watchlist = json.load(f)
 
     def _request(self, url):
         response = requests.get(url, headers=self.headers)
@@ -37,7 +39,7 @@ class ReviewGetter:
             results = json.loads(self.imdb.search(title))
             results = results.get("results", [])
             if len(results) == 0:
-                return None
+                return None, None
             else:
                 results = [res["id"] for res in results]
         else:
@@ -59,18 +61,33 @@ class ReviewGetter:
 
         for imdb_id in results:
             if imdb_id in self.ratings:
-                return imdb_id
-        return None
+                return "rating", imdb_id
+        for imdb_id in results:
+            if imdb_id in self.watchlist:
+                return "watchlist", imdb_id
+        return None, None
 
     def process_query(self, title):
-        imdb_id = self.find_rating(title)
+        rec_type, imdb_id = self.find_rating(title)
         if imdb_id is None:
             return "I didn't find YMS's rating for that title."
 
-        rating = self.ratings[imdb_id]
-        resp = "Adum gave {}".format(rating["title"])
+        if rec_type == "watchlist":
+            rating = self.watchlist[imdb_id]
+        else:
+            rating = self.ratings[imdb_id]
+
+        title = "{}".format(rating["title"])
         if rating.get("release_date", "") != "":
-            resp += " ({})".format(rating["release_date"][:4])
+            title += " ({})".format(rating["release_date"][:4])
+
+        if rec_type == "watchlist":
+            return "Adum has not rated {} yet, but he added it to his watchlist on {}.".format(
+                title, rating["review_date"]
+            )
+        else:
+            resp = "Adum gave {}".format(title)
+
         if rating["rating"].isnumeric():
             resp += (" a" if rating["rating"] != "8" else " an") + " {}/10".format(
                 rating["rating"]
@@ -90,5 +107,9 @@ class ReviewGetter:
             return resp
 
         review = self.videos[imdb_id]["reviews"][0]
-        resp += " Checkout his review here: {}".format(review["url"])
+        match review["series"]:
+            case "Adum & Pals":
+                resp += " Check out the Adum & Pals here: {}".format(review["url"])
+            case _:
+                resp += " Check out his review here: {}".format(review["url"])
         return resp

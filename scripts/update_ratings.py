@@ -55,14 +55,20 @@ def get_info(movie_id, meta):
     return metadata
 
 
-def main(basefile, updated):
+def main(basefile, updated=None, delete=False):
     with open(basefile) as fin:
         base = json.load(fin)
-    with open(updated) as fin:
-        updated = json.load(fin)
+    if updated is not None:
+        with open(updated) as fin:
+            updated = json.load(fin)
+    else:
+        updated = base
+        base = dict()
 
+    updated_ids = []
     for entry in tqdm(updated):
         imdb_id = entry["id"]
+        updated_ids.append(imdb_id)
         if imdb_id not in base:
             movie_id, meta = get_movie_id(imdb_id)
             if movie_id is None:
@@ -71,9 +77,12 @@ def main(basefile, updated):
                 metadata = get_info(movie_id, meta)
             base[imdb_id] = {
                 "review_date": entry["date"],
-                "rating": entry["rating"],
                 **metadata,
             }
+            if "rating" in entry:
+                base[imdb_id]["rating"] = entry["rating"]
+    if delete:
+        base = {k: base[k] for k in updated_ids}
 
     with open(basefile, "w") as fout:
         json.dump(base, fout, indent=2, ensure_ascii=False)

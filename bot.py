@@ -9,7 +9,7 @@ from review_utils import ReviewGetter
 
 secrets = dotenv_values(".env")
 
-active_channels = ["tachyon_orca"]
+active_channels = ["ymsplays"]
 
 inflect_engine = inflect.engine()
 
@@ -17,7 +17,7 @@ scoot_shills = [
     ["Send Scoot money!", 5],
     ["Help Scoot fix his old and broken back!", 1],
     ["Donate to Scoot's MTF (man-to-feline) surgery fund!", 1],
-    ["Pussy pics ain't free! Pay Scoot here.", 1],
+    ["Pussy pics ain't free! Pay Scoot here:", 1],
     ["Happy birthday Scoot! Send him a present!", 1],
 ]
 scoot_links = " Paypal: paypal.me/notscotthenson If you don't have paypal: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NXPSAJ6BF6L72"
@@ -83,8 +83,14 @@ class Bot(commands.Bot):
         # print(message.content)
 
         await self.handle_commands(message)
-
+    
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command(name="commands")
+    async def list_commands(self, ctx: commands.Context):
+        await ctx.send(
+            "Commands: !review, !scoot, !brb, !album, !left, !back, !brbtime !feedback")
+
+    @commands.cooldown(rate=1, per=2, bucket=commands.Bucket.channel)
     @commands.command()
     async def review(self, ctx: commands.Context, *args: str):
         title = " ".join(args)
@@ -106,6 +112,13 @@ class Bot(commands.Bot):
     async def brb(self, ctx: commands.Context):
         await ctx.send(
             "BRB Playlist: https://www.youtube.com/playlist?list=PLRoNIkmOtWKSmvxBBer9WQHnIuwFu1kBe"
+        )
+    
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command()
+    async def album(self, ctx: commands.Context):
+        await ctx.send(
+            "Check out Adum's album on Bandcamp: https://anunkindness.bandcamp.com/album/10-years"
         )
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
@@ -131,6 +144,13 @@ class Bot(commands.Bot):
         if self.brbtimer is not None:
             brbtime = time.time_ns() - self.brbtimer
             await ctx.send(f"Adum has been gone for {_format_time_interval(brbtime)}.")
+    
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command()
+    async def feedback(self, ctx: commands.Context):
+        await ctx.send(
+            "Have an issue with the bot? Open an issue on GitHub: https://github.com/tachyon-orca/YMSBot"
+        )
 
 
 bot = Bot()

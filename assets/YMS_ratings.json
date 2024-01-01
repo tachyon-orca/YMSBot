@@ -30131,5 +30131,33 @@
       "MOONED",
       "Vector: Mooned"
     ]
+  },
+  "tt29452242": {
+    "review_date": "2023-12-30",
+    "title": "[Deleted]",
+    "release_date": "",
+    "original_title": "[Deleted]",
+    "alt_titles": [],
+    "rating": "1"
+  },
+  "tt14230458": {
+    "review_date": "2023-12-27",
+    "title": "Poor Things",
+    "release_date": "2023-11-21",
+    "original_title": "Poor Things",
+    "alt_titles": [],
+    "rating": "9"
+  },
+  "tt9663764": {
+    "review_date": "2023-12-27",
+    "title": "Aquaman and the Lost Kingdom",
+    "release_date": "2023-12-20",
+    "original_title": "Aquaman and the Lost Kingdom",
+    "alt_titles": [
+      "Aquaman 2",
+      "Necrus",
+      "Aquaman 2: the Lost Kingdom"
+    ],
+    "rating": "2"
   }
 }
