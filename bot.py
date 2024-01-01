@@ -19,6 +19,7 @@ scoot_shills = [
     ["Donate to Scoot's MTF (man-to-feline) surgery fund!", 1],
     ["Pussy pics ain't free! Pay Scoot here:", 1],
     ["Happy birthday Scoot! Send him a present!", 1],
+    ["Cool Scoot loves you!", 1],
 ]
 scoot_links = " Paypal: paypal.me/notscotthenson If you don't have paypal: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NXPSAJ6BF6L72"
 
@@ -149,7 +150,7 @@ class Bot(commands.Bot):
     @commands.command()
     async def feedback(self, ctx: commands.Context):
         await ctx.send(
-            "Have an issue with the bot? Open an issue on GitHub: https://github.com/tachyon-orca/YMSBot"
+            "You can find my code on GitHub: https://github.com/tachyon-orca/YMSBot. Feel free to open an issue or pull request if you have any suggestions or feedback!"
         )
 
 
