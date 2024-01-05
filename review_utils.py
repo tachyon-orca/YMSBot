@@ -55,6 +55,7 @@ class ReviewGetter:
                         iid = self._request(
                             f"https://api.themoviedb.org/3/tv/{res['id']}/external_ids"
                         )
+                        imdb_ids.append(iid["imdb_id"])
                     case _:
                         continue
             results = imdb_ids
