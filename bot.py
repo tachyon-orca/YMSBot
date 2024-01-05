@@ -84,14 +84,20 @@ class Bot(commands.Bot):
         # print(message.content)
 
         await self.handle_commands(message)
-    
+
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command(name="commands")
     async def list_commands(self, ctx: commands.Context):
         await ctx.send(
-            "Commands: !review, !scoot, !brb, !album, !left, !back, !brbtime !feedback")
+            "Commands: !review, !scoot, !brb, !album, !left, !back, !brbtime !feedback"
+        )
 
-    @commands.cooldown(rate=1, per=2, bucket=commands.Bucket.channel)
+    @commands.cooldown(
+        rate=1,
+        per=1,
+        aliases=("rating", "ratings", "rated"),
+        bucket=commands.Bucket.channel,
+    )
     @commands.command()
     async def review(self, ctx: commands.Context, *args: str):
         title = " ".join(args)
@@ -114,7 +120,7 @@ class Bot(commands.Bot):
         await ctx.send(
             "BRB Playlist: https://www.youtube.com/playlist?list=PLRoNIkmOtWKSmvxBBer9WQHnIuwFu1kBe"
         )
-    
+
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
     async def album(self, ctx: commands.Context):
@@ -145,7 +151,7 @@ class Bot(commands.Bot):
         if self.brbtimer is not None:
             brbtime = time.time_ns() - self.brbtimer
             await ctx.send(f"Adum has been gone for {_format_time_interval(brbtime)}.")
-    
+
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
     async def feedback(self, ctx: commands.Context):
