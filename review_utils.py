@@ -53,7 +53,7 @@ class ReviewGetter:
                     case _:
                         continue
             results = imdb_ids
-        
+
         results = [r for r in results if r is not None]
         if len(results) == 0:
             results = json.loads(self.imdb.search(title))
@@ -62,7 +62,7 @@ class ReviewGetter:
                 return None, None
             else:
                 results = [res["id"] for res in results]
-        
+
         for imdb_id in results:
             if imdb_id in self.ratings:
                 return "rating", imdb_id
