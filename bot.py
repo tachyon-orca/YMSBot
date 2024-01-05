@@ -92,13 +92,8 @@ class Bot(commands.Bot):
             "Commands: !review, !scoot, !brb, !album, !left, !back, !brbtime !feedback"
         )
 
-    @commands.cooldown(
-        rate=1,
-        per=1,
-        aliases=("rating", "ratings", "rated"),
-        bucket=commands.Bucket.channel,
-    )
-    @commands.command()
+    @commands.cooldown(rate=1, per=1, bucket=commands.Bucket.channel)
+    @commands.command(aliases=("rating", "ratings", "rated"))
     async def review(self, ctx: commands.Context, *args: str):
         title = " ".join(args)
         await ctx.reply(self.review_getter.process_query(title))
