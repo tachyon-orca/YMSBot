@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ### Basic commands
 
 - `!commands`: list all commands
-- `!brb`, `!album`, `!feedback`: post relevant information
+- `!brb`, `!links`, `!album`, `!feedback`: post relevant information
 - `!scoot` to shill Scoot. `!scoot s` to start posting every five minutes. `!scoot e` to stop.
 
 ### Review
