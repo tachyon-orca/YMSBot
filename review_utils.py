@@ -63,7 +63,6 @@ class ReviewGetter:
             else:
                 results = [res["id"] for res in results]
         
-        print(results)
         for imdb_id in results:
             if imdb_id in self.ratings:
                 return "rating", imdb_id
