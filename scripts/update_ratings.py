@@ -69,7 +69,9 @@ def main(basefile, updated=None, delete=False):
     for entry in tqdm(updated):
         imdb_id = entry["id"]
         updated_ids.append(imdb_id)
-        if imdb_id not in base:
+        if imdb_id not in base or (
+            "rating" in entry and base[imdb_id]["rating"] != entry["rating"]
+        ):
             movie_id, meta = get_movie_id(imdb_id)
             if movie_id is None:
                 metadata = dict()

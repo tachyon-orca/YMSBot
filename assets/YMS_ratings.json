@@ -27768,8 +27768,7 @@
     "alt_titles": []
   },
   "tt0322802": {
-    "review_date": "2012-10-16",
-    "rating": "7",
+    "review_date": "2023-12-29",
     "title": "Jackass: The Movie",
     "release_date": "2002-10-25",
     "original_title": "Jackass: The Movie",
@@ -27779,7 +27778,8 @@
       "Jackass 1: The Movie",
       "Jackass 1.0: The Movie",
       "Jackass The Movie"
-    ]
+    ],
+    "rating": "6"
   },
   "tt0134084": {
     "review_date": "2012-10-16",
@@ -30103,15 +30103,15 @@
     "alt_titles": []
   },
   "tt0071222": {
-    "review_date": "2023-12-26",
-    "rating": "6",
+    "review_date": "2023-12-28",
     "title": "Black Christmas",
     "release_date": "1974-10-11",
     "original_title": "Black Christmas",
     "alt_titles": [
       "Silent Night Evil Night",
       "Stranger in the House"
-    ]
+    ],
+    "rating": "7"
   },
   "tt6495056": {
     "review_date": "2023-12-23",
@@ -30159,5 +30159,34 @@
       "Aquaman 2: the Lost Kingdom"
     ],
     "rating": "2"
+  },
+  "tt0795461": {
+    "review_date": "2024-01-04",
+    "title": "Scary Movie 5",
+    "release_date": "2013-04-11",
+    "original_title": "Scary Movie 5",
+    "alt_titles": [
+      "Scary Movie V"
+    ],
+    "rating": "2"
+  },
+  "tt0362120": {
+    "review_date": "2024-01-04",
+    "title": "Scary Movie 4",
+    "release_date": "2006-04-12",
+    "original_title": "Scary Movie 4",
+    "alt_titles": [],
+    "rating": "3"
+  },
+  "tt0306047": {
+    "review_date": "2024-01-04",
+    "title": "Scary Movie 3",
+    "release_date": "2003-10-24",
+    "original_title": "Scary Movie 3",
+    "alt_titles": [
+      "Scary Movie 3.5",
+      "Scary Movie 3.5 - Exclusive Unrated Version"
+    ],
+    "rating": "4"
   }
 }
