@@ -1,4 +1,5 @@
 import json
+import re
 from datetime import datetime
 
 import inflect
@@ -63,8 +64,7 @@ class ReviewGetter:
         for imdb_id in results:
             if imdb_id in self.ratings:
                 return "rating", imdb_id
-        for imdb_id in results:
-            if imdb_id in self.watchlist:
+            elif imdb_id in self.watchlist:
                 return "watchlist", imdb_id
         return None, None
 
@@ -109,6 +109,16 @@ class ReviewGetter:
 
         review = self.videos[imdb_id]["reviews"][0]
         match review["series"]:
+            case "Kimba":
+                resp += " Check out YMS's Kimbaspiracy video here: {}".format(
+                    review["url"]
+                )
+            case "Top 10":
+                title = review["title"]
+                title = re.sub(r"\([^\)]*\)", "", title).strip().lower()
+                resp += " It was one of YMS's {}. Check out the video here: {}".format(
+                    title, review["url"]
+                )
             case "Adum & Pals":
                 resp += " Check out the Adum & Pals here: {}".format(review["url"])
             case _:

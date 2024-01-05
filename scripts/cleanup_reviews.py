@@ -18,7 +18,9 @@ priority = [
 
 
 def get_series(title):
-    if title.startswith("Quickie:"):
+    if title == "YMS: Kimba the White Lion":
+        return "Kimba"
+    elif title.startswith("Quickie:"):
         return "Quickie"
     elif title.startswith("Adum & Pals:"):
         return "Adum & Pals"
