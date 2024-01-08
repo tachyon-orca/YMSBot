@@ -9,7 +9,7 @@ from review_utils import ReviewGetter
 
 secrets = dotenv_values(".env")
 
-active_channels = ["ymsplays"]
+active_channels = ["imaginaryfanboy"]
 
 inflect_engine = inflect.engine()
 
@@ -101,13 +101,16 @@ class Bot(commands.Bot):
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
     async def scoot(self, ctx: commands.Context, arg: str | None):
-        match arg:
-            case "s":
-                shill_scoot_recurr.start()
-            case "e":
-                shill_scoot_recurr.stop()
-            case _:
-                await ctx.send(_generate_scoot_shill())
+        if ctx.author.is_mod or ctx.author.is_broadcaster:
+            match arg:
+                case "s":
+                    shill_scoot_recurr.start()
+                case "e":
+                    shill_scoot_recurr.stop()
+                case _:
+                    await ctx.send(_generate_scoot_shill())
+        else:
+            await ctx.send(_generate_scoot_shill())
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
@@ -120,7 +123,7 @@ class Bot(commands.Bot):
     @commands.command()
     async def links(self, ctx: commands.Context):
         await ctx.send(
-            "Twitter: twitter.com/2gay2lift. Patreon: patreon.com/YMS. Cameo: cameo.com/Adum. Main channel: youtube.com/@YMS. Gaming channel: youtube.com/@YMSPlays. Highlights: youtube.com/@YMSHighlights. Clips: youtube.com/@YMSClips. Podcast: youtube.com/@Sardonicast. Watch-Alongs: youtube.com/@YMSWatchAlongs. Game VODs: youtube.com/@YMSStreams. Music: youtube.com/@anUnkindness. Scoot's Youtube: youtube.com/@notscotthenson."
+            "Twitter: twitter.com/2gay2lift. Patreon: patreon.com/YMS. Cameo: cameo.com/Adum. Main channel: youtube.com/@YMS. Gaming channel: youtube.com/@YMSPlays. Highlights: youtube.com/@YMSHighlights. Clips: youtube.com/@YMSClips. Podcast: youtube.com/@Sardonicast. Watch-Alongs: youtube.com/@YMSWatchAlongs. Game VODs: youtube.com/@YMSStreams. YMS Eats: youtube.com/@yourmukbangsucks. Music: youtube.com/@anUnkindness. Scoot's Youtube: youtube.com/@notscotthenson."
         )
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
@@ -133,19 +136,21 @@ class Bot(commands.Bot):
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
     async def left(self, ctx: commands.Context):
-        if self.brbtimer is None:
-            self.brbtimer = time.time_ns()
-        await ctx.send("peepoLeave Oh no, Adum has left the stream!")
+        if ctx.author.is_mod or ctx.author.is_broadcaster:
+            if self.brbtimer is None:
+                self.brbtimer = time.time_ns()
+            await ctx.send("peepoLeave Oh no, Adum has left the stream!")
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
     async def back(self, ctx: commands.Context):
-        msg = "peepoArrive Adum is back!"
-        if self.brbtimer is not None:
-            brbtime = time.time_ns() - self.brbtimer
-            self.brbtimer = None
-            msg += f" He was gone for {_format_time_interval(brbtime)}."
-        await ctx.send(msg)
+        if ctx.author.is_mod or ctx.author.is_broadcaster:
+            msg = "peepoArrive Adum is back!"
+            if self.brbtimer is not None:
+                brbtime = time.time_ns() - self.brbtimer
+                self.brbtimer = None
+                msg += f" He was gone for {_format_time_interval(brbtime)}."
+            await ctx.send(msg)
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
