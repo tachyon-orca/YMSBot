@@ -14,12 +14,12 @@ pip install -r requirements.txt
 
 - `!commands`: list all commands
 - `!brb`, `!links`, `!album`, `!feedback`: post relevant information
-- `!scoot` to shill Scoot. `!scoot s` to start posting every five minutes. `!scoot e` to stop.
+- `!scoot` to shill Scoot. `!scoot s` (mods only) to start posting every five minutes. `!scoot e` (mods only) to stop.
 
 ### Review
 
 Use `!review X` to find YMS's rating/review/watchlist status for movie/TV show X. TV show seasons are not currently supported.
 
-### BRB timer
+### BRB timer (mods only)
 
 Use `!left` to start BRB timer and `!back` to stop. Use `!brbtime` to check the timer.
