@@ -30141,12 +30141,12 @@
     "rating": "1"
   },
   "tt14230458": {
-    "review_date": "2023-12-27",
+    "review_date": "2024-01-16",
     "title": "Poor Things",
     "release_date": "2023-11-21",
     "original_title": "Poor Things",
     "alt_titles": [],
-    "rating": "9"
+    "rating": "10"
   },
   "tt9663764": {
     "review_date": "2023-12-27",
@@ -30205,5 +30205,13 @@
   "tt8440046": {
     "review_date": "2024-01-05",
     "rating": "6"
+  },
+  "tt0460989": {
+    "review_date": "2024-01-16",
+    "title": "The Wind That Shakes the Barley",
+    "release_date": "2006-06-23",
+    "original_title": "The Wind That Shakes the Barley",
+    "alt_titles": [],
+    "rating": "8"
   }
 }

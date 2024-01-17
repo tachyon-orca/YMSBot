@@ -605,13 +605,6 @@
     "original_title": "Rescue Dawn",
     "alt_titles": []
   },
-  "tt0460989": {
-    "review_date": "02 Sep 2011",
-    "title": "The Wind That Shakes the Barley",
-    "release_date": "2006-06-23",
-    "original_title": "The Wind That Shakes the Barley",
-    "alt_titles": []
-  },
   "tt0441909": {
     "review_date": "02 Sep 2011",
     "title": "Volver",
@@ -29269,5 +29262,127 @@
     "alt_titles": [
       "Poison."
     ]
+  },
+  "tt6508228": {
+    "review_date": "08 Jan 2024",
+    "title": "Ghosts of War",
+    "release_date": "2020-07-03",
+    "original_title": "Ghosts of War",
+    "alt_titles": [
+      "Ghost Of War"
+    ]
+  },
+  "tt30317033": {
+    "review_date": "09 Jan 2024",
+    "title": "Sebastian",
+    "release_date": "2024-01-21",
+    "original_title": "Sebastian",
+    "alt_titles": []
+  },
+  "tt4000870": {
+    "review_date": "09 Jan 2024",
+    "title": "Addicted to Fresno",
+    "release_date": "2015-10-02",
+    "original_title": "Addicted to Fresno",
+    "alt_titles": [
+      "Fresno"
+    ]
+  },
+  "tt11147852": {
+    "review_date": "09 Jan 2024",
+    "title": "Dorohedoro",
+    "release_date": "2020-01-13",
+    "original_title": "ドロヘドロ",
+    "alt_titles": []
+  },
+  "tt4381834": {
+    "review_date": "10 Jan 2024",
+    "title": "The Blob",
+    "release_date": "",
+    "original_title": "The Blob",
+    "alt_titles": []
+  },
+  "tt2262315": {
+    "review_date": "10 Jan 2024",
+    "title": "The Good Neighbor",
+    "release_date": "2016-09-16",
+    "original_title": "The Good Neighbor",
+    "alt_titles": [
+      "The Waiting"
+    ]
+  },
+  "tt5974388": {
+    "review_date": "10 Jan 2024",
+    "title": "In Between",
+    "release_date": "2016-11-25",
+    "original_title": "بر بحر",
+    "alt_titles": [
+      "In Between"
+    ]
+  },
+  "tt4572682": {
+    "review_date": "10 Jan 2024",
+    "title": "Alba",
+    "release_date": "2016-02-01",
+    "original_title": "Alba",
+    "alt_titles": []
+  },
+  "tt5146068": {
+    "review_date": "10 Jan 2024",
+    "title": "All These Sleepless Nights",
+    "release_date": "2016-11-04",
+    "original_title": "All These Sleepless Nights",
+    "alt_titles": []
+  },
+  "tt21276958": {
+    "review_date": "10 Jan 2024",
+    "title": "Babes",
+    "release_date": "",
+    "original_title": "Babes",
+    "alt_titles": []
+  },
+  "tt0034587": {
+    "review_date": "12 Jan 2024",
+    "title": "Cat People",
+    "release_date": "1942-12-05",
+    "original_title": "Cat People",
+    "alt_titles": []
+  },
+  "tt2704816": {
+    "review_date": "13 Jan 2024",
+    "title": "Who Took Johnny",
+    "release_date": "2014-01-17",
+    "original_title": "Who Took Johnny",
+    "alt_titles": []
+  },
+  "tt0308379": {
+    "review_date": "15 Jan 2024",
+    "title": "Dark Water",
+    "release_date": "2002-01-19",
+    "original_title": "仄暗い水の底から",
+    "alt_titles": [
+      "From the Depths of Dark Water"
+    ]
+  },
+  "tt1924394": {
+    "review_date": "16 Jan 2024",
+    "title": "The Angels' Share",
+    "release_date": "2012-06-01",
+    "original_title": "The Angels' Share",
+    "alt_titles": []
+  },
+  "tt0114681": {
+    "review_date": "16 Jan 2024",
+    "title": "To Die For",
+    "release_date": "1995-09-22",
+    "original_title": "To Die For",
+    "alt_titles": []
+  },
+  "tt0064541": {
+    "review_date": "16 Jan 2024",
+    "title": "Kes",
+    "release_date": "1970-04-03",
+    "original_title": "Kes",
+    "alt_titles": []
   }
 }
