@@ -83,7 +83,7 @@ class ReviewGetter:
         if "title" not in rating or rating["title"] == "":
             title = title.title()
         else:
-            rating["title"]
+            title = rating["title"]
         if rating.get("release_date", "") != "":
             title += " ({})".format(rating["release_date"][:4])
 
