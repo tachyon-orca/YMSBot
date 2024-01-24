@@ -1,5 +1,6 @@
 import json
 import re
+import os
 from datetime import datetime
 
 import inflect
@@ -20,16 +21,28 @@ class ReviewGetter:
         }
         self.imdb = IMDB()
         self.inflection = inflect.engine()
+        self.last_modified = dict()
         with open("assets/YMS_ratings.json") as f:
             self.ratings = json.load(f)
+        self.last_modified["ratings"] = os.path.getmtime("assets/YMS_ratings.json")
         with open("assets/YMS_videos.json") as f:
             self.videos = json.load(f)
+        self.last_modified["videos"] = os.path.getmtime("assets/YMS_videos.json")
         with open("assets/YMS_watchlist.json") as f:
             self.watchlist = json.load(f)
+        self.last_modified["watchlist"] = os.path.getmtime("assets/YMS_watchlist.json")
 
     def _request(self, url):
         response = requests.get(url, headers=self.headers)
         return response.json()
+
+    def _refresh_assets(self):
+        for asset, lmtime in self.last_modified.items():
+            asset_file = f"assets/YMS_{asset}.json"
+            if os.path.getmtime(asset_file) > lmtime:
+                with open(asset_file) as f:
+                    setattr(self, asset, json.load(f))
+                self.last_modified[asset] = os.path.getmtime(asset_file)
 
     def find_rating(self, title):
         results = self._request(
@@ -71,6 +84,7 @@ class ReviewGetter:
         return None, None
 
     def process_query(self, title):
+        self._refresh_assets()
         rec_type, imdb_id = self.find_rating(title)
         if imdb_id is None:
             return "I didn't find YMS's rating for that title."
