@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 - `!commands`: list all commands
 - `!brb`, `!links`, `!album`, `!feedback`: post relevant information
-- `!scoot` to shill Scoot. `!scoot s` (mods only) to start posting every five minutes. `!scoot e` (mods only) to stop.
+- `!scoot` to shill Scoot. `!scoot s` (mods only) to start posting every five minutes. `!scoot e` (mods only) to stop. Same for `!gael`.
 
 ### Review
 

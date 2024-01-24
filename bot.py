@@ -26,6 +26,9 @@ scoot_shills = [
 scoot_links = " Paypal: paypal.me/notscotthenson. If you don't have paypal: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NXPSAJ6BF6L72. Cameo: cameo.com/scoot. Wrestling merch: prowrestlingtees.com/scotthenson. Youtube: youtube.com/@notscotthenson"
 
 
+gael_msg = "Gaël's Paypal: https://www.paypal.com/paypalme/vexelg. Twitter: https://twitter.com/_vexel"
+
+
 def _generate_scoot_shill():
     msgs, weights = zip(*scoot_shills)
     msg = random.choices(msgs, weights=weights)[0]
@@ -55,6 +58,13 @@ async def shill_scoot_recurr():
     for chname in active_channels:
         channel = bot.get_channel(chname)
         await channel.send(_generate_scoot_shill())
+
+
+@routines.routine(minutes=5)
+async def shill_gael_recurr():
+    for chname in active_channels:
+        channel = bot.get_channel(chname)
+        await channel.send(gael_msg)
 
 
 class Bot(commands.Bot):
@@ -113,6 +123,20 @@ class Bot(commands.Bot):
                     await ctx.send(_generate_scoot_shill())
         else:
             await ctx.send(_generate_scoot_shill())
+    
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command()
+    async def gael(self, ctx: commands.Context, arg: str | None):
+        if ctx.author.is_mod or ctx.author.is_broadcaster:
+            match arg:
+                case "s":
+                    shill_gael_recurr.start()
+                case "e":
+                    shill_gael_recurr.stop()
+                case _:
+                    await ctx.send(gael_msg)
+        else:
+            await ctx.send(gael_msg)
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
