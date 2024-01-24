@@ -23,7 +23,7 @@ scoot_shills = [
     ["Cool Scoot loves you!", 1],
     ["UwU what's this? Is it fow Scoot?", 0.1],
 ]
-scoot_links = " Paypal: paypal.me/notscotthenson. If you don't have paypal: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NXPSAJ6BF6L72. Cameo: cameo.com/scoot. Wrestling merch: prowrestlingtees.com/scotthenson. Youtube: youtube.com/@notscotthenson"
+scoot_links = " Paypal: paypal.me/notscotthenson. If you don't have paypal: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NXPSAJ6BF6L72. Cameo: https://www.cameo.com/scoot. Wrestling merch: prowrestlingtees.com/scotthenson. Youtube: youtube.com/@notscotthenson"
 
 
 gael_msg = "Gaël's Paypal: https://www.paypal.com/paypalme/vexelg. Twitter: https://twitter.com/_vexel"
@@ -149,7 +149,7 @@ class Bot(commands.Bot):
     @commands.command()
     async def links(self, ctx: commands.Context):
         await ctx.send(
-            "Twitter: twitter.com/2gay2lift. Patreon: patreon.com/YMS. Cameo: cameo.com/Adum. Main channel: youtube.com/@YMS. Gaming channel: youtube.com/@YMSPlays. Highlights: youtube.com/@YMSHighlights. Clips: youtube.com/@YMSClips. Podcast: youtube.com/@Sardonicast. Watch-Alongs: youtube.com/@YMSWatchAlongs. Game VODs: youtube.com/@YMSStreams. YMS Eats: youtube.com/@yourmukbangsucks. Music: youtube.com/@anUnkindness."
+            "Twitter: twitter.com/2gay2lift. Patreon: patreon.com/YMS. Cameo: https://www.cameo.com/adum. Main channel: youtube.com/@YMS. Gaming channel: youtube.com/@YMSPlays. Highlights: youtube.com/@YMSHighlights. Clips: youtube.com/@YMSClips. Podcast: youtube.com/@Sardonicast. Watch-Alongs: youtube.com/@YMSWatchAlongs. Game VODs: youtube.com/@YMSStreams. YMS Eats: youtube.com/@yourmukbangsucks. Music: youtube.com/@anUnkindness."
         )
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
