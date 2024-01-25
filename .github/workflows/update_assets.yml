@@ -1,0 +1,58 @@
+name: Update Ratings
+
+on:
+  schedule:
+    - cron: '0 21 * * *'
+
+jobs:
+  update-ratings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          cache: "pip"
+
+      - name: Install Python Dependencies
+        run: pip install fire requests python-dotenv tqdm
+
+      - name: Copy Secrets
+        run: |
+          echo "${{ secrets.ENV }}" > .env
+
+      - name: Fetch Ratings
+        run: |
+          docker run --rm --mount type=bind,source="$(pwd)",target=/mnt/output tachyorca/imdb_user_crawler ratings -o /mnt/output/yms_ratings.json
+
+      - name: Update Ratings
+        run: |
+          python scripts/update_ratings.py assets/YMS_ratings.json yms_ratings.json
+
+      - name: Fetch Watchlist
+        run: |
+          docker run --rm --mount type=bind,source="$(pwd)",target=/mnt/output tachyorca/imdb_user_crawler watchlist -o /mnt/output/yms_watchlist.json
+
+      - name: Update Watchlist
+        run: |
+          python scripts/update_ratings.py assets/YMS_watchlist.json yms_watchlist.json True
+
+      - name: Check for Changes
+        id: check_changes
+        run: |
+          git add assets/YMS_ratings.json assets/YMS_watchlist.json
+          git diff --staged --quiet || echo "::set-output name=changes::true"
+
+      - name: Commit and Push Changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --global user.name 'tachyon-orca'
+          git config --global user.email '152846110+tachyon-orca@users.noreply.github.com'
+          git commit -m "Update ratings & watchlist"
+          git push
