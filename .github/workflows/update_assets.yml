@@ -3,6 +3,7 @@ name: Update Assets
 on:
   schedule:
     - cron: '0 21 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
