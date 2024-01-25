@@ -1,4 +1,4 @@
-name: Update Ratings
+name: Update Assets
 
 on:
   schedule:
