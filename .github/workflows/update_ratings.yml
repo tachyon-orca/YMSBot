@@ -3,7 +3,7 @@ name: Update Ratings
 on:
   push:
     branches:
-      - main
+      - workflows
 
 jobs:
   update-ratings:
