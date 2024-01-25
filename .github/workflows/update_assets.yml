@@ -1,9 +1,8 @@
 name: Update Ratings
 
 on:
-  push:
-    branches:
-      - workflows
+  schedule:
+    - cron: '0 21 * * *'
 
 jobs:
   update-ratings:
