@@ -2,8 +2,8 @@ import random
 import time
 
 import inflect
-from twitchio.ext import commands, routines
 from dotenv import dotenv_values
+from twitchio.ext import commands, routines
 
 from review_utils import ReviewGetter
 
@@ -123,7 +123,7 @@ class Bot(commands.Bot):
                     await ctx.send(_generate_scoot_shill())
         else:
             await ctx.send(_generate_scoot_shill())
-    
+
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
     async def gael(self, ctx: commands.Context, arg: str | None):

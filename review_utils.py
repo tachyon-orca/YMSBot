@@ -1,13 +1,13 @@
 import json
-import re
 import os
+import re
 from datetime import datetime
 
+import git
 import inflect
 import requests
 from dotenv import dotenv_values
 from PyMovieDb import IMDB
-
 
 secrets = dotenv_values(".env")
 access_token = secrets["TMDB_READ_ACCESS_TOKEN"]
@@ -21,6 +21,7 @@ class ReviewGetter:
         }
         self.imdb = IMDB()
         self.inflection = inflect.engine()
+        self.repo = git.Repo(".")
         self.last_modified = dict()
         with open("assets/YMS_ratings.json") as f:
             self.ratings = json.load(f)
@@ -37,6 +38,7 @@ class ReviewGetter:
         return response.json()
 
     def _refresh_assets(self):
+        self.repo.remotes.origin.pull()
         for asset, lmtime in self.last_modified.items():
             asset_file = f"assets/YMS_{asset}.json"
             if os.path.getmtime(asset_file) > lmtime:
