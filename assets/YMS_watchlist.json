@@ -25775,13 +25775,6 @@
     "original_title": "POV",
     "alt_titles": []
   },
-  "tt2118648": {
-    "review_date": "21 Jan 2023",
-    "title": "Handling the Undead",
-    "release_date": "2024-02-09",
-    "original_title": "Håndtering av udøde",
-    "alt_titles": []
-  },
   "tt1135989": {
     "review_date": "25 Jan 2023",
     "title": "A Tale of Love and Darkness",
@@ -29532,6 +29525,29 @@
     "title": "Stopmotion",
     "release_date": "2024-02-23",
     "original_title": "Stopmotion",
+    "alt_titles": []
+  },
+  "tt21224854": {
+    "review_date": "25 Jan 2024",
+    "title": "Agent of Happiness",
+    "release_date": "2024-01-24",
+    "original_title": "Agent of Happiness",
+    "alt_titles": [
+      "Gross National Happiness"
+    ]
+  },
+  "tt18325446": {
+    "review_date": "25 Jan 2024",
+    "title": "Seeking Mavis Beacon",
+    "release_date": "2024-01-20",
+    "original_title": "Seeking Mavis Beacon",
+    "alt_titles": []
+  },
+  "tt26349484": {
+    "review_date": "26 Jan 2024",
+    "title": "Justice",
+    "release_date": "2023-01-20",
+    "original_title": "Justice",
     "alt_titles": []
   }
 }
