@@ -101,7 +101,7 @@ class Bot(commands.Bot):
     @commands.command(name="commands")
     async def list_commands(self, ctx: commands.Context):
         await ctx.send(
-            "Commands: !review, !scoot, !gael, !brb, !links, !album, !left, !back, !brbtime !feedback"
+            "Commands: !review, !scoot, !gael, !brb, !links, !audible, !vpn, !album, !left, !back, !brbtime !feedback"
         )
 
     @commands.cooldown(rate=1, per=1, bucket=commands.Bucket.channel)
@@ -150,6 +150,20 @@ class Bot(commands.Bot):
     async def links(self, ctx: commands.Context):
         await ctx.send(
             "Twitter: twitter.com/2gay2lift Patreon: patreon.com/YMS Cameo: https://www.cameo.com/adum Main channel: youtube.com/@YMS Gaming channel: youtube.com/@YMSPlays Highlights: youtube.com/@YMSHighlights Clips: youtube.com/@YMSClips Podcast: youtube.com/@Sardonicast Watch-Alongs: youtube.com/@YMSWatchAlongs Game VODs: youtube.com/@YMSStreams YMS Eats: youtube.com/@yourmukbangsucks Music: youtube.com/@anUnkindness"
+        )
+    
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command()
+    async def audible(self, ctx: commands.Context):
+        await ctx.send(
+            "ONE MONTH AUDIBLE FREE TRIAL: http://www.audibletrial.com/YMS"
+        )
+    
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command()
+    async def vpn(self, ctx: commands.Context):
+        await ctx.send(
+            "GET SURFSHARK: https://surfshark.deals/YMS"
         )
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
