@@ -30374,5 +30374,29 @@
       "May/December"
     ],
     "rating": "9"
+  },
+  "tt8105234": {
+    "review_date": "2024-02-02",
+    "title": "Flamin' Hot",
+    "release_date": "2023-03-11",
+    "original_title": "Flamin' Hot",
+    "alt_titles": [],
+    "rating": "1"
+  },
+  "tt24082438": {
+    "review_date": "2024-02-02",
+    "title": "20 Days in Mariupol",
+    "release_date": "2023-07-14",
+    "original_title": "20 днів у Маріуполі",
+    "alt_titles": [],
+    "rating": "7"
+  },
+  "tt16277242": {
+    "review_date": "2024-02-02",
+    "title": "Society of the Snow",
+    "release_date": "2023-12-13",
+    "original_title": "La sociedad de la nieve",
+    "alt_titles": [],
+    "rating": "8"
   }
 }
