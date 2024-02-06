@@ -2501,15 +2501,15 @@
     ]
   },
   "tt14444726": {
-    "review_date": "2022-10-22",
-    "rating": "9",
+    "review_date": "2024-02-06",
     "title": "TÁR",
     "release_date": "2022-09-23",
     "original_title": "TÁR",
     "alt_titles": [
       "Tár",
       "TAR"
-    ]
+    ],
+    "rating": "10"
   },
   "tt18550182": {
     "review_date": "2022-10-18",
@@ -30406,5 +30406,16 @@
     "original_title": "Orion and the Dark",
     "alt_titles": [],
     "rating": "6"
+  },
+  "tt5535276": {
+    "review_date": "2024-02-06",
+    "title": "Maestro",
+    "release_date": "2023-11-22",
+    "original_title": "Maestro",
+    "alt_titles": [
+      "Bernstein",
+      "Rybernia"
+    ],
+    "rating": "2"
   }
 }
