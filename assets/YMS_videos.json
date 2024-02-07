@@ -728,14 +728,14 @@
     "title": "John Wick",
     "reviews": [
       {
-        "series": "Review",
-        "title": "John Wick: Chapter 4 Review - YMS",
-        "url": "https://www.youtube.com/watch?v=3GkPrLxd0Rk&t=0"
-      },
-      {
         "series": "MISC",
         "title": "Plane, Missing, Infinity Poo(l), John Wick",
         "url": "https://www.youtube.com/watch?v=H8fDe1cntlA&t=2107"
+      },
+      {
+        "series": "Review",
+        "title": "John Wick: Chapter 4 Review - YMS",
+        "url": "https://www.youtube.com/watch?v=3GkPrLxd0Rk&t=0"
       }
     ]
   },
@@ -4873,14 +4873,14 @@
     "title": "The Union",
     "reviews": [
       {
-        "series": "Top 10",
-        "title": "Top 10 Films of 2007",
-        "url": "https://www.youtube.com/watch?v=NSysjsNQHVM&t=3639"
-      },
-      {
         "series": "MISC",
         "title": "Must-See Documentaries",
         "url": "https://www.youtube.com/watch?v=KGhDMpdHMgc&t=622"
+      },
+      {
+        "series": "Top 10",
+        "title": "Top 10 Films of 2007",
+        "url": "https://www.youtube.com/watch?v=NSysjsNQHVM&t=3639"
       }
     ]
   },
@@ -6173,7 +6173,7 @@
     "title": "Take Shelter (2011)",
     "reviews": [
       {
-        "series": "Top 10",
+        "series": "MISC",
         "title": "Top 10 Films Corrections Video #1",
         "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=68"
       }
@@ -6183,7 +6183,7 @@
     "title": "Cabin in the Woods",
     "reviews": [
       {
-        "series": "Top 10",
+        "series": "MISC",
         "title": "Top 10 Films Corrections Video #1",
         "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=162"
       },
@@ -6198,7 +6198,7 @@
     "title": "Trash Humpers (2009)",
     "reviews": [
       {
-        "series": "Top 10",
+        "series": "MISC",
         "title": "Top 10 Films Corrections Video #1",
         "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=269"
       }
@@ -6208,7 +6208,7 @@
     "title": "Brüno (2009)",
     "reviews": [
       {
-        "series": "Top 10",
+        "series": "MISC",
         "title": "Top 10 Films Corrections Video #1",
         "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=384"
       },
@@ -6223,14 +6223,14 @@
     "title": "[REC]² (2010)",
     "reviews": [
       {
+        "series": "MISC",
+        "title": "Top 10 Films Corrections Video #1",
+        "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=510"
+      },
+      {
         "series": "YMS",
         "title": "YMS: Rec VS Quarantine (1 of 2)",
         "url": "https://www.youtube.com/watch?v=xfjV3aemVS0"
-      },
-      {
-        "series": "Top 10",
-        "title": "Top 10 Films Corrections Video #1",
-        "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=510"
       }
     ]
   },
@@ -6238,7 +6238,7 @@
     "title": "Julia",
     "reviews": [
       {
-        "series": "Top 10",
+        "series": "MISC",
         "title": "Top 10 Films Corrections Video #1",
         "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=651"
       }
@@ -6248,7 +6248,7 @@
     "title": "Dr. Horrible's Sing-Along Blog (2008)",
     "reviews": [
       {
-        "series": "Top 10",
+        "series": "MISC",
         "title": "Top 10 Films Corrections Video #1",
         "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=789"
       }
@@ -6258,7 +6258,7 @@
     "title": "Tim & Eric's Billion Dollar Movie (2012)",
     "reviews": [
       {
-        "series": "Top 10",
+        "series": "MISC",
         "title": "Top 10 Films Corrections Video #1",
         "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=912"
       },
@@ -6273,7 +6273,7 @@
     "title": "Kim Jong-Il's Comedy Club / The Red Chapel (2009)",
     "reviews": [
       {
-        "series": "Top 10",
+        "series": "MISC",
         "title": "Top 10 Films Corrections Video #1",
         "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=1039"
       }
@@ -6283,7 +6283,7 @@
     "title": "Once Upon a Time in Anatolia (2011)",
     "reviews": [
       {
-        "series": "Top 10",
+        "series": "MISC",
         "title": "Top 10 Films Corrections Video #1",
         "url": "https://www.youtube.com/watch?v=-YY3CxbrvuM&t=1209"
       }
@@ -8683,14 +8683,14 @@
     "title": "Synecdoche, New York",
     "reviews": [
       {
-        "series": "Top 10",
-        "title": "Top 10 Films of 2008",
-        "url": "https://www.youtube.com/watch?v=Q9pFNqZ4vCo&t=2810"
-      },
-      {
         "series": "MISC",
         "title": "The Genius of Synecdoche, New York (Part 1)",
         "url": "https://www.youtube.com/watch?v=rjqYpsuBrPU"
+      },
+      {
+        "series": "Top 10",
+        "title": "Top 10 Films of 2008",
+        "url": "https://www.youtube.com/watch?v=Q9pFNqZ4vCo&t=2810"
       }
     ]
   },
@@ -8948,14 +8948,14 @@
     "title": "Dear Zachary",
     "reviews": [
       {
-        "series": "Top 10",
-        "title": "Top 10 Films of 2008",
-        "url": "https://www.youtube.com/watch?v=Q9pFNqZ4vCo&t=2100"
-      },
-      {
         "series": "MISC",
         "title": "Must-See Documentaries",
         "url": "https://www.youtube.com/watch?v=KGhDMpdHMgc&t=297"
+      },
+      {
+        "series": "Top 10",
+        "title": "Top 10 Films of 2008",
+        "url": "https://www.youtube.com/watch?v=Q9pFNqZ4vCo&t=2100"
       }
     ]
   },

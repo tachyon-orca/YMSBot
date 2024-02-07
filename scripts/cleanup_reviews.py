@@ -4,6 +4,7 @@ import pandas as pd
 
 
 priority = [
+    "MISC",
     "YMS Watches",
     "Adum & Pals",
     "YMS",
@@ -11,7 +12,6 @@ priority = [
     "Top 10",
     "Thoughts on",
     "Quickie",
-    "MISC",
     "Film Festival",
     "Oscars",
 ]
@@ -34,7 +34,7 @@ def get_series(title):
         return "YMS Watches"
     elif title.endswith(" - YMS"):
         return "Review"
-    elif title.startswith("Top 10"):
+    elif title.startswith("Top 10") and "corrections" not in title.lower():
         return "Top 10"
     elif title.startswith("Thoughts on"):
         return "Thoughts on"
