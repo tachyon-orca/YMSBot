@@ -12658,13 +12658,6 @@
     "original_title": "Bless the Harts",
     "alt_titles": []
   },
-  "tt0082085": {
-    "review_date": "05 Dec 2019",
-    "title": "Blow Out",
-    "release_date": "1981-07-24",
-    "original_title": "Blow Out",
-    "alt_titles": []
-  },
   "tt0082307": {
     "review_date": "05 Dec 2019",
     "title": "The Beyond",
@@ -28011,13 +28004,6 @@
     "original_title": "Great Absence",
     "alt_titles": []
   },
-  "tt23561236": {
-    "review_date": "15 Sep 2023",
-    "title": "American Fiction",
-    "release_date": "2023-11-10",
-    "original_title": "American Fiction",
-    "alt_titles": []
-  },
   "tt18077924": {
     "review_date": "16 Sep 2023",
     "title": "Poolman",
@@ -29574,6 +29560,28 @@
     "original_title": "BLUE EYE SAMURAI",
     "alt_titles": [
       "Woman Trouble"
+    ]
+  },
+  "tt16419074": {
+    "review_date": "07 Feb 2024",
+    "title": "Air",
+    "release_date": "2023-04-05",
+    "original_title": "Air",
+    "alt_titles": [
+      "Air Jordan",
+      "Air: Courting a Legend",
+      "Air: A Story of Greatness"
+    ]
+  },
+  "tt16428256": {
+    "review_date": "07 Feb 2024",
+    "title": "Suzume",
+    "release_date": "2022-11-11",
+    "original_title": "すずめの戸締まり",
+    "alt_titles": [
+      "Suzume's Door-Locking",
+      "Suzume Locking Up the Doors",
+      "Suzume's Locking Up"
     ]
   }
 }
