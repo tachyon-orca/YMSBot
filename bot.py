@@ -151,20 +151,16 @@ class Bot(commands.Bot):
         await ctx.send(
             "Twitter: twitter.com/2gay2lift Patreon: patreon.com/YMS Cameo: https://www.cameo.com/adum Main channel: youtube.com/@YMS Gaming channel: youtube.com/@YMSPlays Highlights: youtube.com/@YMSHighlights Clips: youtube.com/@YMSClips Podcast: youtube.com/@Sardonicast Watch-Alongs: youtube.com/@YMSWatchAlongs Game VODs: youtube.com/@YMSStreams YMS Eats: youtube.com/@yourmukbangsucks Music: youtube.com/@anUnkindness"
         )
-    
+
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
     async def audible(self, ctx: commands.Context):
-        await ctx.send(
-            "ONE MONTH AUDIBLE FREE TRIAL: http://www.audibletrial.com/YMS"
-        )
-    
+        await ctx.send("ONE MONTH AUDIBLE FREE TRIAL: http://www.audibletrial.com/YMS")
+
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
     async def vpn(self, ctx: commands.Context):
-        await ctx.send(
-            "GET SURFSHARK: https://surfshark.deals/YMS"
-        )
+        await ctx.send("GET SURFSHARK: https://surfshark.deals/YMS")
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
@@ -198,6 +194,13 @@ class Bot(commands.Bot):
         if self.brbtimer is not None:
             brbtime = time.time_ns() - self.brbtimer
             await ctx.send(f"Adum has been gone for {_format_time_interval(brbtime)}.")
+
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.command(aliases=("gethelp", "988"))
+    async def findhelp(self, ctx: commands.Context):
+        await ctx.send(
+            "If you or someone you know is struggling or in crisis, help is available. Call or text 988 in US or Canada, or visit https://988lifeline.org/ For other countries, visit https://findahelpline.com/"
+        )
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
