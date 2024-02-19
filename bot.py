@@ -149,7 +149,7 @@ class Bot(commands.Bot):
     @commands.command()
     async def links(self, ctx: commands.Context):
         await ctx.send(
-            "Twitter: twitter.com/2gay2lift Patreon: patreon.com/YMS Cameo: https://www.cameo.com/adum Main channel: youtube.com/@YMS Gaming channel: youtube.com/@YMSPlays Highlights: youtube.com/@YMSHighlights Clips: youtube.com/@YMSClips Podcast: youtube.com/@Sardonicast Watch-Alongs: youtube.com/@YMSWatchAlongs Game VODs: youtube.com/@YMSStreams YMS Eats: youtube.com/@yourmukbangsucks Music: youtube.com/@anUnkindness"
+            "Twitter: twitter.com/2gay2lift Patreon: patreon.com/YMS Cameo: https://www.cameo.com/adum Main channel: youtube.com/@YMS Gaming channel: youtube.com/@YMSPlays Highlights: youtube.com/@YMSHighlights Clips: youtube.com/@YMSClips Podcast: youtube.com/@Sardonicast Watch-Alongs: youtube.com/@YMSWatchAlongs Game VODs: youtube.com/@YMSStreams YMS Eats: youtube.com/@YMSEats Music: youtube.com/@anUnkindness"
         )
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
