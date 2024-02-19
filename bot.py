@@ -10,7 +10,7 @@ from review_utils import ReviewGetter
 
 secrets = dotenv_values(".env")
 
-active_channels = ["tachyon_orca"]
+active_channels = ["ymsplays"]
 
 inflect_engine = inflect.engine()
 
