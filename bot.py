@@ -1,3 +1,4 @@
+import json
 import random
 import time
 
@@ -9,7 +10,7 @@ from review_utils import ReviewGetter
 
 secrets = dotenv_values(".env")
 
-active_channels = ["ymsplays"]
+active_channels = ["tachyon_orca"]
 
 inflect_engine = inflect.engine()
 
@@ -77,6 +78,27 @@ class Bot(commands.Bot):
         )
         self.review_getter = ReviewGetter()
         self.brbtimer = None
+        self.load_static_commands()
+
+    def load_static_commands(self):
+        self.static_commands = []
+        with open("assets/static_commands.json") as f:
+            static_commands = json.load(f)
+        for cmd in static_commands:
+
+            def _make_command(cmd):
+                async def _cmd(ctx: commands.Context):
+                    await ctx.send(cmd["message"])
+
+                return _cmd
+
+            commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)(
+                self.command(
+                    name=cmd["name"],
+                    aliases=cmd["aliases"] if len(cmd["aliases"]) > 0 else None,
+                )(_make_command(cmd))
+            )
+            self.static_commands.append(cmd["name"])
 
     async def event_ready(self):
         # Notify us when everything is ready!
@@ -101,7 +123,10 @@ class Bot(commands.Bot):
     @commands.command(name="commands")
     async def list_commands(self, ctx: commands.Context):
         await ctx.send(
-            "Commands: !review, !scoot, !gael, !brb, !links, !audible, !vpn, !album, !left, !back, !brbtime !feedback"
+            ", ".join(
+                ["Commands: !review, !scoot, !gael, !left, !back, !brbtime"]
+                + [f"!{cmd}" for cmd in self.static_commands]
+            )
         )
 
     @commands.cooldown(rate=1, per=1, bucket=commands.Bucket.channel)
@@ -140,37 +165,6 @@ class Bot(commands.Bot):
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
-    async def brb(self, ctx: commands.Context):
-        await ctx.send(
-            "BRB Playlist: https://www.youtube.com/playlist?list=PLRoNIkmOtWKSmvxBBer9WQHnIuwFu1kBe"
-        )
-
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
-    @commands.command()
-    async def links(self, ctx: commands.Context):
-        await ctx.send(
-            "Twitter: twitter.com/2gay2lift Patreon: patreon.com/YMS Cameo: https://www.cameo.com/adum Main channel: youtube.com/@YMS Gaming channel: youtube.com/@YMSPlays Highlights: youtube.com/@YMSHighlights Clips: youtube.com/@YMSClips Podcast: youtube.com/@Sardonicast Watch-Alongs: youtube.com/@YMSWatchAlongs Game VODs: youtube.com/@YMSStreams YMS Eats: youtube.com/@YMSEats Music: youtube.com/@anUnkindness"
-        )
-
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
-    @commands.command()
-    async def audible(self, ctx: commands.Context):
-        await ctx.send("ONE MONTH AUDIBLE FREE TRIAL: http://www.audibletrial.com/YMS")
-
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
-    @commands.command()
-    async def vpn(self, ctx: commands.Context):
-        await ctx.send("GET SURFSHARK: https://surfshark.deals/YMS")
-
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
-    @commands.command()
-    async def album(self, ctx: commands.Context):
-        await ctx.send(
-            "Check out Adum's album on Bandcamp: https://anunkindness.bandcamp.com/album/10-years"
-        )
-
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
-    @commands.command()
     async def left(self, ctx: commands.Context):
         if ctx.author.is_mod or ctx.author.is_broadcaster:
             if self.brbtimer is None:
@@ -194,20 +188,6 @@ class Bot(commands.Bot):
         if self.brbtimer is not None:
             brbtime = time.time_ns() - self.brbtimer
             await ctx.send(f"Adum has been gone for {_format_time_interval(brbtime)}.")
-
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
-    @commands.command(aliases=("gethelp", "988"))
-    async def findhelp(self, ctx: commands.Context):
-        await ctx.send(
-            "If you or someone you know is struggling or in crisis, help is available. Call or text 988 in US or Canada, or visit https://988lifeline.org/ For other countries, visit https://findahelpline.com/"
-        )
-
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
-    @commands.command()
-    async def feedback(self, ctx: commands.Context):
-        await ctx.send(
-            "This bot is maintained by @tachyon_orca. You can find its code on GitHub: https://github.com/tachyon-orca/YMSBot Feel free to open an issue or pull request if you have any suggestions or feedback!"
-        )
 
 
 bot = Bot()

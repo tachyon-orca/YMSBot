@@ -85,9 +85,18 @@ class ReviewGetter:
                 return "watchlist", imdb_id
         return None, None
 
-    def process_query(self, title):
+    def process_query(self, title, embed_title_link=False):
         self._refresh_assets()
-        rec_type, imdb_id = self.find_rating(title)
+        if re.match(r"tt\d{7}\d*", title):
+            imdb_id = title
+            if imdb_id in self.ratings:
+                rec_type = "rating"
+            elif imdb_id in self.watchlist:
+                rec_type = "watchlist"
+            else:
+                rec_type, imdb_id = None, None
+        else:
+            rec_type, imdb_id = self.find_rating(title)
         if imdb_id is None:
             return "I didn't find YMS's rating for that title."
 
@@ -102,6 +111,9 @@ class ReviewGetter:
             title = rating["title"]
         if rating.get("release_date", "") != "":
             title += " ({})".format(rating["release_date"][:4])
+
+        if embed_title_link:
+            title = f"[{title}](https://www.imdb.com/title/{imdb_id}/)"
 
         if rec_type == "watchlist":
             return "Adum has not rated {} yet, but he added it to his watchlist on {}.".format(

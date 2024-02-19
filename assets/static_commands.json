@@ -1,0 +1,37 @@
+[
+    {
+        "name": "brb",
+        "aliases": [],
+        "message": "BRB Playlist: https://www.youtube.com/playlist?list=PLRoNIkmOtWKSmvxBBer9WQHnIuwFu1kBe"
+    },
+    {
+        "name": "links",
+        "aliases": [],
+        "message": "Twitter: twitter.com/2gay2lift Patreon: patreon.com/YMS Cameo: https://www.cameo.com/adum Main channel: youtube.com/@YMS Gaming channel: youtube.com/@YMSPlays Highlights: youtube.com/@YMSHighlights Clips: youtube.com/@YMSClips Podcast: youtube.com/@Sardonicast Watch-Alongs: youtube.com/@YMSWatchAlongs Game VODs: youtube.com/@YMSStreams YMS Eats: youtube.com/@YMSEats Music: youtube.com/@anUnkindness"
+    },
+    {
+        "name": "audible",
+        "aliases": [],
+        "message": "ONE MONTH AUDIBLE FREE TRIAL: http://www.audibletrial.com/YMS"
+    },
+    {
+        "name": "vpn",
+        "aliases": [],
+        "message": "GET SURFSHARK: https://surfshark.deals/YMS"
+    },
+    {
+        "name": "album",
+        "aliases": ["10years"],
+        "message": "Check out Adum's album on Bandcamp: https://anunkindness.bandcamp.com/album/10-years"
+    },
+    {
+        "name": "findhelp",
+        "aliases": ["gethelp", "988"],
+        "message": "If you or someone you know is struggling or in crisis, help is available. Call or text 988 in US or Canada, or visit https://988lifeline.org/ For other countries, visit https://findahelpline.com/"
+    },
+    {
+        "name": "feedback",
+        "aliases": [],
+        "message": "This bot is maintained by @tachyon_orca. You can find its code on GitHub: https://github.com/tachyon-orca/YMSBot Feel free to open an issue or pull request if you have any suggestions or feedback!"
+    }
+]
