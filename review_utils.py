@@ -16,6 +16,12 @@ access_token = secrets["TMDB_READ_ACCESS_TOKEN"]
 ban_list = ["tt4686132", "tt0072725", "tt11318602"]
 
 
+def correct_date(date_string):
+    if re.fullmatch(r"\d{2} \w{3} \d{4}", date_string):
+        return datetime.strptime(date_string, r"%d %b %Y").strftime(r"%b %d %Y")
+    return date_string
+
+
 class ReviewGetter:
     def __init__(self):
         self.headers = {
@@ -121,7 +127,7 @@ class ReviewGetter:
 
             if rec_type == "watchlist":
                 return "Adum has not rated {} yet, but he added it to his watchlist on {}.".format(
-                    title, rating["review_date"]
+                    title, correct_date(rating["review_date"])
                 )
             else:
                 resp = "Adum gave {}".format(title)
@@ -130,7 +136,7 @@ class ReviewGetter:
             resp = "I can't say the title of that movie, but "
             if rec_type == "watchlist":
                 return resp + "Adum added it to his watchlist on {}.".format(
-                    rating["review_date"]
+                    correct_date(rating["review_date"])
                 )
             else:
                 resp += "Adum gave it"

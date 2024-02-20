@@ -25,6 +25,11 @@
         "message": "Check out Adum's album on Bandcamp: https://anunkindness.bandcamp.com/album/10-years"
     },
     {
+        "name": "notgus",
+        "aliases": [],
+        "message": "@mynameisnotgus's story: https://www.youtube.com/watch?v=UeoJkoMMP18"
+    },
+    {
         "name": "findhelp",
         "aliases": ["gethelp", "988"],
         "message": "If you or someone you know is struggling or in crisis, help is available. Call or text 988 in US or Canada, or visit https://988lifeline.org/ For other countries, visit https://findahelpline.com/"
