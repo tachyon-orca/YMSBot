@@ -13,6 +13,9 @@ secrets = dotenv_values(".env")
 access_token = secrets["TMDB_READ_ACCESS_TOKEN"]
 
 
+ban_list = ["tt4686132", "tt0072725", "tt11318602"]
+
+
 class ReviewGetter:
     def __init__(self):
         self.headers = {
@@ -105,22 +108,32 @@ class ReviewGetter:
         else:
             rating = self.ratings[imdb_id]
 
-        if "title" not in rating or rating["title"] == "":
-            title = title.title()
-        else:
-            title = rating["title"]
-        if rating.get("release_date", "") != "":
-            title += " ({})".format(rating["release_date"][:4])
+        if imdb_id not in ban_list:
+            if "title" not in rating or rating["title"] == "":
+                title = title.title()
+            else:
+                title = rating["title"]
+            if rating.get("release_date", "") != "":
+                title += " ({})".format(rating["release_date"][:4])
 
-        if embed_title_link:
-            title = f"[{title}](https://www.imdb.com/title/{imdb_id}/)"
+            if embed_title_link:
+                title = f"[{title}](https://www.imdb.com/title/{imdb_id}/)"
 
-        if rec_type == "watchlist":
-            return "Adum has not rated {} yet, but he added it to his watchlist on {}.".format(
-                title, rating["review_date"]
-            )
+            if rec_type == "watchlist":
+                return "Adum has not rated {} yet, but he added it to his watchlist on {}.".format(
+                    title, rating["review_date"]
+                )
+            else:
+                resp = "Adum gave {}".format(title)
+
         else:
-            resp = "Adum gave {}".format(title)
+            resp = "I can't say the title of that movie, but "
+            if rec_type == "watchlist":
+                return resp + "Adum added it to his watchlist on {}.".format(
+                    rating["review_date"]
+                )
+            else:
+                resp += "Adum gave it"
 
         if rating["rating"].isnumeric():
             resp += (" a" if rating["rating"] != "8" else " an") + " {}/10".format(
