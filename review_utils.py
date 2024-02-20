@@ -13,7 +13,7 @@ secrets = dotenv_values(".env")
 access_token = secrets["TMDB_READ_ACCESS_TOKEN"]
 
 
-ban_list = ["tt4686132", "tt0072725", "tt11318602"]
+ban_list = ["tt4686132", "tt0072725"]
 
 
 def correct_date(date_string):
