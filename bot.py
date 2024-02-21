@@ -54,14 +54,14 @@ def _format_time_interval(nano_seconds):
     return " ".join(parts)
 
 
-@routines.routine(minutes=5)
+@routines.routine(minutes=10)
 async def shill_scoot_recurr():
     for chname in active_channels:
         channel = bot.get_channel(chname)
         await channel.send(_generate_scoot_shill())
 
 
-@routines.routine(minutes=5)
+@routines.routine(minutes=10)
 async def shill_gael_recurr():
     for chname in active_channels:
         channel = bot.get_channel(chname)
