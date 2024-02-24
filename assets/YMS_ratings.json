@@ -30419,12 +30419,12 @@
     "rating": "2"
   },
   "tt0082085": {
-    "review_date": "2024-02-07",
+    "review_date": "2024-02-24",
     "title": "Blow Out",
     "release_date": "1981-07-24",
     "original_title": "Blow Out",
     "alt_titles": [],
-    "rating": "7"
+    "rating": "8"
   },
   "tt23561236": {
     "review_date": "2024-02-07",
@@ -30468,5 +30468,13 @@
       "NYSM2"
     ],
     "rating": "1"
+  },
+  "tt11127680": {
+    "review_date": "2024-02-24",
+    "title": "Boiling Point",
+    "release_date": "2021-07-05",
+    "original_title": "Boiling Point",
+    "alt_titles": [],
+    "rating": "8"
   }
 }
