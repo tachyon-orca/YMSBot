@@ -24148,15 +24148,6 @@
     "original_title": "Competencia oficial",
     "alt_titles": []
   },
-  "tt14225838": {
-    "review_date": "29 Aug 2022",
-    "title": "The Captain",
-    "release_date": "2023-09-07",
-    "original_title": "Io Capitano",
-    "alt_titles": [
-      "Me Captain"
-    ]
-  },
   "tt0118842": {
     "review_date": "29 Aug 2022",
     "title": "Chasing Amy",
@@ -27748,13 +27739,6 @@
     "original_title": "Chłopi",
     "alt_titles": []
   },
-  "tt26612950": {
-    "review_date": "16 Aug 2023",
-    "title": "The Teachers’ Lounge",
-    "release_date": "2023-05-04",
-    "original_title": "Das Lehrerzimmer",
-    "alt_titles": []
-  },
   "tt8469104": {
     "review_date": "16 Aug 2023",
     "title": "Youth (Spring)",
@@ -29788,6 +29772,16 @@
     "title": "Small Talk",
     "release_date": "2023-10-27",
     "original_title": "Small Talk",
+    "alt_titles": []
+  },
+  "tt7931978": {
+    "review_date": "01 Mar 2024"
+  },
+  "tt28775396": {
+    "review_date": "01 Mar 2024",
+    "title": "The Erection of Toribio Bardelli",
+    "release_date": "2023-10-26",
+    "original_title": "La erección de Toribio Bardelli",
     "alt_titles": []
   }
 }
