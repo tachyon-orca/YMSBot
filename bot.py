@@ -1,16 +1,22 @@
 import json
 import random
 import time
+import asyncio
 
 import inflect
 from dotenv import dotenv_values
-from twitchio.ext import commands, routines
+import twitchio
+from twitchio.ext import commands, routines, eventsub
 
 from review_utils import ReviewGetter
 
 secrets = dotenv_values(".env")
 
+esbot = commands.Bot.from_client_credentials(client_id=secrets["CLIENT_ID"], client_secret=secrets["CLIENT_SECRET"])
+eventsub_client = eventsub.EventSubClient(esbot, secrets["EVENT_SUB_STRING"], "https://tachyorca.com/callback")
+
 active_channels = ["ymsplays"]
+active_channel_id = 53135094
 
 inflect_engine = inflect.engine()
 
@@ -188,8 +194,29 @@ class Bot(commands.Bot):
         if self.brbtimer is not None:
             brbtime = time.time_ns() - self.brbtimer
             await ctx.send(f"Adum has been gone for {_format_time_interval(brbtime)}.")
+    
+    async def subscribe_eventsubs(self):
+        self.loop.create_task(eventsub_client.listen(port=4000))
+        try:
+            await eventsub_client.subscribe_channel_stream_start(active_channel_id)
+            await eventsub_client.subscribe_channel_stream_end(active_channel_id)
+            await eventsub_client.subscribe_channel_prediction_begin(active_channel_id)
+        except twitchio.HTTPException:
+            print("Failed to initialize eventsub subscriptions")
+    
+    async def event_eventsub_notification_stream_start(event: eventsub.StreamOnlineData): 
+        print(f"stream started: {event.broadcaster.name}")
+    
+    async def event_eventsub_notification_stream_end(event: eventsub.StreamOfflineData): 
+        print(f"stream ended: {event.broadcaster.name}")
+    
+    async def event_eventsub_notification_stream_end(event: eventsub.PredictionBeginProgressData): 
+        print(f"prediction started: {event.broadcaster.name}")
 
+def main():
+    bot = Bot()
+    bot.loop.run_until_complete(bot.subscribe_eventsubs())
+    bot.run()
 
-bot = Bot()
-bot.run()
-# bot.run() is blocking and will stop execution of any below code here until stopped or closed.
+if __name__ == "__main__":
+    main()
