@@ -29842,13 +29842,6 @@
     "original_title": "Moonlighting",
     "alt_titles": []
   },
-  "tt30835128": {
-    "review_date": "08 Mar 2024",
-    "title": "Spermworld",
-    "release_date": "2024-02-29",
-    "original_title": "Spermworld",
-    "alt_titles": []
-  },
   "tt26736843": {
     "review_date": "08 Mar 2024",
     "title": "The Watchers",
@@ -29890,5 +29883,16 @@
     "release_date": "2024-07-04",
     "original_title": "Longlegs",
     "alt_titles": []
+  },
+  "tt7772588": {
+    "review_date": "09 Mar 2024",
+    "title": "For All Mankind",
+    "release_date": "2019-11-01",
+    "original_title": "For All Mankind",
+    "alt_titles": [
+      "Bloody Nightmare",
+      "Vacations of Terror 2",
+      "Vacaciones de terror 2"
+    ]
   }
 }
