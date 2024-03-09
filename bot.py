@@ -98,7 +98,9 @@ class Bot(commands.Bot):
                     aliases=cmd["aliases"] if len(cmd["aliases"]) > 0 else None,
                 )(_make_command(cmd))
             )
-            self.static_commands.append(cmd["name"])
+            hidden = cmd.get("hidden", False)
+            if not hidden:
+                self.static_commands.append(cmd["name"])
 
     async def event_ready(self):
         # Notify us when everything is ready!
@@ -126,10 +128,11 @@ class Bot(commands.Bot):
             ", ".join(
                 ["Commands: !review, !scoot, !gael, !left, !back, !brbtime"]
                 + [f"!{cmd}" for cmd in self.static_commands]
+                + [". All commands have a 5 second cooldown."]
             )
         )
 
-    @commands.cooldown(rate=1, per=1, bucket=commands.Bucket.channel)
+    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.user)
     @commands.command(aliases=("rating", "ratings", "rated"))
     async def review(self, ctx: commands.Context, *args: str):
         title = " ".join(args)
