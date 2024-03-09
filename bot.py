@@ -128,8 +128,7 @@ class Bot(commands.Bot):
             ", ".join(
                 ["Commands: !review, !scoot, !gael, !left, !back, !brbtime"]
                 + [f"!{cmd}" for cmd in self.static_commands]
-                + [". All commands have a 5 second cooldown."]
-            )
+            ) + ". All commands have a 5 second cooldown."
         )
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.user)
