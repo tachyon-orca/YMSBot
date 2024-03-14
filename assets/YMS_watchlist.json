@@ -29679,9 +29679,6 @@
       "Toll"
     ]
   },
-  "tt31189901": {
-    "review_date": "20 Feb 2024"
-  },
   "tt28055078": {
     "review_date": "20 Feb 2024",
     "title": "We're All Gonna Die",
@@ -29897,5 +29894,19 @@
       "Night of a 1000 Cats",
       "Blood Feast"
     ]
+  },
+  "tt30321095": {
+    "review_date": "13 Mar 2024",
+    "title": "Ghostlight",
+    "release_date": "2024-01-18",
+    "original_title": "Ghostlight",
+    "alt_titles": []
+  },
+  "tt22408160": {
+    "review_date": "14 Mar 2024",
+    "title": "Kinds of Kindness",
+    "release_date": "",
+    "original_title": "Kinds of Kindness",
+    "alt_titles": []
   }
 }
