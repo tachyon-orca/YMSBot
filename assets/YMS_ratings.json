@@ -30594,5 +30594,41 @@
   "tt28363850": {
     "review_date": "2024-04-02",
     "rating": "5"
+  },
+  "tt14539740": {
+    "review_date": "2024-04-04",
+    "title": "Godzilla x Kong: The New Empire",
+    "release_date": "2024-03-27",
+    "original_title": "Godzilla x Kong: The New Empire",
+    "alt_titles": [
+      "Godzilla vs. Kong: Origins",
+      "Godzilla & Kong",
+      "Godzilla and Kong: Origins",
+      "Godzilla × Kong: The New Empire",
+      "GxK",
+      "Origins",
+      "Godzilla and Kong: The New Empire",
+      "Godzilla vs. Kong 2",
+      "Untitled Godzilla vs Kong Sequel Project"
+    ],
+    "rating": "4"
+  },
+  "tt2757592": {
+    "review_date": "2024-04-04",
+    "title": "A Talking Pony!?!",
+    "release_date": "2013-09-01",
+    "original_title": "A Talking Pony!?!",
+    "alt_titles": [
+      "A Pony Tale"
+    ],
+    "rating": "10"
+  },
+  "tt2511190": {
+    "review_date": "2024-04-04",
+    "title": "A Talking Cat!?!",
+    "release_date": "2013-02-18",
+    "original_title": "A Talking Cat!?!",
+    "alt_titles": [],
+    "rating": "1"
   }
 }
