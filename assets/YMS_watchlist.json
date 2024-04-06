@@ -7747,16 +7747,6 @@
     "original_title": "Damsel",
     "alt_titles": []
   },
-  "tt5323662": {
-    "review_date": "20 Feb 2018",
-    "title": "A Silent Voice: The Movie",
-    "release_date": "2016-09-17",
-    "original_title": "映画 聲の形",
-    "alt_titles": [
-      "The Shape of Voice",
-      "A Silent Voice"
-    ]
-  },
   "tt2231461": {
     "review_date": "21 Feb 2018",
     "title": "Rampage",
@@ -17409,13 +17399,6 @@
     "title": "Dying Candle",
     "release_date": "2016-12-16",
     "original_title": "Dying Candle",
-    "alt_titles": []
-  },
-  "tt4857264": {
-    "review_date": "30 Mar 2021",
-    "title": "The Invisible Guest",
-    "release_date": "2017-01-06",
-    "original_title": "Contratiempo",
     "alt_titles": []
   },
   "tt5535814": {
@@ -30005,6 +29988,29 @@
     "title": "The Tragedy of Man",
     "release_date": "2011-11-27",
     "original_title": "Az ember tragédiája",
+    "alt_titles": []
+  },
+  "tt5704606": {
+    "review_date": "06 Apr 2024",
+    "title": "A Cambodian Spring",
+    "release_date": "2018-05-04",
+    "original_title": "A Cambodian Spring",
+    "alt_titles": [
+      "The Cause of Progress"
+    ]
+  },
+  "tt21029410": {
+    "review_date": "06 Apr 2024",
+    "title": "My house walk-through",
+    "release_date": "2016-10-16",
+    "original_title": "私の家のウォークスルー",
+    "alt_titles": []
+  },
+  "tt26700853": {
+    "review_date": "06 Apr 2024",
+    "title": "Puffin Rock and the New Friends",
+    "release_date": "2023-07-14",
+    "original_title": "Puffin Rock and the New Friends",
     "alt_titles": []
   }
 }
