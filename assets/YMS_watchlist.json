@@ -27575,13 +27575,6 @@
       "Apples"
     ]
   },
-  "tt4497142": {
-    "review_date": "16 Aug 2023",
-    "title": "Knock Knock, It's Tig Notaro",
-    "release_date": "2015-03-16",
-    "original_title": "Knock Knock, It's Tig Notaro",
-    "alt_titles": []
-  },
   "tt6628922": {
     "review_date": "16 Aug 2023",
     "title": "Gonzo Girl",
@@ -29881,13 +29874,6 @@
     "original_title": "Kid-Thing",
     "alt_titles": []
   },
-  "tt3554164": {
-    "review_date": "19 Mar 2024",
-    "title": "Alison's Choice",
-    "release_date": "2015-06-27",
-    "original_title": "Alison's Choice",
-    "alt_titles": []
-  },
   "tt1527788": {
     "review_date": "20 Mar 2024",
     "title": "The Man from Nowhere",
@@ -29999,18 +29985,51 @@
       "The Cause of Progress"
     ]
   },
-  "tt21029410": {
-    "review_date": "06 Apr 2024",
-    "title": "My house walk-through",
-    "release_date": "2016-10-16",
-    "original_title": "私の家のウォークスルー",
-    "alt_titles": []
-  },
   "tt26700853": {
     "review_date": "06 Apr 2024",
     "title": "Puffin Rock and the New Friends",
     "release_date": "2023-07-14",
     "original_title": "Puffin Rock and the New Friends",
+    "alt_titles": []
+  },
+  "tt30319503": {
+    "review_date": "06 Apr 2024",
+    "title": "Dìdi (弟弟)",
+    "release_date": "2024-07-26",
+    "original_title": "Dìdi (弟弟)",
+    "alt_titles": [
+      "Little Brother",
+      "Didi"
+    ]
+  },
+  "tt4209590": {
+    "review_date": "07 Apr 2024",
+    "title": "We Are Monsters",
+    "release_date": "2015-05-02",
+    "original_title": "We Are Monsters",
+    "alt_titles": [
+      "Animalistic"
+    ]
+  },
+  "tt4007068": {
+    "review_date": "07 Apr 2024",
+    "title": "When Black Birds Fly",
+    "release_date": "2016-01-15",
+    "original_title": "When Black Birds Fly",
+    "alt_titles": []
+  },
+  "tt1286765": {
+    "review_date": "07 Apr 2024",
+    "title": "Necromentia",
+    "release_date": "2009-10-01",
+    "original_title": "Necromentia",
+    "alt_titles": []
+  },
+  "tt11208026": {
+    "review_date": "07 Apr 2024",
+    "title": "The Badge, the Bible, and Bigfoot",
+    "release_date": "2019-10-31",
+    "original_title": "The Badge, the Bible, and Bigfoot",
     "alt_titles": []
   }
 }
