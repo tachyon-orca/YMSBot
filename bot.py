@@ -1,6 +1,7 @@
 import json
 import random
 import time
+from datetime import datetime, timezone
 
 import inflect
 from dotenv import dotenv_values
@@ -128,7 +129,8 @@ class Bot(commands.Bot):
             ", ".join(
                 ["Commands: !review, !scoot, !gael, !left, !back, !brbtime"]
                 + [f"!{cmd}" for cmd in self.static_commands]
-            ) + ". All commands have a 5 second cooldown."
+            )
+            + ". All commands have a 5 second cooldown."
         )
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.user)
@@ -180,8 +182,21 @@ class Bot(commands.Bot):
             msg = "peepoArrive Adum is back!"
             if self.brbtimer is not None:
                 brbtime = time.time_ns() - self.brbtimer
-                self.brbtimer = None
                 msg += f" He was gone for {_format_time_interval(brbtime)}."
+                with open("brb_log.jsonl", "a") as f:
+                    f.write(
+                        json.dumps(
+                            {
+                                "channel": ctx.channel.name,
+                                "brb_start": datetime.fromtimestamp(
+                                    self.brbtimer / 1e9, tz=timezone.utc
+                                ).strftime(r"%Y-%m-%d %H:%M:%S %Z"),
+                                "brb_time": str(brbtime / 1e9),
+                            }
+                        )
+                        + "\n"
+                    )
+                self.brbtimer = None
             await ctx.send(msg)
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
