@@ -173,6 +173,8 @@ class ReviewGetter:
                 )
             case "Adum & Pals":
                 resp += " Check out the Adum & Pals here: {}".format(review["url"])
+            case "YMS Watches":
+                resp += " Check out the Watch-Along here: {}".format(review["url"])
             case _:
                 resp += " Check out his review here: {}".format(review["url"])
         return resp
