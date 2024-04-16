@@ -794,12 +794,12 @@
     ]
   },
   "tt12818328": {
-    "review_date": "2023-09-15",
-    "rating": "9",
+    "review_date": "2024-04-16",
     "title": "Hundreds of Beavers",
-    "release_date": "2022-09-29",
+    "release_date": "2024-01-26",
     "original_title": "Hundreds of Beavers",
-    "alt_titles": []
+    "alt_titles": [],
+    "rating": "10"
   },
   "tt21284358": {
     "review_date": "2023-09-14",
@@ -30725,5 +30725,22 @@
     "original_title": "The People's Joker",
     "alt_titles": [],
     "rating": "5"
+  },
+  "tt28452191": {
+    "review_date": "2024-04-16",
+    "episode_title": "PRESENTING ATOM EVE SPECIAL EPISODE",
+    "release_date": "2023-07-21",
+    "title": "Invincible",
+    "original_title": "Invincible",
+    "alt_titles": [],
+    "rating": "6"
+  },
+  "tt21692408": {
+    "review_date": "2024-04-16",
+    "title": "Kung Fu Panda 4",
+    "release_date": "2024-03-02",
+    "original_title": "Kung Fu Panda 4",
+    "alt_titles": [],
+    "rating": "2"
   }
 }
