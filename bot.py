@@ -25,7 +25,7 @@ scoot_shills = [
     ["Cool Scoot loves you!", 1],
     ["UwU what's this? Is it fow Scoot?", 0.1],
 ]
-scoot_links = " Paypal: paypal.me/notscotthenson If you don't have paypal: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NXPSAJ6BF6L72 Cameo: https://www.cameo.com/scoot Wrestling merch: prowrestlingtees.com/scotthenson Youtube: youtube.com/@notscotthenson"
+scoot_links = " Paypal: paypal.me/notscotthenson If you don't have paypal: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NXPSAJ6BF6L72 Cameo: https://www.cameo.com/scoot Wrestling merch: prowrestlingtees.com/scotthenson Youtube: youtube.com/@notscotthenson Discord: discord.gg/zXXv7p92xr"
 
 
 gael_msg = "Gaël's Paypal: https://www.paypal.com/paypalme/vexelg Twitter: https://twitter.com/_vexel"
