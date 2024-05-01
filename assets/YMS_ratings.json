@@ -20183,8 +20183,7 @@
     "rating": "1"
   },
   "tt0076759": {
-    "review_date": "2015-12-18",
-    "rating": "6",
+    "review_date": "2024-05-01",
     "title": "Star Wars",
     "release_date": "1977-05-25",
     "original_title": "Star Wars",
@@ -20194,19 +20193,13 @@
       "Star Wars Episode IV : A New Hope – Despecialized Edition",
       "Star Wars 4K77",
       "Adventures of the Starkiller: Episode 1 – The Star Wars",
-      "The Adventures of Luke Starkiller as Taken from the 'Journal of the Whills': Saga I – Star Wars",
       "The Star Wars",
       "The Star Wars: From the Adventures of Luke Starkiller",
       "Star Wars IV Despecialized",
-      "Star Wars Episode 4",
       "Star Wars Episode IV – A New Hope",
-      "Star Wars։ Episode IV – A New Hope",
-      "Star Wars: Episode 4 – A New Hope",
-      "Star Wars: A New Hope (Episode IV)",
-      "Star Wars: Episódio IV - Uma Nova Esperança",
-      "Star Wars Episode IV：A New Hope",
-      "Star Wars A New Hope"
-    ]
+      "Star Wars: A New Hope (Episode IV)"
+    ],
+    "rating": "1"
   },
   "tt0121766": {
     "review_date": "2024-05-01",
@@ -30791,5 +30784,28 @@
       "Campus Life"
     ],
     "rating": "1"
+  },
+  "tt0193524": {
+    "review_date": "2024-05-01",
+    "title": "The Star Wars Holiday Special",
+    "release_date": "1978-11-17",
+    "original_title": "The Star Wars Holiday Special",
+    "alt_titles": [
+      "The 'Star Wars' Christmas Special",
+      "Star Wars - The Holiday Special"
+    ],
+    "rating": "1"
+  },
+  "tt2975590": {
+    "review_date": "2024-05-01",
+    "title": "Batman v Superman: Dawn of Justice",
+    "release_date": "2016-03-23",
+    "original_title": "Batman v Superman: Dawn of Justice",
+    "alt_titles": [
+      "Batman v Superman：Dawn Of Justice",
+      "Batman v Superman - Dawn of Justice",
+      "Man of Steel 2: Batman v Superman - Dawn of Justice"
+    ],
+    "rating": "2"
   }
 }
