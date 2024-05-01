@@ -10539,14 +10539,12 @@
     "alt_titles": []
   },
   "tt2527338": {
-    "review_date": "2019-12-20",
-    "rating": "4",
+    "review_date": "2024-05-01",
     "title": "Star Wars: The Rise of Skywalker",
     "release_date": "2019-12-18",
     "original_title": "Star Wars: The Rise of Skywalker",
     "alt_titles": [
       "Star Wars: Episode IX",
-      "Star Wars: Episode IX - The Rise of Skywalker",
       "Star Wars: Episode 9 - The Rise of Skywalker",
       "Star Wars - The Rise of Skywalker",
       "Star Wars - Episode 9 - The Rise of Skywalker",
@@ -10557,40 +10555,28 @@
       "Star Wars։ Episode IX - The Rise of Skywalker",
       "Star Wars 9 - The Rise of Skywalker",
       "Star Wars: The Rise of Skywalker (Episode IX)",
-      "TROS",
-      "Star Wars Episode IX：The Rise Of Skywalker",
-      "Star Wars The Rise of Skywalker",
       "The Rise of Skywalker"
-    ]
+    ],
+    "rating": "1"
   },
   "tt2527336": {
-    "review_date": "2019-12-20",
-    "rating": "5",
+    "review_date": "2024-05-01",
     "title": "Star Wars: The Last Jedi",
     "release_date": "2017-12-13",
     "original_title": "Star Wars: The Last Jedi",
     "alt_titles": [
-      "Star Wars: Episode VIII",
-      "Star Wars: Episode VIII – The Last Jedi",
       "The Last Jedi",
       "Star Wars - The Last Jedi - 3D",
-      "Star Wars: Episode VIII - The Last Jedi: Legendary",
       "Star Wars: Episode 8 - The Last Jedi",
       "Star Wars Episode VIII - The Last Jedi",
       "Star Wars: Episode VIII - The Last Jedi 3D",
-      "Star Wars։ Episode VIII - The Last Jedi",
-      "Star Wars 8 - The Last Jedi",
       "Star Wars: Episode VIII - The Last Jedi",
-      "Star Wars։ The Last Jedi (Episode VIII)",
-      "TLJ",
-      "Star Wars Episode VIII：The Last Jedi",
-      "Star Wars The Last Jedi",
-      "Star Wars - Episode VIII - The Last Jedi"
-    ]
+      "Star Wars։ The Last Jedi (Episode VIII)"
+    ],
+    "rating": "1"
   },
   "tt2488496": {
-    "review_date": "2019-12-20",
-    "rating": "6",
+    "review_date": "2024-05-01",
     "title": "Star Wars: The Force Awakens",
     "release_date": "2015-12-15",
     "original_title": "Star Wars: The Force Awakens",
@@ -10598,13 +10584,10 @@
       "Star Wars - Episode VII - The Force Awakens",
       "Star Wars: The Force Awakens (Episode VII)",
       "Star Wars: Episode VII",
-      "TFA",
-      "Star Wars Episode VII：The Force Awakens",
-      "Star Wars The Force Awakens",
       "The Force Awakens",
-      "Star Wars Episode VII The ForceAwakens",
       "Star Wars: Episode 7 - The Force Awakens"
-    ]
+    ],
+    "rating": "1"
   },
   "tt5697572": {
     "review_date": "2019-12-20",
@@ -14508,15 +14491,12 @@
     "alt_titles": []
   },
   "tt3778644": {
-    "review_date": "2018-05-25",
-    "rating": "5",
+    "review_date": "2024-05-01",
     "title": "Solo: A Star Wars Story",
     "release_date": "2018-05-15",
     "original_title": "Solo: A Star Wars Story",
-    "alt_titles": [
-      "Solo：A Star Wars Story",
-      "Solo A Star Wars Story"
-    ]
+    "alt_titles": [],
+    "rating": "1"
   },
   "tt3892172": {
     "review_date": "2018-05-25",
@@ -20164,8 +20144,7 @@
     "alt_titles": []
   },
   "tt0086190": {
-    "review_date": "2015-12-18",
-    "rating": "7",
+    "review_date": "2024-05-01",
     "title": "Return of the Jedi",
     "release_date": "1983-05-25",
     "original_title": "Return of the Jedi",
@@ -20175,39 +20154,33 @@
       "Star Wars: Episode VI - Return of the Jedi",
       "Star Wars 6",
       "Star Wars: Revenge of the Jedi",
-      "Star Wars DSE: Episode VI - The Return Of The Jedi",
       "Revenge of the Jedi",
       "Blue Harvest",
       "Star Wars VI Despecialized",
       "Star Wars։ Episode VI - Return of the Jedi",
       "Star Wars: Return of the Jedi (Episode VI)",
-      "ROTJ",
-      "Star Wars: Return of the Jedi - Despecialized Edition",
-      "Star Wars Episode VI：Return Of The Jedi"
-    ]
+      "Star Wars: Return of the Jedi - Despecialized Edition"
+    ],
+    "rating": "1"
   },
   "tt0080684": {
-    "review_date": "2015-12-18",
-    "rating": "6",
+    "review_date": "2024-05-01",
     "title": "The Empire Strikes Back",
     "release_date": "1980-05-20",
     "original_title": "The Empire Strikes Back",
     "alt_titles": [
       "Star Wars V: The Empire Strikes Back",
-      "Star Wars: Episode 5 - The Empire Strikes Back",
       "The Empire Strikes Back: StarWars II",
       "Star Wars: The Empire Strikes Back",
       "Star Wars: Episode V - The Empire Strikes Back",
-      "Star Wars 5",
       "Star Wars: Episode V - The Empire Strikes Back - Despecialized Edition",
       "The Empire Strikes Back (Despecialized Edition)",
       "Star Wars: Episode V - The Empire Strikes Back Special Edition",
       "Star Wars 4K80",
       "Star Wars V Despecialized",
-      "Star Wars: The Empire Strikes Back (Episode V)",
-      "ESB",
-      "Star Wars Episode V：The Empire Strikes Back"
-    ]
+      "Star Wars: The Empire Strikes Back (Episode V)"
+    ],
+    "rating": "1"
   },
   "tt0076759": {
     "review_date": "2015-12-18",
@@ -20236,29 +20209,21 @@
     ]
   },
   "tt0121766": {
-    "review_date": "2015-12-18",
-    "rating": "2",
+    "review_date": "2024-05-01",
     "title": "Star Wars: Episode III - Revenge of the Sith",
     "release_date": "2005-05-17",
     "original_title": "Star Wars: Episode III - Revenge of the Sith",
     "alt_titles": [
-      "Star Wars: Episode 3 - Revenge of the Sith",
       "Star Wars: Revenge of the Sith",
       "Star Wars: Episode III",
       "Revenge of the Sith",
       "Star Wars III: Revenge of the Sith",
       "Star Wars: Episode III - Revenge of the Sith 3D",
-      "Star Wars 3",
       "Star Wars: Episode III - Labyrinth Of Evil",
-      "Star Wars Episode III - Revenge of the Sith",
       "Star Wars: Episode III - Revenge of the Sith",
-      "Star Wars։ Episode III - Revenge of the Sith",
-      "Star Wars: Revenge of the Sith (Episode III)",
-      "Star Wars Episode 3.0 Revenge of the Sith",
-      "ROTS",
-      "Star Wars Episode III：The Revenge Of The Sith (2005)",
-      "Star Wars Episode III Revenge of the Sith"
-    ]
+      "Star Wars: Revenge of the Sith (Episode III)"
+    ],
+    "rating": "1"
   },
   "tt0121765": {
     "review_date": "2015-12-18",
@@ -30816,5 +30781,15 @@
     "original_title": "I Saw the TV Glow",
     "alt_titles": [],
     "rating": "4"
+  },
+  "tt2639514": {
+    "review_date": "2024-04-30",
+    "title": "Campus Code",
+    "release_date": "2015-09-22",
+    "original_title": "Campus Code",
+    "alt_titles": [
+      "Campus Life"
+    ],
+    "rating": "1"
   }
 }
