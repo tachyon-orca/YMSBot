@@ -25,6 +25,11 @@
         "message": "Check out Adum's album on Bandcamp: https://anunkindness.bandcamp.com/album/10-years"
     },
     {
+        "name": "merch",
+        "aliases": [],
+        "message": "NEW MERCH http://www.ymsmerch.com"
+    },
+    {
         "name": "notgus",
         "aliases": [],
         "hidden": true,
