@@ -4,13 +4,13 @@ import pandas as pd
 
 
 priority = [
-    "MISC",
     "YMS Watches",
     "Adum & Pals",
     "YMS",
     "Review",
     "Top 10",
     "Thoughts on",
+    "MISC",
     "Quickie",
     "Film Festival",
     "Oscars",
