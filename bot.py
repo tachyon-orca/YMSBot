@@ -15,17 +15,17 @@ active_channels = ["ymsplays"]
 
 inflect_engine = inflect.engine()
 
-scoot_shills = [
-    ["Please support Scoot!", 5],
-    ["Send Scoot money!", 1],
-    ["Help Scoot fix his old and broken back!", 1],
-    ["Donate to Scoot's MTF (man-to-feline) surgery fund!", 1],
-    ["Pussy pics ain't free! Pay Scoot here:", 1],
-    ["Happy birthday Scoot! Send him a present!", 1],
-    ["Cool Scoot loves you!", 1],
-    ["UwU what's this? Is it fow Scoot?", 0.1],
-]
-scoot_links = " Paypal: paypal.me/notscotthenson If you don't have paypal: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NXPSAJ6BF6L72 Cameo: https://www.cameo.com/scoot Wrestling merch: prowrestlingtees.com/scotthenson Youtube: youtube.com/@notscotthenson Discord: discord.gg/zXXv7p92xr"
+# scoot_shills = [
+#     ["Please support Scoot!", 5],
+#     ["Send Scoot money!", 1],
+#     ["Help Scoot fix his old and broken back!", 1],
+#     ["Donate to Scoot's MTF (man-to-feline) surgery fund!", 1],
+#     ["Pussy pics ain't free! Pay Scoot here:", 1],
+#     ["Happy birthday Scoot! Send him a present!", 1],
+#     ["Cool Scoot loves you!", 1],
+#     ["UwU what's this? Is it fow Scoot?", 0.1],
+# ]
+# scoot_links = " Paypal: paypal.me/notscotthenson If you don't have paypal: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NXPSAJ6BF6L72 Cameo: https://www.cameo.com/scoot Wrestling merch: prowrestlingtees.com/scotthenson Youtube: youtube.com/@notscotthenson Discord: discord.gg/zXXv7p92xr"
 
 
 gael_msg = "Gaël's Paypal: https://www.paypal.com/paypalme/vexelg Twitter: https://twitter.com/_vexel"
@@ -139,19 +139,19 @@ class Bot(commands.Bot):
         title = " ".join(args)
         await ctx.reply(self.review_getter.process_query(title))
 
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
-    @commands.command()
-    async def scoot(self, ctx: commands.Context, arg: str | None):
-        if ctx.author.is_mod or ctx.author.is_broadcaster:
-            match arg:
-                case "s":
-                    shill_scoot_recurr.start()
-                case "e":
-                    shill_scoot_recurr.stop()
-                case _:
-                    await ctx.send(_generate_scoot_shill())
-        else:
-            await ctx.send(_generate_scoot_shill())
+    # @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    # @commands.command()
+    # async def scoot(self, ctx: commands.Context, arg: str | None):
+    #     if ctx.author.is_mod or ctx.author.is_broadcaster:
+    #         match arg:
+    #             case "s":
+    #                 shill_scoot_recurr.start()
+    #             case "e":
+    #                 shill_scoot_recurr.stop()
+    #             case _:
+    #                 await ctx.send(_generate_scoot_shill())
+    #     else:
+    #         await ctx.send(_generate_scoot_shill())
 
     @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command()
