@@ -29700,13 +29700,6 @@
     "original_title": "RIPLEY",
     "alt_titles": []
   },
-  "tt23468450": {
-    "review_date": "2024-03-08",
-    "title": "Longlegs",
-    "release_date": "2024-07-10",
-    "original_title": "Longlegs",
-    "alt_titles": []
-  },
   "tt7772588": {
     "review_date": "2024-03-09",
     "title": "For All Mankind",
@@ -31015,6 +31008,13 @@
     "title": "Bitter Lake",
     "release_date": "2011-08-20",
     "original_title": "Bitter Lake",
+    "alt_titles": []
+  },
+  "tt5636228": {
+    "review_date": "2024-07-14",
+    "title": "Lumina",
+    "release_date": "2024-07-12",
+    "original_title": "Lumina",
     "alt_titles": []
   }
 }
