@@ -9666,13 +9666,6 @@
     "original_title": "Kiddie Flamingos",
     "alt_titles": []
   },
-  "tt3289956": {
-    "review_date": "2019-03-16",
-    "title": "The Autopsy of Jane Doe",
-    "release_date": "2016-12-21",
-    "original_title": "The Autopsy of Jane Doe",
-    "alt_titles": []
-  },
   "tt9561862": {
     "review_date": "2019-03-23",
     "title": "Love, Death & Robots",
@@ -10562,18 +10555,6 @@
     "alt_titles": [
       "Mariachi",
       "El Mariachi I"
-    ]
-  },
-  "tt5034474": {
-    "review_date": "2019-06-14",
-    "title": "The Assignment",
-    "release_date": "2016-06-08",
-    "original_title": "The Assignment",
-    "alt_titles": [
-      "Tomboy",
-      "Tomboy, a Revenger's Tale",
-      "(Re) Assignment",
-      "Assignment"
     ]
   },
   "tt2837574": {
@@ -28872,15 +28853,6 @@
     "original_title": "Memoir of a Snail",
     "alt_titles": []
   },
-  "tt5312612": {
-    "review_date": "2024-01-01",
-    "title": "The Amityville Terror",
-    "release_date": "2016-04-01",
-    "original_title": "The Amityville Terror",
-    "alt_titles": [
-      "Amityville: The Terror"
-    ]
-  },
   "tt27546190": {
     "review_date": "2024-01-01",
     "title": "The Sweet East",
@@ -28985,15 +28957,6 @@
     "release_date": "2024-08-02",
     "original_title": "Sebastian",
     "alt_titles": []
-  },
-  "tt4000870": {
-    "review_date": "2024-01-09",
-    "title": "Addicted to Fresno",
-    "release_date": "2015-10-02",
-    "original_title": "Addicted to Fresno",
-    "alt_titles": [
-      "Fresno"
-    ]
   },
   "tt11147852": {
     "review_date": "2024-01-09",
@@ -29850,15 +29813,6 @@
     "release_date": "2011-11-27",
     "original_title": "Az ember tragédiája",
     "alt_titles": []
-  },
-  "tt5704606": {
-    "review_date": "2024-04-06",
-    "title": "A Cambodian Spring",
-    "release_date": "2018-05-04",
-    "original_title": "A Cambodian Spring",
-    "alt_titles": [
-      "The Cause of Progress"
-    ]
   },
   "tt26700853": {
     "review_date": "2024-04-06",
@@ -31077,5 +31031,29 @@
     "release_date": "2019-09-13",
     "original_title": "Chained for Life",
     "alt_titles": []
+  },
+  "tt3623726": {
+    "review_date": "2024-07-23",
+    "title": "Ricki and the Flash",
+    "release_date": "2015-07-10",
+    "original_title": "Ricki and the Flash",
+    "alt_titles": []
+  },
+  "tt32475217": {
+    "review_date": "2024-07-23",
+    "title": "Handsome Guys",
+    "release_date": "2024-06-26",
+    "original_title": "핸섬가이즈",
+    "alt_titles": []
+  },
+  "tt32828123": {
+    "review_date": "2024-07-24",
+    "title": "Cloud",
+    "release_date": "2024-09-27",
+    "original_title": "Cloud クラウド",
+    "alt_titles": []
+  },
+  "tt10655824": {
+    "review_date": "2024-07-24"
   }
 }

@@ -31028,5 +31028,64 @@
     "original_title": "Lumina",
     "alt_titles": [],
     "rating": "1"
+  },
+  "tt23036426": {
+    "review_date": "2024-07-24",
+    "title": "Sausage Party: Foodtopia",
+    "release_date": "2024-07-11",
+    "original_title": "Sausage Party: Foodtopia",
+    "alt_titles": [],
+    "rating": "3"
+  },
+  "tt3289956": {
+    "review_date": "2024-07-24",
+    "title": "The Autopsy of Jane Doe",
+    "release_date": "2016-12-21",
+    "original_title": "The Autopsy of Jane Doe",
+    "alt_titles": [],
+    "rating": "5"
+  },
+  "tt5034474": {
+    "review_date": "2024-07-23",
+    "title": "The Assignment",
+    "release_date": "2016-06-08",
+    "original_title": "The Assignment",
+    "alt_titles": [
+      "Tomboy",
+      "Tomboy, a Revenger's Tale",
+      "(Re) Assignment",
+      "Assignment"
+    ],
+    "rating": "4"
+  },
+  "tt5704606": {
+    "review_date": "2024-07-23",
+    "title": "A Cambodian Spring",
+    "release_date": "2018-05-04",
+    "original_title": "A Cambodian Spring",
+    "alt_titles": [
+      "The Cause of Progress"
+    ],
+    "rating": "6"
+  },
+  "tt5312612": {
+    "review_date": "2024-07-23",
+    "title": "The Amityville Terror",
+    "release_date": "2016-04-01",
+    "original_title": "The Amityville Terror",
+    "alt_titles": [
+      "Amityville: The Terror"
+    ],
+    "rating": "1"
+  },
+  "tt4000870": {
+    "review_date": "2024-07-23",
+    "title": "Addicted to Fresno",
+    "release_date": "2015-10-02",
+    "original_title": "Addicted to Fresno",
+    "alt_titles": [
+      "Fresno"
+    ],
+    "rating": "4"
   }
 }
