@@ -5101,13 +5101,6 @@
       "Pee-wees Big Adventure"
     ]
   },
-  "tt4914580": {
-    "review_date": "2016-08-24",
-    "title": "The Age of Shadows",
-    "release_date": "2016-09-07",
-    "original_title": "밀정",
-    "alt_titles": []
-  },
   "tt5937788": {
     "review_date": "2016-08-24",
     "title": "Anatomy of Violence",
@@ -5437,15 +5430,6 @@
     "release_date": "2016-10-20",
     "original_title": "American Pastoral",
     "alt_titles": []
-  },
-  "tt5804038": {
-    "review_date": "2016-10-13",
-    "title": "I Am Not Your Negro",
-    "release_date": "2017-02-03",
-    "original_title": "I Am Not Your Negro",
-    "alt_titles": [
-      "Remember This House"
-    ]
   },
   "tt4370784": {
     "review_date": "2016-10-15",
@@ -9014,13 +8998,6 @@
     "title": "The Celluloid Closet",
     "release_date": "1996-01-30",
     "original_title": "The Celluloid Closet",
-    "alt_titles": []
-  },
-  "tt4276820": {
-    "review_date": "2018-09-21",
-    "title": "The Founder",
-    "release_date": "2016-11-24",
-    "original_title": "The Founder",
     "alt_titles": []
   },
   "tt7681824": {
@@ -18483,13 +18460,6 @@
     "original_title": "Spin",
     "alt_titles": []
   },
-  "tt4505666": {
-    "review_date": "2021-05-08",
-    "title": "Prescription Thugs",
-    "release_date": "2016-01-22",
-    "original_title": "Prescription Thugs",
-    "alt_titles": []
-  },
   "tt3833822": {
     "review_date": "2021-05-08",
     "title": "Daft Punk Unchained",
@@ -22791,15 +22761,6 @@
     "release_date": "1977-08-17",
     "original_title": "Cet obscur objet du désir",
     "alt_titles": []
-  },
-  "tt0061395": {
-    "review_date": "2022-05-10",
-    "title": "Belle de Jour",
-    "release_date": "1967-05-24",
-    "original_title": "Belle de jour",
-    "alt_titles": [
-      "Beauty of the Day"
-    ]
   },
   "tt7549892": {
     "review_date": "2022-05-12",
@@ -30295,13 +30256,6 @@
       "Jackie Chan's Who Am I"
     ]
   },
-  "tt3771626": {
-    "review_date": "2024-04-25",
-    "title": "The Brainwashing of My Dad",
-    "release_date": "2015-07-29",
-    "original_title": "The Brainwashing of My Dad",
-    "alt_titles": []
-  },
   "tt0077305": {
     "review_date": "2024-04-26",
     "title": "The Cat from Outer Space",
@@ -31058,6 +31012,27 @@
     "title": "Common Side Effects",
     "release_date": "",
     "original_title": "Common Side Effects",
+    "alt_titles": []
+  },
+  "tt4914580": {
+    "review_date": "2016-08-24",
+    "title": "The Age of Shadows",
+    "release_date": "2016-09-07",
+    "original_title": "밀정",
+    "alt_titles": []
+  },
+  "tt22803220": {
+    "review_date": "2024-07-30",
+    "title": "National Anthem",
+    "release_date": "2024-07-12",
+    "original_title": "National Anthem",
+    "alt_titles": []
+  },
+  "tt27737950": {
+    "review_date": "2024-07-31",
+    "title": "Blackbird Blackbird Blackberry",
+    "release_date": "2023-10-26",
+    "original_title": "შაშვი შაშვი მაყვალი",
     "alt_titles": []
   }
 }
