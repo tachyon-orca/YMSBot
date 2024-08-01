@@ -17149,12 +17149,12 @@
     ]
   },
   "tt0938283": {
-    "review_date": "2017-02-14",
-    "rating": "3",
+    "review_date": "2024-08-01",
     "title": "The Last Airbender",
     "release_date": "2010-06-30",
     "original_title": "The Last Airbender",
-    "alt_titles": []
+    "alt_titles": [],
+    "rating": "2"
   },
   "tt0949731": {
     "review_date": "2017-02-14",
@@ -20550,15 +20550,15 @@
     "alt_titles": []
   },
   "tt3567288": {
-    "review_date": "2015-09-12",
-    "rating": "2",
+    "review_date": "2024-08-01",
     "title": "The Visit",
     "release_date": "2015-09-10",
     "original_title": "The Visit",
     "alt_titles": [
       "Sundowning",
       "Untitled Blumhouse Horror 1"
-    ]
+    ],
+    "rating": "1"
   },
   "tt2297757": {
     "review_date": "2015-09-08",
@@ -26738,14 +26738,14 @@
     ]
   },
   "tt0167404": {
-    "review_date": "2013-06-02",
-    "rating": "10",
+    "review_date": "2024-08-01",
     "title": "The Sixth Sense",
     "release_date": "1999-08-06",
     "original_title": "The Sixth Sense",
     "alt_titles": [
       "The Sixth Sense (1999)"
-    ]
+    ],
+    "rating": "9"
   },
   "tt1815862": {
     "review_date": "2013-06-02",
