@@ -30105,15 +30105,6 @@
   "tt0340937": {
     "review_date": "2024-04-15"
   },
-  "tt26753003": {
-    "review_date": "2024-04-16",
-    "title": "Trap",
-    "release_date": "2024-08-01",
-    "original_title": "Trap",
-    "alt_titles": [
-      "Good Grades"
-    ]
-  },
   "tt0104036": {
     "review_date": "2024-04-17",
     "title": "The Crying Game",
@@ -31034,5 +31025,22 @@
     "release_date": "2023-10-26",
     "original_title": "შაშვი შაშვი მაყვალი",
     "alt_titles": []
+  },
+  "tt12430040": {
+    "review_date": "2024-08-02",
+    "title": "Amityville in the Hood",
+    "release_date": "2021-12-10",
+    "original_title": "Amityville in the Hood",
+    "alt_titles": []
+  },
+  "tt0077713": {
+    "review_date": "2024-08-02",
+    "title": "Day of the Woman",
+    "release_date": "1978-11-02",
+    "original_title": "Day of the Woman",
+    "alt_titles": [
+      "I Spit on Your Grave",
+      "The Housatonic Revenge"
+    ]
   }
 }
