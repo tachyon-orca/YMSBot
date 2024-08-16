@@ -30517,15 +30517,6 @@
   "tt9335794": {
     "review_date": "2024-05-19"
   },
-  "tt18412256": {
-    "review_date": "2024-05-20",
-    "title": "Alien: Romulus",
-    "release_date": "2024-08-14",
-    "original_title": "Alien: Romulus",
-    "alt_titles": [
-      "Alien Renaissance"
-    ]
-  },
   "tt27802490": {
     "review_date": "2024-05-21",
     "title": "Exhuma",
@@ -31289,6 +31280,31 @@
     "title": "Universal Language",
     "release_date": "2024-12-18",
     "original_title": "Une langue universelle",
+    "alt_titles": []
+  },
+  "tt0247303": {
+    "review_date": "2024-08-16",
+    "title": "Down",
+    "release_date": "2001-09-06",
+    "original_title": "Down",
+    "alt_titles": [
+      "The Shaft"
+    ]
+  },
+  "tt0054377": {
+    "review_date": "2024-08-16",
+    "title": "Testament of Orpheus",
+    "release_date": "1960-02-18",
+    "original_title": "Le Testament d'Orphée",
+    "alt_titles": [
+      "The Testament of Orpheus"
+    ]
+  },
+  "tt0104009": {
+    "review_date": "2024-08-16",
+    "title": "Cool World",
+    "release_date": "1992-07-10",
+    "original_title": "Cool World",
     "alt_titles": []
   }
 }
