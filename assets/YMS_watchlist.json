@@ -9511,15 +9511,6 @@
     "original_title": "Bean",
     "alt_titles": []
   },
-  "tt0050083": {
-    "review_date": "2019-02-22",
-    "title": "12 Angry Men",
-    "release_date": "1957-04-10",
-    "original_title": "12 Angry Men",
-    "alt_titles": [
-      "Twelve Angry Men"
-    ]
-  },
   "tt0070666": {
     "review_date": "2019-02-22",
     "title": "Serpico",
@@ -31326,6 +31317,20 @@
     "title": "A Tear in the Fabric of Life",
     "release_date": "2021-10-13",
     "original_title": "A Tear in the Fabric of Life",
+    "alt_titles": []
+  },
+  "tt0118528": {
+    "review_date": "2024-08-23",
+    "title": "12 Angry Men",
+    "release_date": "1997-08-17",
+    "original_title": "12 Angry Men",
+    "alt_titles": []
+  },
+  "tt22375054": {
+    "review_date": "2024-08-24",
+    "title": "Strange Darling",
+    "release_date": "2024-08-22",
+    "original_title": "Strange Darling",
     "alt_titles": []
   }
 }
