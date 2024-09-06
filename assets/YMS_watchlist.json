@@ -29899,13 +29899,6 @@
     "original_title": "The Shrouds",
     "alt_titles": []
   },
-  "tt17526714": {
-    "review_date": "2024-04-11",
-    "title": "The Substance",
-    "release_date": "2024-09-19",
-    "original_title": "The Substance",
-    "alt_titles": []
-  },
   "tt27180099": {
     "review_date": "2024-04-11",
     "title": "Grand Tour",
@@ -30956,13 +30949,6 @@
     "original_title": "핸섬가이즈",
     "alt_titles": []
   },
-  "tt32828123": {
-    "review_date": "2024-07-24",
-    "title": "Cloud",
-    "release_date": "2024-09-27",
-    "original_title": "Cloud クラウド",
-    "alt_titles": []
-  },
   "tt10655824": {
     "review_date": "2024-07-24"
   },
@@ -31200,13 +31186,6 @@
     "original_title": "On Becoming a Guinea Fowl",
     "alt_titles": []
   },
-  "tt31036505": {
-    "review_date": "2024-08-15",
-    "title": "Sad Jokes",
-    "release_date": "2024-09-12",
-    "original_title": "Sad Jokes",
-    "alt_titles": []
-  },
   "tt33077462": {
     "review_date": "2024-08-15"
   },
@@ -31399,6 +31378,30 @@
     "title": "What Happened, Brittany Murphy?",
     "release_date": "2021-10-14",
     "original_title": "What Happened, Brittany Murphy?",
+    "alt_titles": []
+  },
+  "tt2202382": {
+    "review_date": "2024-09-06",
+    "title": "Don't Let the Riverbeast Get You!",
+    "release_date": "2012-09-02",
+    "original_title": "Don't Let the Riverbeast Get You!",
+    "alt_titles": []
+  },
+  "tt4268262": {
+    "review_date": "2024-09-06",
+    "title": "Reality+",
+    "release_date": "2014-12-21",
+    "original_title": "Reality+",
+    "alt_titles": []
+  },
+  "tt33336815": {
+    "review_date": "2024-09-06"
+  },
+  "tt0124298": {
+    "review_date": "2024-09-06",
+    "title": "Blast from the Past",
+    "release_date": "1999-02-12",
+    "original_title": "Blast from the Past",
     "alt_titles": []
   }
 }
