@@ -29710,13 +29710,6 @@
     "original_title": "The After",
     "alt_titles": []
   },
-  "tt15551346": {
-    "review_date": "2024-03-23",
-    "title": "The End",
-    "release_date": "",
-    "original_title": "The End",
-    "alt_titles": []
-  },
   "tt31193442": {
     "review_date": "2024-03-25",
     "title": "Quiet on Set: The Dark Side of Kids TV",
@@ -30394,13 +30387,6 @@
   },
   "tt6182110": {
     "review_date": "2024-05-06"
-  },
-  "tt24176060": {
-    "review_date": "2024-05-06",
-    "title": "Queer",
-    "release_date": "",
-    "original_title": "Queer",
-    "alt_titles": []
   },
   "tt27543562": {
     "review_date": "2024-05-06"
@@ -31394,5 +31380,12 @@
     "alt_titles": [
       "I'm Thinking of You"
     ]
+  },
+  "tt33034110": {
+    "review_date": "2024-09-11",
+    "title": "Viktor",
+    "release_date": "2024-09-08",
+    "original_title": "Viktor",
+    "alt_titles": []
   }
 }
