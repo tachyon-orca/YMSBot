@@ -26246,15 +26246,6 @@
     "original_title": "Ghosted",
     "alt_titles": []
   },
-  "tt0087884": {
-    "review_date": "2023-04-24",
-    "title": "Paris, Texas",
-    "release_date": "1984-07-16",
-    "original_title": "Paris, Texas",
-    "alt_titles": [
-      "Paris Texas"
-    ]
-  },
   "tt0091498": {
     "review_date": "2023-04-25",
     "title": "Max My Love",
@@ -31375,5 +31366,19 @@
     "alt_titles": [
       "A Fallen Angel"
     ]
+  },
+  "tt21873280": {
+    "review_date": "2024-09-18",
+    "title": "Bad Actor",
+    "release_date": "2024-04-04",
+    "original_title": "Un actor malo",
+    "alt_titles": []
+  },
+  "tt33034103": {
+    "review_date": "2024-09-19",
+    "title": "Am I Racist?",
+    "release_date": "2024-09-13",
+    "original_title": "Am I Racist?",
+    "alt_titles": []
   }
 }
