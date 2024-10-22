@@ -15494,13 +15494,6 @@
     "original_title": "Eating You Alive",
     "alt_titles": []
   },
-  "tt6081670": {
-    "review_date": "2020-12-18",
-    "title": "Possum",
-    "release_date": "2018-10-26",
-    "original_title": "Possum",
-    "alt_titles": []
-  },
   "tt0119361": {
     "review_date": "2020-12-19",
     "title": "In the Company of Men",
@@ -31471,6 +31464,34 @@
     "title": "Blue Giant",
     "release_date": "2023-02-17",
     "original_title": "BLUE GIANT",
+    "alt_titles": []
+  },
+  "tt26750774": {
+    "review_date": "2024-10-22",
+    "title": "The Wailing",
+    "release_date": "2024-10-25",
+    "original_title": "El llanto",
+    "alt_titles": []
+  },
+  "tt21823606": {
+    "review_date": "2024-10-22",
+    "title": "A Real Pain",
+    "release_date": "2024-11-01",
+    "original_title": "A Real Pain",
+    "alt_titles": []
+  },
+  "tt10521200": {
+    "review_date": "2024-10-22",
+    "title": "The Chain",
+    "release_date": "",
+    "original_title": "The Chain",
+    "alt_titles": []
+  },
+  "tt14107334": {
+    "review_date": "2024-10-22",
+    "title": "The Running Man",
+    "release_date": "2025-11-20",
+    "original_title": "The Running Man",
     "alt_titles": []
   }
 }

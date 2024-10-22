@@ -31414,5 +31414,23 @@
   "tt33478963": {
     "review_date": "2024-09-30",
     "rating": "7"
+  },
+  "tt27911000": {
+    "review_date": "2024-10-22",
+    "title": "Terrifier 3",
+    "release_date": "2024-10-09",
+    "original_title": "Terrifier 3",
+    "alt_titles": [
+      "Damien Leone's Terrifier 3"
+    ],
+    "rating": "4"
+  },
+  "tt6081670": {
+    "review_date": "2024-10-22",
+    "title": "Possum",
+    "release_date": "2018-10-26",
+    "original_title": "Possum",
+    "alt_titles": [],
+    "rating": "4"
   }
 }
