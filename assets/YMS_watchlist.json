@@ -13020,15 +13020,6 @@
       "Chirin's Bell"
     ]
   },
-  "tt6738136": {
-    "review_date": "2020-02-22",
-    "title": "Revenge",
-    "release_date": "2018-02-07",
-    "original_title": "Revenge",
-    "alt_titles": [
-      "Revenge"
-    ]
-  },
   "tt1305798": {
     "review_date": "2020-02-24",
     "title": "The Abandoned",
@@ -22609,13 +22600,6 @@
     "original_title": "Foodfight!",
     "alt_titles": []
   },
-  "tt1131734": {
-    "review_date": "2022-04-26",
-    "title": "Jennifer's Body",
-    "release_date": "2009-09-18",
-    "original_title": "Jennifer's Body",
-    "alt_titles": []
-  },
   "tt14719276": {
     "review_date": "2022-04-26",
     "title": "He's Expecting",
@@ -31506,6 +31490,13 @@
     "title": "The Coffee Table",
     "release_date": "2022-06-01",
     "original_title": "La mesita del comedor",
+    "alt_titles": []
+  },
+  "tt0131400": {
+    "review_date": "2024-10-25",
+    "title": "Footrot Flats: The Dog's Tale",
+    "release_date": "1986-04-09",
+    "original_title": "Footrot Flats: The Dog's Tale",
     "alt_titles": []
   }
 }
