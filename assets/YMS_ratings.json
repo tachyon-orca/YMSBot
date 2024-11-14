@@ -31489,5 +31489,31 @@
       "Joker Folie a Deux"
     ],
     "rating": "3"
+  },
+  "tt31711040": {
+    "review_date": "2024-11-14",
+    "title": "Look Back",
+    "release_date": "2024-06-28",
+    "original_title": "ルックバック",
+    "alt_titles": [
+      "LOOK BACK"
+    ],
+    "rating": "8"
+  },
+  "tt0133240": {
+    "review_date": "2024-11-14",
+    "title": "Treasure Planet",
+    "release_date": "2002-11-26",
+    "original_title": "Treasure Planet",
+    "alt_titles": [],
+    "rating": "4"
+  },
+  "tt29623480": {
+    "review_date": "2024-11-14",
+    "title": "The Wild Robot",
+    "release_date": "2024-09-12",
+    "original_title": "The Wild Robot",
+    "alt_titles": [],
+    "rating": "5"
   }
 }
