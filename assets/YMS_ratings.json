@@ -31531,5 +31531,36 @@
     "original_title": "Memoir of a Snail",
     "alt_titles": [],
     "rating": "8"
+  },
+  "tt29268110": {
+    "review_date": "2024-11-24",
+    "title": "Smile 2",
+    "release_date": "2024-10-16",
+    "original_title": "Smile 2",
+    "alt_titles": [
+      "Too Much for One Heart.",
+      "Smile Deluxe"
+    ],
+    "rating": "2"
+  },
+  "tt0096251": {
+    "review_date": "2024-11-24",
+    "title": "Tetsuo: The Iron Man",
+    "release_date": "1989-07-01",
+    "original_title": "鉄男",
+    "alt_titles": [
+      "The Ironman"
+    ],
+    "rating": "8"
+  },
+  "tt8613070": {
+    "review_date": "2024-11-24",
+    "title": "Portrait of a Lady on Fire",
+    "release_date": "2019-09-18",
+    "original_title": "Portrait de la jeune fille en feu",
+    "alt_titles": [
+      "Portrait of a Lady on Fire"
+    ],
+    "rating": "6"
   }
 }
