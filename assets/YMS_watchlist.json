@@ -30898,13 +30898,6 @@
     "original_title": "Better Off Dead...",
     "alt_titles": []
   },
-  "tt4648586": {
-    "review_date": "2024-08-09",
-    "title": "Rufus",
-    "release_date": "2016-01-18",
-    "original_title": "Rufus",
-    "alt_titles": []
-  },
   "tt0418446": {
     "review_date": "2024-08-10",
     "title": "You Are What You Eat",
@@ -31772,5 +31765,23 @@
     "release_date": "2000-05-03",
     "original_title": "Beau travail",
     "alt_titles": []
+  },
+  "tt0136639": {
+    "review_date": "2024-12-04",
+    "title": "Extreme Dinosaurs",
+    "release_date": "1997-09-01",
+    "original_title": "Extreme Dinosaurs",
+    "alt_titles": []
+  },
+  "tt24248198": {
+    "review_date": "2024-12-05",
+    "title": "Adult Swim Yule Log",
+    "release_date": "2022-12-11",
+    "original_title": "Adult Swim Yule Log",
+    "alt_titles": [
+      "The Fireplace",
+      "Yule Log",
+      "The Fireplace aka Adult Swim Yule Log"
+    ]
   }
 }
