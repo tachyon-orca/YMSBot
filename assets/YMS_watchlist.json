@@ -12367,13 +12367,6 @@
     "original_title": "Notes on Blindness",
     "alt_titles": []
   },
-  "tt4334266": {
-    "review_date": "2019-11-08",
-    "title": "The Bad Batch",
-    "release_date": "2017-06-23",
-    "original_title": "The Bad Batch",
-    "alt_titles": []
-  },
   "tt6593054": {
     "review_date": "2019-11-15",
     "title": "Drive",
@@ -17300,13 +17293,6 @@
     "original_title": "Já, Olga Hepnarová",
     "alt_titles": []
   },
-  "tt5129510": {
-    "review_date": "2021-03-30",
-    "title": "The Death of Louis XIV",
-    "release_date": "2016-11-02",
-    "original_title": "La Mort de Louis XIV",
-    "alt_titles": []
-  },
   "tt0114214": {
     "review_date": "2021-03-31",
     "title": "The Quick and the Dead",
@@ -17528,13 +17514,6 @@
     "title": "Newtown",
     "release_date": "2016-01-24",
     "original_title": "Newtown",
-    "alt_titles": []
-  },
-  "tt9056818": {
-    "review_date": "2021-04-08",
-    "title": "Last Breath",
-    "release_date": "2019-04-05",
-    "original_title": "Last Breath",
     "alt_titles": []
   },
   "tt0264090": {
@@ -20361,13 +20340,6 @@
     "title": "The Last Face",
     "release_date": "2017-01-11",
     "original_title": "The Last Face",
-    "alt_titles": []
-  },
-  "tt5563254": {
-    "review_date": "2021-09-18",
-    "title": "Close Encounters with Vilmos Zsigmond",
-    "release_date": "2016-05-13",
-    "original_title": "Close Encounters with Vilmos Zsigmond",
     "alt_titles": []
   },
   "tt11276298": {
@@ -31810,13 +31782,6 @@
       "The Hottie and the Nottie"
     ]
   },
-  "tt34622349": {
-    "review_date": "2024-12-19",
-    "title": "Half-Life 2: 20th Anniversary Documentary",
-    "release_date": "2024-11-15",
-    "original_title": "Half-Life 2: 20th Anniversary Documentary",
-    "alt_titles": []
-  },
   "tt0112461": {
     "review_date": "2024-12-20",
     "title": "The Basketball Diaries",
@@ -31869,5 +31834,35 @@
     "release_date": "2024-12-18",
     "original_title": "Wallace & Gromit: Vengeance Most Fowl",
     "alt_titles": []
+  },
+  "tt14403504": {
+    "review_date": "2024-12-28",
+    "title": "Last Breath",
+    "release_date": "2025-02-28",
+    "original_title": "Last Breath",
+    "alt_titles": []
+  },
+  "tt26245982": {
+    "review_date": "2024-12-28",
+    "title": "Afternoons of Solitude",
+    "release_date": "2025-03-07",
+    "original_title": "Tardes de soledad",
+    "alt_titles": []
+  },
+  "tt30060427": {
+    "review_date": "2024-12-28",
+    "title": "Half-Life: 25th Anniversary Documentary",
+    "release_date": "2023-11-17",
+    "original_title": "Half-Life: 25th Anniversary Documentary",
+    "alt_titles": []
+  },
+  "tt3120508": {
+    "review_date": "2024-12-28",
+    "title": "Bone Alone",
+    "release_date": "2013-10-04",
+    "original_title": "Bone Alone",
+    "alt_titles": [
+      "Alone for Christmas"
+    ]
   }
 }
