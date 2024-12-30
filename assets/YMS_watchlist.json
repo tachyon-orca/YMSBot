@@ -4281,13 +4281,6 @@
       "What's Cooking in Paris?"
     ]
   },
-  "tt5072542": {
-    "review_date": "2016-01-10",
-    "title": "The First, the Last",
-    "release_date": "2016-01-27",
-    "original_title": "Les Premiers, les Derniers",
-    "alt_titles": []
-  },
   "tt4326444": {
     "review_date": "2016-01-10",
     "title": "Julieta",
@@ -5248,13 +5241,6 @@
     "alt_titles": [
       "Lion"
     ]
-  },
-  "tt5226436": {
-    "review_date": "2016-09-04",
-    "title": "The Fourth Phase",
-    "release_date": "2016-10-02",
-    "original_title": "The Fourth Phase",
-    "alt_titles": []
   },
   "tt0086203": {
     "review_date": "2016-09-05",
@@ -7609,15 +7595,6 @@
     "release_date": "2016-04-12",
     "original_title": "Ученик",
     "alt_titles": []
-  },
-  "tt2452386": {
-    "review_date": "2018-02-10",
-    "title": "The Fundamentals of Caring",
-    "release_date": "2016-06-16",
-    "original_title": "The Fundamentals of Caring",
-    "alt_titles": [
-      "The Revised Fundamentals of Caregiving"
-    ]
   },
   "tt1685401": {
     "review_date": "2018-02-10",
@@ -14099,15 +14076,6 @@
     "original_title": "Unsubscribe",
     "alt_titles": []
   },
-  "tt4063800": {
-    "review_date": "2020-08-29",
-    "title": "The Bureau",
-    "release_date": "2015-04-27",
-    "original_title": "Le Bureau des légendes",
-    "alt_titles": [
-      "The Killing Kind"
-    ]
-  },
   "tt0411270": {
     "review_date": "2020-08-29",
     "title": "The Beat That My Heart Skipped",
@@ -20319,13 +20287,6 @@
     "title": "Reprise",
     "release_date": "2006-09-08",
     "original_title": "Reprise",
-    "alt_titles": []
-  },
-  "tt3794028": {
-    "review_date": "2021-09-18",
-    "title": "From the Land of the Moon",
-    "release_date": "2016-10-19",
-    "original_title": "Mal de pierres",
     "alt_titles": []
   },
   "tt5231812": {
@@ -29838,13 +29799,6 @@
   "tt3468534": {
     "review_date": "2024-04-11"
   },
-  "tt5698496": {
-    "review_date": "2024-04-11",
-    "title": "The Girl Without Hands",
-    "release_date": "2016-12-14",
-    "original_title": "La jeune fille sans mains",
-    "alt_titles": []
-  },
   "tt2603600": {
     "review_date": "2024-04-11",
     "title": "Voiceless",
@@ -31938,5 +31892,12 @@
     "alt_titles": [
       "Death of a Unicorne"
     ]
+  },
+  "tt12373972": {
+    "review_date": "2024-12-30",
+    "title": "Reset",
+    "release_date": "2023-01-13",
+    "original_title": "Reset",
+    "alt_titles": []
   }
 }
