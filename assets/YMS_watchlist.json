@@ -14508,13 +14508,6 @@
     "original_title": "La Passion de Jeanne d'Arc",
     "alt_titles": []
   },
-  "tt0081398": {
-    "review_date": "2020-10-11",
-    "title": "Raging Bull",
-    "release_date": "1980-11-14",
-    "original_title": "Raging Bull",
-    "alt_titles": []
-  },
   "tt0064040": {
     "review_date": "2020-10-13",
     "title": "Army of Shadows",
@@ -32080,5 +32073,18 @@
   },
   "tt32221196": {
     "review_date": "2025-01-22"
+  },
+  "tt31066209": {
+    "review_date": "2025-01-24"
+  },
+  "tt33308489": {
+    "review_date": "2025-01-24"
+  },
+  "tt32832554": {
+    "review_date": "2025-01-25",
+    "title": "This Is the Tom Green Documentary",
+    "release_date": "2025-01-23",
+    "original_title": "This Is the Tom Green Documentary",
+    "alt_titles": []
   }
 }
