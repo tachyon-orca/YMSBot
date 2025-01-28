@@ -2911,13 +2911,6 @@
     "original_title": "The Light Between Oceans",
     "alt_titles": []
   },
-  "tt0298203": {
-    "review_date": "2014-11-20",
-    "title": "8 Mile",
-    "release_date": "2002-11-08",
-    "original_title": "8 Mile",
-    "alt_titles": []
-  },
   "tt0384680": {
     "review_date": "2014-11-21",
     "title": "The Weather Man",
@@ -32120,5 +32113,14 @@
   },
   "tt35051430": {
     "review_date": "2025-01-27"
+  },
+  "tt5903392": {
+    "review_date": "2025-01-27",
+    "title": "77 Minutes",
+    "release_date": "2016-09-23",
+    "original_title": "77 Minutes",
+    "alt_titles": [
+      "1984 San Diego McDonald's Massacre: 77 Minutes"
+    ]
   }
 }
