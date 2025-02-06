@@ -30495,13 +30495,6 @@
     "original_title": "Disciples in the Moonlight",
     "alt_titles": []
   },
-  "tt21097228": {
-    "review_date": "2024-07-19",
-    "title": "A Different Man",
-    "release_date": "2024-09-20",
-    "original_title": "A Different Man",
-    "alt_titles": []
-  },
   "tt28092756": {
     "review_date": "2024-07-19",
     "title": "The Second",
@@ -32154,6 +32147,20 @@
     "title": "Together",
     "release_date": "2025-08-01",
     "original_title": "Together",
+    "alt_titles": []
+  },
+  "tt18346498": {
+    "review_date": "2025-02-06",
+    "title": "Architecton",
+    "release_date": "2024-10-03",
+    "original_title": "Architecton",
+    "alt_titles": []
+  },
+  "tt2024417": {
+    "review_date": "2025-02-06",
+    "title": "Go Down Death",
+    "release_date": "2014-03-25",
+    "original_title": "Go Down Death",
     "alt_titles": []
   }
 }
