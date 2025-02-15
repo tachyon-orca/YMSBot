@@ -31509,12 +31509,12 @@
     "rating": "4"
   },
   "tt29623480": {
-    "review_date": "2024-11-14",
+    "review_date": "2025-02-15",
     "title": "The Wild Robot",
     "release_date": "2024-09-12",
     "original_title": "The Wild Robot",
     "alt_titles": [],
-    "rating": "5"
+    "rating": "4"
   },
   "tt0218839": {
     "review_date": "2024-11-16",
@@ -32006,5 +32006,13 @@
       "The Apprentice The Trump Story"
     ],
     "rating": "6"
+  },
+  "tt5040012": {
+    "review_date": "2025-02-15",
+    "title": "Nosferatu",
+    "release_date": "2024-12-25",
+    "original_title": "Nosferatu",
+    "alt_titles": [],
+    "rating": "8"
   }
 }
