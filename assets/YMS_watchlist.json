@@ -22005,15 +22005,6 @@
     "original_title": "Aftermath",
     "alt_titles": []
   },
-  "tt13502666": {
-    "review_date": "2022-03-03",
-    "title": "Brideshead Revisited",
-    "release_date": "",
-    "original_title": "Brideshead Revisited",
-    "alt_titles": [
-      "Inadmissible"
-    ]
-  },
   "tt8282042": {
     "review_date": "2022-03-03",
     "title": "Donbass",
@@ -32215,6 +32206,20 @@
     "title": "Apple Cider Vinegar",
     "release_date": "2025-02-06",
     "original_title": "Apple Cider Vinegar",
+    "alt_titles": []
+  },
+  "tt0081230": {
+    "review_date": "2025-02-16",
+    "title": "Night of the Juggler",
+    "release_date": "1980-06-06",
+    "original_title": "Night of the Juggler",
+    "alt_titles": []
+  },
+  "tt8291022": {
+    "review_date": "2025-02-16",
+    "title": "London Mitchell's Christmas",
+    "release_date": "2019-12-05",
+    "original_title": "London Mitchell's Christmas",
     "alt_titles": []
   }
 }
