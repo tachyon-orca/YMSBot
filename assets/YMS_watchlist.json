@@ -7689,13 +7689,6 @@
       "Rigor Mortis"
     ]
   },
-  "tt0116922": {
-    "review_date": "2018-03-06",
-    "title": "Lost Highway",
-    "release_date": "1997-01-15",
-    "original_title": "Lost Highway",
-    "alt_titles": []
-  },
   "tt4572984": {
     "review_date": "2018-03-13",
     "title": "Pushing Dead",
@@ -32245,5 +32238,12 @@
   },
   "tt23750858": {
     "review_date": "2025-02-22"
+  },
+  "tt6632018": {
+    "review_date": "2025-02-25",
+    "title": "The King Tide",
+    "release_date": "2024-04-26",
+    "original_title": "The King Tide",
+    "alt_titles": []
   }
 }
