@@ -776,13 +776,6 @@
     "original_title": "Hedwig and the Angry Inch",
     "alt_titles": []
   },
-  "tt0090756": {
-    "review_date": "2012-05-06",
-    "title": "Blue Velvet",
-    "release_date": "1986-09-19",
-    "original_title": "Blue Velvet",
-    "alt_titles": []
-  },
   "tt0318761": {
     "review_date": "2012-06-08",
     "title": "Thumbsucker",
@@ -30007,12 +30000,8 @@
   "tt27543562": {
     "review_date": "2024-05-06"
   },
-  "tt27420294": {
-    "review_date": "2024-05-06",
-    "title": "City on Fire",
-    "release_date": "",
-    "original_title": "City on Fire",
-    "alt_titles": []
+  "tt14764514": {
+    "review_date": "2024-05-06"
   },
   "tt8774798": {
     "review_date": "2024-05-08",
@@ -32296,5 +32285,79 @@
     "alt_titles": [
       "Untitled Trey Parker/Matt Stone/Kendrick Lamar Comedy"
     ]
+  },
+  "tt11214558": {
+    "review_date": "2025-02-28",
+    "title": "The Smashing Machine",
+    "release_date": "2025-12-31",
+    "original_title": "The Smashing Machine",
+    "alt_titles": []
+  },
+  "tt1312221": {
+    "review_date": "2025-02-28",
+    "title": "Frankenstein",
+    "release_date": "",
+    "original_title": "Frankenstein",
+    "alt_titles": [
+      "Guillermo del Toro's Frankenstein",
+      "Dr. Frankenstein"
+    ]
+  },
+  "tt14364480": {
+    "review_date": "2025-02-28",
+    "title": "Wake Up Dead Man: A Knives Out Mystery",
+    "release_date": "2025-12-31",
+    "original_title": "Wake Up Dead Man: A Knives Out Mystery",
+    "alt_titles": [
+      "Knives Out 3",
+      "Wake Up Dead Man"
+    ]
+  },
+  "tt31176520": {
+    "review_date": "2025-02-28",
+    "title": "Eddington",
+    "release_date": "",
+    "original_title": "Eddington",
+    "alt_titles": []
+  },
+  "tt30253473": {
+    "review_date": "2025-02-28",
+    "title": "Materialists",
+    "release_date": "",
+    "original_title": "Materialists",
+    "alt_titles": []
+  },
+  "tt27200708": {
+    "review_date": "2025-02-28",
+    "title": "Mother Mary",
+    "release_date": "",
+    "original_title": "Mother Mary",
+    "alt_titles": []
+  },
+  "tt10548174": {
+    "review_date": "2025-02-28",
+    "title": "28 Years Later",
+    "release_date": "2025-06-16",
+    "original_title": "28 Years Later",
+    "alt_titles": [
+      "28 Days Later 3"
+    ]
+  },
+  "tt32275943": {
+    "review_date": "2025-02-28"
+  },
+  "tt1493274": {
+    "review_date": "2025-02-28",
+    "title": "Caught Stealing",
+    "release_date": "2025-08-28",
+    "original_title": "Caught Stealing",
+    "alt_titles": []
+  },
+  "tt28521744": {
+    "review_date": "2025-02-28",
+    "title": "Crocodile Tears",
+    "release_date": "2025-04-24",
+    "original_title": "Air Mata Buaya",
+    "alt_titles": []
   }
 }
