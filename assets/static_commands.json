@@ -10,6 +10,11 @@
         "message": "https://linktr.ee/ymsbot"
     },
     {
+        "name": "pals",
+        "aliases": [],
+        "message": "https://linktr.ee/ymspals"
+    },
+    {
         "name": "audible",
         "aliases": [],
         "message": "ONE MONTH AUDIBLE FREE TRIAL: http://www.audibletrial.com/YMS"
