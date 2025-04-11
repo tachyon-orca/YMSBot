@@ -1057,13 +1057,6 @@
     "original_title": "Kinsey",
     "alt_titles": []
   },
-  "tt0278504": {
-    "review_date": "2012-11-03",
-    "title": "Insomnia",
-    "release_date": "2002-05-24",
-    "original_title": "Insomnia",
-    "alt_titles": []
-  },
   "tt0102943": {
     "review_date": "2012-11-09",
     "title": "Slacker",
@@ -14703,13 +14696,6 @@
     "original_title": "Showbiz Kids",
     "alt_titles": []
   },
-  "tt0119375": {
-    "review_date": "2020-11-02",
-    "title": "Insomnia",
-    "release_date": "1997-03-14",
-    "original_title": "Insomnia",
-    "alt_titles": []
-  },
   "tt0063633": {
     "review_date": "2020-11-02",
     "title": "The Cremator",
@@ -14775,13 +14761,6 @@
     "title": "Occupied City",
     "release_date": "2023-11-30",
     "original_title": "Occupied City",
-    "alt_titles": []
-  },
-  "tt0055852": {
-    "review_date": "2020-11-07",
-    "title": "Cléo from 5 to 7",
-    "release_date": "1962-04-11",
-    "original_title": "Cléo de 5 à 7",
     "alt_titles": []
   },
   "tt0058985": {
@@ -31614,13 +31593,6 @@
       "Stillness in the Water"
     ]
   },
-  "tt5181260": {
-    "review_date": "2024-12-29",
-    "title": "The Unbreakable Boy",
-    "release_date": "2025-02-20",
-    "original_title": "The Unbreakable Boy",
-    "alt_titles": []
-  },
   "tt31434639": {
     "review_date": "2024-12-29",
     "title": "Warfare",
@@ -32311,13 +32283,6 @@
     "original_title": "Air Mata Buaya",
     "alt_titles": []
   },
-  "tt30988739": {
-    "review_date": "2025-03-03",
-    "title": "Black Bag",
-    "release_date": "2025-03-12",
-    "original_title": "Black Bag",
-    "alt_titles": []
-  },
   "tt0093870": {
     "review_date": "2025-03-04",
     "title": "RoboCop",
@@ -32593,6 +32558,117 @@
     "title": "Popeye",
     "release_date": "1980-12-12",
     "original_title": "Popeye",
+    "alt_titles": []
+  },
+  "tt4154916": {
+    "review_date": "2025-04-02",
+    "title": "Replicas",
+    "release_date": "2018-10-25",
+    "original_title": "Replicas",
+    "alt_titles": []
+  },
+  "tt0075467": {
+    "review_date": "2025-04-03",
+    "title": "The Fifth Seal",
+    "release_date": "1976-10-07",
+    "original_title": "Az ötödik pecsét",
+    "alt_titles": []
+  },
+  "tt0865297": {
+    "review_date": "2025-04-03",
+    "title": "The Black Balloon",
+    "release_date": "2008-03-08",
+    "original_title": "The Black Balloon",
+    "alt_titles": []
+  },
+  "tt32359054": {
+    "review_date": "2025-04-05",
+    "title": "The Sparrow in the Chimney",
+    "release_date": "2024-10-10",
+    "original_title": "Der Spatz im Kamin",
+    "alt_titles": []
+  },
+  "tt31938062": {
+    "review_date": "2025-04-05",
+    "title": "The Pitt",
+    "release_date": "2025-01-09",
+    "original_title": "The Pitt",
+    "alt_titles": []
+  },
+  "tt22498378": {
+    "review_date": "2025-04-05",
+    "title": "Foul Evil Deeds",
+    "release_date": "2024-08-10",
+    "original_title": "Foul Evil Deeds",
+    "alt_titles": []
+  },
+  "tt0111001": {
+    "review_date": "2025-04-06",
+    "title": "The Road to Wellville",
+    "release_date": "1994-10-28",
+    "original_title": "The Road to Wellville",
+    "alt_titles": []
+  },
+  "tt15690980": {
+    "review_date": "2025-04-06",
+    "title": "Psi Cops",
+    "release_date": "2023-06-04",
+    "original_title": "Psi Cops",
+    "alt_titles": []
+  },
+  "tt23060698": {
+    "review_date": "2025-04-06",
+    "title": "Clown in a Cornfield",
+    "release_date": "2025-05-08",
+    "original_title": "Clown in a Cornfield",
+    "alt_titles": []
+  },
+  "tt21614420": {
+    "review_date": "2025-04-06",
+    "title": "The Franchise",
+    "release_date": "2024-10-06",
+    "original_title": "The Franchise",
+    "alt_titles": []
+  },
+  "tt1226229": {
+    "review_date": "2025-04-06",
+    "title": "Get Him to the Greek",
+    "release_date": "2010-06-03",
+    "original_title": "Get Him to the Greek",
+    "alt_titles": []
+  },
+  "tt11266508": {
+    "review_date": "2025-04-07"
+  },
+  "tt27001657": {
+    "review_date": "2025-04-07"
+  },
+  "tt6874690": {
+    "review_date": "2025-04-08",
+    "title": "The Rule of Jenny Pen",
+    "release_date": "2025-03-07",
+    "original_title": "The Rule of Jenny Pen",
+    "alt_titles": []
+  },
+  "tt30407364": {
+    "review_date": "2025-04-09",
+    "title": "North of North",
+    "release_date": "2025-01-07",
+    "original_title": "North of North",
+    "alt_titles": []
+  },
+  "tt26584495": {
+    "review_date": "2025-04-10",
+    "title": "Companion",
+    "release_date": "2025-01-22",
+    "original_title": "Companion",
+    "alt_titles": []
+  },
+  "tt6538336": {
+    "review_date": "2025-04-11",
+    "title": "Downside Up",
+    "release_date": "2016-12-15",
+    "original_title": "Downside Up",
     "alt_titles": []
   }
 }
