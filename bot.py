@@ -125,7 +125,7 @@ class Bot(commands.Bot):
     async def list_commands(self, ctx: commands.Context):
         await ctx.send(
             ", ".join(
-                ["Commands: !review, !scoot, !gael, !left, !back, !brbtime"]
+                ["Commands: !review, !left, !back, !brbtime"]
                 + [f"!{cmd}" for cmd in self.static_commands]
             )
             + ". All commands have a 5 second cooldown."
