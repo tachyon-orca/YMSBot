@@ -31586,13 +31586,6 @@
       "Stillness in the Water"
     ]
   },
-  "tt31434639": {
-    "review_date": "2024-12-29",
-    "title": "Warfare",
-    "release_date": "",
-    "original_title": "Warfare",
-    "alt_titles": []
-  },
   "tt28443655": {
     "review_date": "2024-12-29",
     "title": "Death of a Unicorn",
@@ -32681,13 +32674,6 @@
     "original_title": "Splitsville",
     "alt_titles": []
   },
-  "tt31193180": {
-    "review_date": "2025-04-11",
-    "title": "Sinners",
-    "release_date": "2025-04-16",
-    "original_title": "Sinners",
-    "alt_titles": []
-  },
   "tt0050371": {
     "review_date": "2025-04-13",
     "title": "A Face in the Crowd",
@@ -32727,6 +32713,107 @@
     "title": "Manic",
     "release_date": "2001-01-27",
     "original_title": "Manic",
+    "alt_titles": []
+  },
+  "tt32119297": {
+    "review_date": "2025-04-27",
+    "title": "Blue Sun Palace",
+    "release_date": "2025-03-12",
+    "original_title": "Blue Sun Palace",
+    "alt_titles": []
+  },
+  "tt3759912": {
+    "review_date": "2025-04-27",
+    "title": "Ladyworld",
+    "release_date": "2019-10-18",
+    "original_title": "Ladyworld",
+    "alt_titles": [
+      "Lady World"
+    ]
+  },
+  "tt36687047": {
+    "review_date": "2025-04-27"
+  },
+  "tt33029845": {
+    "review_date": "2025-04-27",
+    "title": "Chain Reactions",
+    "release_date": "2024-08-29",
+    "original_title": "Chain Reactions",
+    "alt_titles": []
+  },
+  "tt27827069": {
+    "review_date": "2025-04-27",
+    "title": "Come Closer",
+    "release_date": "2024-09-19",
+    "original_title": "קרוב אלי",
+    "alt_titles": []
+  },
+  "tt34966013": {
+    "review_date": "2025-04-27",
+    "title": "Come See Me in the Good Light",
+    "release_date": "2025-01-25",
+    "original_title": "Come See Me in the Good Light",
+    "alt_titles": []
+  },
+  "tt17497960": {
+    "review_date": "2025-04-27",
+    "title": "BLKNWS: Terms & Conditions",
+    "release_date": "2025-01-27",
+    "original_title": "BLKNWS: Terms & Conditions",
+    "alt_titles": []
+  },
+  "tt32928666": {
+    "review_date": "2025-04-27",
+    "title": "Familiar Touch",
+    "release_date": "2025-06-20",
+    "original_title": "Familiar Touch",
+    "alt_titles": []
+  },
+  "tt15468586": {
+    "review_date": "2025-04-27",
+    "title": "Lakota Nation vs. United States",
+    "release_date": "2022-06-11",
+    "original_title": "Lakota Nation vs. United States",
+    "alt_titles": []
+  },
+  "tt34966036": {
+    "review_date": "2025-04-27",
+    "title": "Free Leonard Peltier",
+    "release_date": "2025-01-27",
+    "original_title": "Free Leonard Peltier",
+    "alt_titles": []
+  },
+  "tt35515220": {
+    "review_date": "2025-04-27",
+    "title": "Fucktoys",
+    "release_date": "2025-03-23",
+    "original_title": "Fucktoys",
+    "alt_titles": [
+      "F*cktoys"
+    ]
+  },
+  "tt29279903": {
+    "review_date": "2025-04-27"
+  },
+  "tt34966548": {
+    "review_date": "2025-04-27",
+    "title": "Heightened Scrutiny",
+    "release_date": "2025-01-27",
+    "original_title": "Heightened Scrutiny",
+    "alt_titles": []
+  },
+  "tt32086032": {
+    "review_date": "2025-04-27",
+    "title": "The Kingdom",
+    "release_date": "2024-11-13",
+    "original_title": "Le Royaume",
+    "alt_titles": []
+  },
+  "tt29141179": {
+    "review_date": "2025-04-27",
+    "title": "Moon",
+    "release_date": "2024-11-08",
+    "original_title": "Mond",
     "alt_titles": []
   }
 }
