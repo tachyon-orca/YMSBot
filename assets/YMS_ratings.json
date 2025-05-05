@@ -16118,8 +16118,7 @@
     "alt_titles": []
   },
   "tt1883367": {
-    "review_date": "2017-08-10",
-    "rating": "3",
+    "review_date": "2025-05-05",
     "title": "The Human Centipede 3 (Final Sequence)",
     "release_date": "2015-05-22",
     "original_title": "The Human Centipede 3 (Final Sequence)",
@@ -16127,17 +16126,18 @@
       "The Human Centipede 3",
       "The Human Centipede 3 - Final Sequence",
       "The Human Centipede III"
-    ]
+    ],
+    "rating": "1"
   },
   "tt1467304": {
-    "review_date": "2017-08-10",
-    "rating": "5",
+    "review_date": "2025-05-05",
     "title": "The Human Centipede (First Sequence)",
     "release_date": "2009-10-31",
     "original_title": "The Human Centipede (First Sequence)",
     "alt_titles": [
       "The Human Centipede"
-    ]
+    ],
+    "rating": "3"
   },
   "tt1398426": {
     "review_date": "2017-08-10",
