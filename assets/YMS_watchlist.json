@@ -30667,15 +30667,6 @@
     "original_title": "ザ・ゲスイドウズ",
     "alt_titles": []
   },
-  "tt22023622": {
-    "review_date": "2024-08-15",
-    "title": "To a Land Unknown",
-    "release_date": "2025-03-12",
-    "original_title": "To a Land Unknown",
-    "alt_titles": [
-      "Men in the Sun"
-    ]
-  },
   "tt31691389": {
     "review_date": "2024-08-15",
     "title": "Universal Language",
@@ -30970,13 +30961,6 @@
     "title": "Blue Giant",
     "release_date": "2023-02-17",
     "original_title": "BLUE GIANT",
-    "alt_titles": []
-  },
-  "tt26750774": {
-    "review_date": "2024-10-22",
-    "title": "The Wailing",
-    "release_date": "2024-10-25",
-    "original_title": "El llanto",
     "alt_titles": []
   },
   "tt10521200": {
@@ -32959,6 +32943,36 @@
     "title": "Die, My Love",
     "release_date": "2025-05-17",
     "original_title": "Die, My Love",
+    "alt_titles": []
+  },
+  "tt27847051": {
+    "review_date": "2025-05-24",
+    "title": "The Secret Agent",
+    "release_date": "2025-08-21",
+    "original_title": "O Agente Secreto",
+    "alt_titles": []
+  },
+  "tt36491653": {
+    "review_date": "2025-05-24",
+    "title": "It Was Just an Accident",
+    "release_date": "2025-09-10",
+    "original_title": "یک تصادف ساده",
+    "alt_titles": [
+      "It Was Just an Accident"
+    ]
+  },
+  "tt32298285": {
+    "review_date": "2025-05-24",
+    "title": "Sirât",
+    "release_date": "2025-06-06",
+    "original_title": "Sirât",
+    "alt_titles": []
+  },
+  "tt28690468": {
+    "review_date": "2025-05-24",
+    "title": "Sound of Falling",
+    "release_date": "2025-09-11",
+    "original_title": "In die Sonne schauen",
     "alt_titles": []
   }
 }
