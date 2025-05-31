@@ -25570,15 +25570,6 @@
       "Leon"
     ]
   },
-  "tt14127944": {
-    "review_date": "2023-02-19",
-    "title": "The Actor",
-    "release_date": "",
-    "original_title": "The Actor",
-    "alt_titles": [
-      "Memory"
-    ]
-  },
   "tt0067454": {
     "review_date": "2023-02-21",
     "title": "Multiple Maniacs",
@@ -32977,6 +32968,34 @@
     "title": "From Darkness to Light",
     "release_date": "2025-04-20",
     "original_title": "From Darkness to Light",
+    "alt_titles": []
+  },
+  "tt4789246": {
+    "review_date": "2025-05-30",
+    "title": "Raised Eyebrows",
+    "release_date": "",
+    "original_title": "Raised Eyebrows",
+    "alt_titles": []
+  },
+  "tt27170114": {
+    "review_date": "2025-05-30",
+    "title": "Paying for It",
+    "release_date": "2025-01-31",
+    "original_title": "Paying for It",
+    "alt_titles": []
+  },
+  "tt12924420": {
+    "review_date": "2025-05-30",
+    "title": "Monkey Wrench",
+    "release_date": "2022-07-18",
+    "original_title": "Monkey Wrench",
+    "alt_titles": []
+  },
+  "tt3113456": {
+    "review_date": "2025-05-31",
+    "title": "Doomed! The Untold Story of Roger Corman's The Fantastic Four",
+    "release_date": "2015-07-10",
+    "original_title": "Doomed! The Untold Story of Roger Corman's The Fantastic Four",
     "alt_titles": []
   }
 }
