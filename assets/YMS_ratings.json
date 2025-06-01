@@ -32275,5 +32275,29 @@
       "Memory"
     ],
     "rating": "6"
+  },
+  "tt0486576": {
+    "review_date": "2025-06-01",
+    "title": "Fantastic Four: Rise of the Silver Surfer",
+    "release_date": "2007-06-13",
+    "original_title": "Fantastic Four: Rise of the Silver Surfer",
+    "alt_titles": [
+      "Fantastic Four: The Next Chapter",
+      "Fantastic Four 2: Rise of the Silver Surfer",
+      "Fantastic Four 2",
+      "Fantastic Four and the Silver Surfer",
+      "4: Rise of the Silver Surfer"
+    ],
+    "rating": "2"
+  },
+  "tt0120667": {
+    "review_date": "2025-05-31",
+    "title": "Fantastic Four",
+    "release_date": "2005-06-29",
+    "original_title": "Fantastic Four",
+    "alt_titles": [
+      "Fantastic 4"
+    ],
+    "rating": "4"
   }
 }
