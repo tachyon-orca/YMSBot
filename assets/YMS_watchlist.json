@@ -7568,13 +7568,6 @@
     "original_title": "Overlord",
     "alt_titles": []
   },
-  "tt6149154": {
-    "review_date": "2018-02-17",
-    "title": "Waiting for the Barbarians",
-    "release_date": "2019-09-06",
-    "original_title": "Waiting for the Barbarians",
-    "alt_titles": []
-  },
   "tt6219528": {
     "review_date": "2018-02-17",
     "title": "Idol's Eye",
@@ -26184,13 +26177,6 @@
       "Hands on a Hard Body: The Documentary"
     ]
   },
-  "tt2822864": {
-    "review_date": "2023-06-04",
-    "title": "Run the Tide",
-    "release_date": "2016-12-02",
-    "original_title": "Run the Tide",
-    "alt_titles": []
-  },
   "tt14592064": {
     "review_date": "2023-06-04",
     "title": "Home Team",
@@ -27845,13 +27831,6 @@
     "original_title": "Observe and Report",
     "alt_titles": []
   },
-  "tt26927452": {
-    "review_date": "2023-11-06",
-    "title": "Untitled Trey Edward Shults Project",
-    "release_date": "",
-    "original_title": "Untitled Trey Edward Shults Project",
-    "alt_titles": []
-  },
   "tt13699486": {
     "review_date": "2023-11-06",
     "title": "Cutblock",
@@ -28640,20 +28619,6 @@
     "original_title": "The Creator",
     "alt_titles": [
       "True Love"
-    ]
-  },
-  "tt9603212": {
-    "review_date": "2024-01-23",
-    "title": "Mission: Impossible - Dead Reckoning Part One",
-    "release_date": "2023-07-08",
-    "original_title": "Mission: Impossible - Dead Reckoning Part One",
-    "alt_titles": [
-      "Mission: Impossible VII",
-      "Mission: Impossible 7",
-      "Mission: Impossible - Dead Reckoning Part 1",
-      "Mission: Impossible – Dead Reckoning Part One",
-      "Mission: Impossible - Dead Reckoning",
-      "Mission: Impossible 7 - Dead Reckoning, Pt. 1"
     ]
   },
   "tt28865980": {
@@ -32991,11 +32956,325 @@
     "original_title": "Monkey Wrench",
     "alt_titles": []
   },
-  "tt3113456": {
-    "review_date": "2025-05-31",
-    "title": "Doomed! The Untold Story of Roger Corman's The Fantastic Four",
-    "release_date": "2015-07-10",
-    "original_title": "Doomed! The Untold Story of Roger Corman's The Fantastic Four",
+  "tt13651416": {
+    "review_date": "2025-06-02",
+    "title": "Fluxx",
+    "release_date": "2024-03-02",
+    "original_title": "Fluxx",
     "alt_titles": []
+  },
+  "tt8036976": {
+    "review_date": "2025-06-02",
+    "title": "Send Help",
+    "release_date": "2026-01-29",
+    "original_title": "Send Help",
+    "alt_titles": []
+  },
+  "tt36962948": {
+    "review_date": "2025-06-02"
+  },
+  "tt35410859": {
+    "review_date": "2025-06-02",
+    "title": "Fjord",
+    "release_date": "",
+    "original_title": "Fjord",
+    "alt_titles": []
+  },
+  "tt29703112": {
+    "review_date": "2025-06-02",
+    "title": "They Follow",
+    "release_date": "",
+    "original_title": "They Follow",
+    "alt_titles": [
+      "It Follows 2"
+    ]
+  },
+  "tt30486922": {
+    "review_date": "2025-06-02",
+    "title": "Evergreen Pines and the Fading Summer",
+    "release_date": "",
+    "original_title": "Evergreen Pines and the Fading Summer",
+    "alt_titles": []
+  },
+  "tt36646880": {
+    "review_date": "2025-06-02",
+    "title": "Parallel Tales",
+    "release_date": "",
+    "original_title": "Histoires parallèles",
+    "alt_titles": [
+      "Parallel Tales"
+    ]
+  },
+  "tt31974367": {
+    "review_date": "2025-06-02",
+    "title": "The Beast in Me",
+    "release_date": "",
+    "original_title": "The Beast in Me",
+    "alt_titles": []
+  },
+  "tt26688713": {
+    "review_date": "2025-06-02",
+    "title": "Sontag",
+    "release_date": "",
+    "original_title": "Sontag",
+    "alt_titles": []
+  },
+  "tt35514120": {
+    "review_date": "2025-06-02",
+    "title": "Werwulf",
+    "release_date": "2026-12-25",
+    "original_title": "Werwulf",
+    "alt_titles": []
+  },
+  "tt2833840": {
+    "review_date": "2025-06-02",
+    "title": "Untitled Labyrinth Sequel",
+    "release_date": "",
+    "original_title": "Untitled Labyrinth Sequel",
+    "alt_titles": []
+  },
+  "tt27192617": {
+    "review_date": "2025-06-02",
+    "title": "Untitled Jordan Peele Film",
+    "release_date": "2026-10-23",
+    "original_title": "Untitled Jordan Peele Film",
+    "alt_titles": []
+  },
+  "tt22876230": {
+    "review_date": "2025-06-02",
+    "title": "Untitled Adam Sandler/Josh Safdie Project",
+    "release_date": "",
+    "original_title": "Untitled Adam Sandler/Josh Safdie Project",
+    "alt_titles": []
+  },
+  "tt37118301": {
+    "review_date": "2025-06-02"
+  },
+  "tt9373288": {
+    "review_date": "2025-06-02"
+  },
+  "tt5635026": {
+    "review_date": "2025-06-02",
+    "title": "Peter Pan & Wendy",
+    "release_date": "2023-04-20",
+    "original_title": "Peter Pan & Wendy",
+    "alt_titles": [
+      "Peter Pan and Wendy",
+      "Peter Pan Wendy"
+    ]
+  },
+  "tt36456563": {
+    "review_date": "2025-06-02",
+    "title": "Magellan",
+    "release_date": "2025-05-18",
+    "original_title": "Magalhães",
+    "alt_titles": []
+  },
+  "tt13478510": {
+    "review_date": "2025-06-02",
+    "title": "The Fence",
+    "release_date": "",
+    "original_title": "The Fence",
+    "alt_titles": []
+  },
+  "tt34688195": {
+    "review_date": "2025-06-02",
+    "title": "Couture",
+    "release_date": "2025-10-15",
+    "original_title": "Couture",
+    "alt_titles": []
+  },
+  "tt37023954": {
+    "review_date": "2025-06-02"
+  },
+  "tt36753615": {
+    "review_date": "2025-06-02",
+    "title": "Bad Lieutenant: Tokyo",
+    "release_date": "",
+    "original_title": "Bad Lieutenant: Tokyo",
+    "alt_titles": []
+  },
+  "tt12728392": {
+    "review_date": "2025-06-02",
+    "title": "Proxy",
+    "release_date": "",
+    "original_title": "Proxy",
+    "alt_titles": []
+  },
+  "tt1796741": {
+    "review_date": "2025-06-02"
+  },
+  "tt32203967": {
+    "review_date": "2025-06-02",
+    "title": "At the Sea",
+    "release_date": "",
+    "original_title": "At the Sea",
+    "alt_titles": []
+  },
+  "tt9735572": {
+    "review_date": "2025-06-02"
+  },
+  "tt34206385": {
+    "review_date": "2025-06-02",
+    "title": "Primetime",
+    "release_date": "",
+    "original_title": "Primetime",
+    "alt_titles": []
+  },
+  "tt36943034": {
+    "review_date": "2025-06-02"
+  },
+  "tt36958999": {
+    "review_date": "2025-06-02",
+    "title": "GOHAN",
+    "release_date": "",
+    "original_title": "GOHAN",
+    "alt_titles": []
+  },
+  "tt31637517": {
+    "review_date": "2025-06-02",
+    "title": "Untitled Daniels Project",
+    "release_date": "2026-06-12",
+    "original_title": "Untitled Daniels Project",
+    "alt_titles": []
+  },
+  "tt21426932": {
+    "review_date": "2025-06-02",
+    "title": "Mason",
+    "release_date": "",
+    "original_title": "Mason",
+    "alt_titles": []
+  },
+  "tt33381401": {
+    "review_date": "2025-06-02",
+    "title": "The Love That Remains",
+    "release_date": "2025-05-18",
+    "original_title": "Ástin sem eftir er",
+    "alt_titles": []
+  },
+  "tt20426466": {
+    "review_date": "2025-06-02",
+    "title": "The Entertainment System Is Down",
+    "release_date": "",
+    "original_title": "The Entertainment System Is Down",
+    "alt_titles": []
+  },
+  "tt15799564": {
+    "review_date": "2025-06-02",
+    "title": "Wild Horse Nine",
+    "release_date": "",
+    "original_title": "Wild Horse Nine",
+    "alt_titles": []
+  },
+  "tt33071426": {
+    "review_date": "2025-06-02",
+    "title": "The Drama",
+    "release_date": "",
+    "original_title": "The Drama",
+    "alt_titles": []
+  },
+  "tt30446847": {
+    "review_date": "2025-06-02",
+    "title": "Jay Kelly",
+    "release_date": "2025-11-14",
+    "original_title": "Jay Kelly",
+    "alt_titles": [
+      "Jay Kelly"
+    ]
+  },
+  "tt33408463": {
+    "review_date": "2025-06-02",
+    "title": "Evil Puddle",
+    "release_date": "2025-05-24",
+    "original_title": "Evil Puddle",
+    "alt_titles": []
+  },
+  "tt28088049": {
+    "review_date": "2025-06-02",
+    "title": "Bitter Christmas",
+    "release_date": "",
+    "original_title": "Amarga Navidad",
+    "alt_titles": []
+  },
+  "tt28281591": {
+    "review_date": "2025-06-02",
+    "title": "Estomago 2: The Cookfather",
+    "release_date": "2024-08-29",
+    "original_title": "Estômago 2: O Poderoso Chef",
+    "alt_titles": [
+      "Estomago 2: The Cookfather"
+    ]
+  },
+  "tt11767724": {
+    "review_date": "2025-06-02",
+    "title": "Skunk",
+    "release_date": "2024-03-13",
+    "original_title": "Skunk",
+    "alt_titles": []
+  },
+  "tt6318728": {
+    "review_date": "2025-06-02",
+    "title": "Angel",
+    "release_date": "2018-09-19",
+    "original_title": "Un Ange",
+    "alt_titles": []
+  },
+  "tt36408401": {
+    "review_date": "2025-06-02",
+    "title": "The Continuing Adventures of Cliff Booth",
+    "release_date": "2026-07-22",
+    "original_title": "The Continuing Adventures of Cliff Booth",
+    "alt_titles": []
+  },
+  "tt33143563": {
+    "review_date": "2025-06-02",
+    "title": "I Don't Work for Peanuts I Work for God",
+    "release_date": "",
+    "original_title": "I Don't Work for Peanuts I Work for God",
+    "alt_titles": []
+  },
+  "tt13130596": {
+    "review_date": "2025-06-02",
+    "title": "The Owner",
+    "release_date": "2023-11-09",
+    "original_title": "Хозяин",
+    "alt_titles": []
+  },
+  "tt0179116": {
+    "review_date": "2025-06-03",
+    "title": "But I'm a Cheerleader",
+    "release_date": "2000-07-07",
+    "original_title": "But I'm a Cheerleader",
+    "alt_titles": []
+  },
+  "tt36271338": {
+    "review_date": "2025-06-03"
+  },
+  "tt35628853": {
+    "review_date": "2025-06-04",
+    "title": "Titan: The OceanGate Disaster",
+    "release_date": "2025-06-06",
+    "original_title": "Titan: The OceanGate Disaster",
+    "alt_titles": []
+  },
+  "tt24216852": {
+    "review_date": "2025-06-04"
+  },
+  "tt10437344": {
+    "review_date": "2025-06-04",
+    "title": "The Hawkline Monster",
+    "release_date": "",
+    "original_title": "The Hawkline Monster",
+    "alt_titles": []
+  },
+  "tt0320512": {
+    "review_date": "2025-06-10",
+    "title": "The Smashing Machine",
+    "release_date": "2002-05-01",
+    "original_title": "The Smashing Machine",
+    "alt_titles": [
+      "The Smashing Machine: The Life and Times of Mark Kerr",
+      "The Smashing Machine: The Life and Times of Extreme Fighter Mark Kerr"
+    ]
   }
 }
