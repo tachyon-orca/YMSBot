@@ -31485,15 +31485,6 @@
     "original_title": "Catch Me If You Can",
     "alt_titles": []
   },
-  "tt9619824": {
-    "review_date": "2024-12-29",
-    "title": "Final Destination: Bloodlines",
-    "release_date": "2025-05-15",
-    "original_title": "Final Destination: Bloodlines",
-    "alt_titles": [
-      "Final Destination 6: Bloodlines"
-    ]
-  },
   "tt0073195": {
     "review_date": "2024-12-29",
     "title": "Jaws",
@@ -33310,6 +33301,13 @@
     "title": "The Fruit Machine",
     "release_date": "2018-05-01",
     "original_title": "The Fruit Machine",
+    "alt_titles": []
+  },
+  "tt0078966": {
+    "review_date": "2025-06-21",
+    "title": "The China Syndrome",
+    "release_date": "1979-03-16",
+    "original_title": "The China Syndrome",
     "alt_titles": []
   }
 }
