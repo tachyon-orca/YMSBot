@@ -1,4 +1,5 @@
 import json
+import unicodedata
 
 import pandas as pd
 
@@ -15,6 +16,10 @@ priority = [
     "Film Festival",
     "Oscars",
 ]
+
+
+def normalize(s):
+    return unicodedata.normalize("NFKC", s)
 
 
 def get_series(title):
@@ -58,7 +63,9 @@ def main():
                 "title": row["Title"],
                 "reviews": [],
             }
-        reviews[imdb_id]["reviews"].append((row["Video Title"], row["Video Link"]))
+        reviews[imdb_id]["reviews"].append(
+            (normalize(row["Video Title"]), row["Video Link"])
+        )
 
     for imdb_id, review in reviews.items():
         review["reviews"] = [
