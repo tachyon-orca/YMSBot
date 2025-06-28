@@ -2031,13 +2031,6 @@
       "A Kite"
     ]
   },
-  "tt2872732": {
-    "review_date": "2014-04-03",
-    "title": "Lucy",
-    "release_date": "2014-07-25",
-    "original_title": "Lucy",
-    "alt_titles": []
-  },
   "tt0396818": {
     "review_date": "2014-04-05",
     "title": "First Love",
@@ -32124,13 +32117,6 @@
     "original_title": "Eddington",
     "alt_titles": []
   },
-  "tt30253473": {
-    "review_date": "2025-02-28",
-    "title": "Materialists",
-    "release_date": "",
-    "original_title": "Materialists",
-    "alt_titles": []
-  },
   "tt27200708": {
     "review_date": "2025-02-28",
     "title": "Mother Mary",
@@ -33219,13 +33205,6 @@
     "original_title": "Хозяин",
     "alt_titles": []
   },
-  "tt0179116": {
-    "review_date": "2025-06-03",
-    "title": "But I'm a Cheerleader",
-    "release_date": "2000-07-07",
-    "original_title": "But I'm a Cheerleader",
-    "alt_titles": []
-  },
   "tt36271338": {
     "review_date": "2025-06-03"
   },
@@ -33362,5 +33341,77 @@
     "release_date": "2009-09-10",
     "original_title": "Domaine",
     "alt_titles": []
+  },
+  "tt0090021": {
+    "review_date": "2025-06-26",
+    "title": "Silver Bullet",
+    "release_date": "1985-10-10",
+    "original_title": "Silver Bullet",
+    "alt_titles": [
+      "Stephen King's Silver Bullet"
+    ]
+  },
+  "tt0247380": {
+    "review_date": "2025-06-26",
+    "title": "The Gleaners and I",
+    "release_date": "2000-07-07",
+    "original_title": "Les Glaneurs et la Glaneuse",
+    "alt_titles": [
+      "The Gleaners And I"
+    ]
+  },
+  "tt5768474": {
+    "review_date": "2025-06-26",
+    "title": "The Truth Beneath",
+    "release_date": "2016-06-23",
+    "original_title": "비밀은 없다",
+    "alt_titles": [
+      "There Is No Secret",
+      "There Are No Secrets"
+    ]
+  },
+  "tt0922672": {
+    "review_date": "2025-06-27",
+    "title": "Les âmes errantes",
+    "release_date": "2007-07-24",
+    "original_title": "Les âmes errantes",
+    "alt_titles": []
+  },
+  "tt3684980": {
+    "review_date": "2025-06-27",
+    "title": "Hope",
+    "release_date": "2014-09-27",
+    "original_title": "Hope",
+    "alt_titles": []
+  },
+  "tt9678892": {
+    "review_date": "2025-06-27",
+    "title": "Camille",
+    "release_date": "2019-10-16",
+    "original_title": "Camille",
+    "alt_titles": []
+  },
+  "tt5254868": {
+    "review_date": "2025-06-27",
+    "title": "The Thinning",
+    "release_date": "2016-10-12",
+    "original_title": "The Thinning",
+    "alt_titles": []
+  },
+  "tt30253473": {
+    "review_date": "2025-02-28",
+    "title": "Materialists",
+    "release_date": "",
+    "original_title": "Materialists",
+    "alt_titles": []
+  },
+  "tt0119360": {
+    "review_date": "2025-06-28",
+    "title": "In & Out",
+    "release_date": "1997-09-10",
+    "original_title": "In & Out",
+    "alt_titles": [
+      "In and Out"
+    ]
   }
 }

@@ -32205,14 +32205,14 @@
     "rating": "7"
   },
   "tt32086046": {
-    "review_date": "2025-05-23",
+    "review_date": "2025-06-27",
     "title": "Souleymane's Story",
     "release_date": "2024-10-09",
     "original_title": "L'Histoire de Souleymane",
     "alt_titles": [
       "The Story of Souleymane"
     ],
-    "rating": "7"
+    "rating": "8"
   },
   "tt26750774": {
     "review_date": "2025-05-24",
@@ -32435,5 +32435,31 @@
     "original_title": "28 Years Later",
     "alt_titles": [],
     "rating": "7"
+  },
+  "tt0179116": {
+    "review_date": "2025-06-27",
+    "title": "But I'm a Cheerleader",
+    "release_date": "2000-07-07",
+    "original_title": "But I'm a Cheerleader",
+    "alt_titles": [],
+    "rating": "6"
+  },
+  "tt2872732": {
+    "review_date": "2025-06-27",
+    "title": "Lucy",
+    "release_date": "2014-07-25",
+    "original_title": "Lucy",
+    "alt_titles": [],
+    "rating": "2"
+  },
+  "tt0246460": {
+    "review_date": "2025-06-27",
+    "title": "Die Another Day",
+    "release_date": "2002-11-17",
+    "original_title": "Die Another Day",
+    "alt_titles": [
+      "Beneath the Ice"
+    ],
+    "rating": "5"
   }
 }
