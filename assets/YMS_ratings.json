@@ -32461,5 +32461,32 @@
       "Beneath the Ice"
     ],
     "rating": "5"
+  },
+  "tt5254868": {
+    "review_date": "2025-07-07",
+    "title": "The Thinning",
+    "release_date": "2016-10-12",
+    "original_title": "The Thinning",
+    "alt_titles": [],
+    "rating": "1"
+  },
+  "tt0094012": {
+    "review_date": "2025-07-07",
+    "title": "Spaceballs",
+    "release_date": "1987-06-24",
+    "original_title": "Spaceballs",
+    "alt_titles": [
+      "Balle Spaziali",
+      "Mel Brooks Spaceballs"
+    ],
+    "rating": "5"
+  },
+  "tt32246771": {
+    "review_date": "2025-07-06",
+    "title": "Bring Her Back",
+    "release_date": "2025-05-28",
+    "original_title": "Bring Her Back",
+    "alt_titles": [],
+    "rating": "7"
   }
 }

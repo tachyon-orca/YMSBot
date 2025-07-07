@@ -32879,13 +32879,6 @@
     "original_title": "In die Sonne schauen",
     "alt_titles": []
   },
-  "tt32246771": {
-    "review_date": "2025-05-28",
-    "title": "Bring Her Back",
-    "release_date": "2025-05-28",
-    "original_title": "Bring Her Back",
-    "alt_titles": []
-  },
   "tt0458395": {
     "review_date": "2025-05-29",
     "title": "Hound Town",
@@ -33391,13 +33384,6 @@
     "original_title": "Camille",
     "alt_titles": []
   },
-  "tt5254868": {
-    "review_date": "2025-06-27",
-    "title": "The Thinning",
-    "release_date": "2016-10-12",
-    "original_title": "The Thinning",
-    "alt_titles": []
-  },
   "tt30253473": {
     "review_date": "2025-02-28",
     "title": "Materialists",
@@ -33482,6 +33468,22 @@
     "title": "The Summer Hikaru Died",
     "release_date": "2025-07-06",
     "original_title": "光が死んだ夏",
+    "alt_titles": []
+  },
+  "tt0206341": {
+    "review_date": "2025-07-07",
+    "title": "Thumb Wars: The Phantom Cuticle",
+    "release_date": "1999-11-02",
+    "original_title": "Thumb Wars: The Phantom Cuticle",
+    "alt_titles": [
+      "Thumb Wars"
+    ]
+  },
+  "tt7764650": {
+    "review_date": "2025-07-07",
+    "title": "The Thinning: New World Order",
+    "release_date": "2018-10-17",
+    "original_title": "The Thinning: New World Order",
     "alt_titles": []
   }
 }
