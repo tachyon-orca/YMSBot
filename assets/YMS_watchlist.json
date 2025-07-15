@@ -33493,22 +33493,18 @@
     "original_title": "Castration Movie",
     "alt_titles": []
   },
-  "tt0078346": {
-    "review_date": "2025-07-10",
-    "title": "Superman",
-    "release_date": "1978-12-14",
-    "original_title": "Superman",
-    "alt_titles": [
-      "Superman: The Movie",
-      "Superman: The Movie - Special Edition",
-      "Superman: The Movie - Extended Cut"
-    ]
-  },
   "tt0096455": {
     "review_date": "2025-07-12",
     "title": "The Wizard of Loneliness",
     "release_date": "1988-09-02",
     "original_title": "The Wizard of Loneliness",
+    "alt_titles": []
+  },
+  "tt2977158": {
+    "review_date": "2025-07-15",
+    "title": "There Are Monsters",
+    "release_date": "2013-09-13",
+    "original_title": "There Are Monsters",
     "alt_titles": []
   }
 }

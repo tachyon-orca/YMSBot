@@ -32499,5 +32499,27 @@
       "Man of Steel - 3D"
     ],
     "rating": "2"
+  },
+  "tt0078346": {
+    "review_date": "2025-07-15",
+    "title": "Superman",
+    "release_date": "1978-12-14",
+    "original_title": "Superman",
+    "alt_titles": [
+      "Superman: The Movie",
+      "Superman: The Movie - Special Edition",
+      "Superman: The Movie - Extended Cut"
+    ],
+    "rating": "6"
+  },
+  "tt5950044": {
+    "review_date": "2025-07-15",
+    "title": "Superman",
+    "release_date": "2025-07-09",
+    "original_title": "Superman",
+    "alt_titles": [
+      "Superman: Legacy"
+    ],
+    "rating": "6"
   }
 }
