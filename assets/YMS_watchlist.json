@@ -32067,13 +32067,6 @@
     "original_title": "After the Hunt",
     "alt_titles": []
   },
-  "tt30840798": {
-    "review_date": "2025-02-28",
-    "title": "The Phoenician Scheme",
-    "release_date": "2025-05-28",
-    "original_title": "The Phoenician Scheme",
-    "alt_titles": []
-  },
   "tt17042980": {
     "review_date": "2025-02-28",
     "title": "Whitney Springs",
@@ -33534,5 +33527,41 @@
     "release_date": "2023-04-28",
     "original_title": "Big Shark",
     "alt_titles": []
+  },
+  "tt37373632": {
+    "review_date": "2025-07-18"
+  },
+  "tt14521412": {
+    "review_date": "2025-07-18"
+  },
+  "tt2457282": {
+    "review_date": "2025-07-18",
+    "title": "Puella Magi Madoka Magica the Movie Part III: Rebellion",
+    "release_date": "2013-10-26",
+    "original_title": "劇場版 魔法少女まどか☆マギカ[新編]叛逆の物語",
+    "alt_titles": [
+      "Puella Magi Madoka★Magica the Movie Part III: Rebellion",
+      "Puella Magi Madoka Magica Movie 3 Rebellion"
+    ]
+  },
+  "tt2205948": {
+    "review_date": "2025-07-18",
+    "title": "Puella Magi Madoka Magica the Movie Part I: Beginnings",
+    "release_date": "2012-10-05",
+    "original_title": "劇場版 魔法少女まどか☆マギカ [前編] 始まりの物語",
+    "alt_titles": [
+      "Puella Magi Madoka☆Magica the Movie Part 1: Beginnings"
+    ]
+  },
+  "tt2194724": {
+    "review_date": "2025-07-18",
+    "title": "Puella Magi Madoka Magica the Movie Part II: Eternal",
+    "release_date": "2012-10-13",
+    "original_title": "劇場版 魔法少女まどか☆マギカ[後編] 永遠の物語",
+    "alt_titles": [
+      "Puella Magi Madoka★Magica the Movie Part II: The Eternal Story",
+      "Madoka Magica The Movie",
+      "Puella Magi Madoka Magica Movie 2 Eternal"
+    ]
   }
 }
