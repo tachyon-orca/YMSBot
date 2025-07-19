@@ -14758,16 +14758,6 @@
     "original_title": "La Cérémonie",
     "alt_titles": []
   },
-  "tt0057565": {
-    "review_date": "2020-11-07",
-    "title": "High and Low",
-    "release_date": "1963-03-01",
-    "original_title": "天国と地獄",
-    "alt_titles": [
-      "High and Low",
-      "Heaven and Hell"
-    ]
-  },
   "tt0051808": {
     "review_date": "2020-11-07",
     "title": "The Hidden Fortress",
@@ -33563,5 +33553,12 @@
       "Madoka Magica The Movie",
       "Puella Magi Madoka Magica Movie 2 Eternal"
     ]
+  },
+  "tt10231312": {
+    "review_date": "2025-07-19",
+    "title": "Inside Job",
+    "release_date": "2021-10-22",
+    "original_title": "Inside Job",
+    "alt_titles": []
   }
 }
