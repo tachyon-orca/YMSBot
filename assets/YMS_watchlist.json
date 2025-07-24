@@ -32093,13 +32093,6 @@
       "Wake Up Dead Man"
     ]
   },
-  "tt31176520": {
-    "review_date": "2025-02-28",
-    "title": "Eddington",
-    "release_date": "",
-    "original_title": "Eddington",
-    "alt_titles": []
-  },
   "tt27200708": {
     "review_date": "2025-02-28",
     "title": "Mother Mary",
@@ -33774,5 +33767,33 @@
     "alt_titles": [
       "Adam"
     ]
+  },
+  "tt11815682": {
+    "review_date": "2025-07-23",
+    "title": "Hacks",
+    "release_date": "2021-05-13",
+    "original_title": "Hacks",
+    "alt_titles": []
+  },
+  "tt12759100": {
+    "review_date": "2025-07-23",
+    "title": "Somebody Somewhere",
+    "release_date": "2022-01-16",
+    "original_title": "Somebody Somewhere",
+    "alt_titles": []
+  },
+  "tt10574236": {
+    "review_date": "2025-07-23",
+    "title": "Station Eleven",
+    "release_date": "2021-12-16",
+    "original_title": "Station Eleven",
+    "alt_titles": []
+  },
+  "tt13623580": {
+    "review_date": "2025-07-23",
+    "title": "Reservation Dogs",
+    "release_date": "2021-08-09",
+    "original_title": "Reservation Dogs",
+    "alt_titles": []
   }
 }
