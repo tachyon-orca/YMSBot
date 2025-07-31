@@ -31857,13 +31857,6 @@
     "original_title": "Seven Years in Tibet",
     "alt_titles": []
   },
-  "tt35022825": {
-    "review_date": "2025-01-31",
-    "title": "Castration Movie Anthology i. Traps",
-    "release_date": "2024-06-03",
-    "original_title": "Castration Movie Anthology i. Traps",
-    "alt_titles": []
-  },
   "tt0329539": {
     "review_date": "2025-02-03",
     "title": "Rice Girl",
@@ -33826,6 +33819,19 @@
     "title": "Christmas Ranch",
     "release_date": "2016-12-20",
     "original_title": "Christmas Ranch",
+    "alt_titles": []
+  },
+  "tt0372179": {
+    "review_date": "2025-07-31"
+  },
+  "tt5607660": {
+    "review_date": "2025-07-31"
+  },
+  "tt37679220": {
+    "review_date": "2025-07-31",
+    "title": "JUNK WORLD",
+    "release_date": "2025-06-13",
+    "original_title": "JUNK WORLD",
     "alt_titles": []
   }
 }
