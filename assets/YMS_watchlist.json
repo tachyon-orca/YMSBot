@@ -4279,13 +4279,6 @@
   "tt1223947": {
     "review_date": "2016-01-14"
   },
-  "tt0407304": {
-    "review_date": "2016-01-14",
-    "title": "War of the Worlds",
-    "release_date": "2005-06-28",
-    "original_title": "War of the Worlds",
-    "alt_titles": []
-  },
   "tt0133751": {
     "review_date": "2016-01-18",
     "title": "The Faculty",
@@ -33865,13 +33858,6 @@
     "original_title": "Peep \"TV\" Show",
     "alt_titles": []
   },
-  "tt13186306": {
-    "review_date": "2025-08-05",
-    "title": "War of the Worlds",
-    "release_date": "2025-07-29",
-    "original_title": "War of the Worlds",
-    "alt_titles": []
-  },
   "tt32536315": {
     "review_date": "2025-08-05",
     "title": "Blue Moon",
@@ -33916,6 +33902,27 @@
     "title": "Dreaming Dogs",
     "release_date": "2024-12-13",
     "original_title": "Dreaming Dogs",
+    "alt_titles": []
+  },
+  "tt18382850": {
+    "review_date": "2025-08-07",
+    "title": "If I Had Legs I'd Kick You",
+    "release_date": "2025-10-10",
+    "original_title": "If I Had Legs I'd Kick You",
+    "alt_titles": []
+  },
+  "tt27613895": {
+    "review_date": "2025-08-08",
+    "title": "GOAT",
+    "release_date": "2026-02-12",
+    "original_title": "GOAT",
+    "alt_titles": []
+  },
+  "tt26443597": {
+    "review_date": "2025-08-08",
+    "title": "Zootopia 2",
+    "release_date": "2025-11-26",
+    "original_title": "Zootopia 2",
     "alt_titles": []
   }
 }
