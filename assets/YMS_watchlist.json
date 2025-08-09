@@ -2443,17 +2443,6 @@
       "A Dirty Carnival"
     ]
   },
-  "tt0260991": {
-    "review_date": "2014-08-16",
-    "title": "Joint Security Area",
-    "release_date": "2000-09-09",
-    "original_title": "공동경비구역 JSA",
-    "alt_titles": [
-      "J.S.A. Joint Security Area",
-      "JSA. Joint Security Area",
-      "Joint Security Area"
-    ]
-  },
   "tt0276830": {
     "review_date": "2014-08-17",
     "title": "Renegade",
@@ -33924,5 +33913,14 @@
     "release_date": "2025-11-26",
     "original_title": "Zootopia 2",
     "alt_titles": []
+  },
+  "tt0497532": {
+    "review_date": "2025-08-09",
+    "title": "Bagi, the Monster of Mighty Nature",
+    "release_date": "1984-08-19",
+    "original_title": "大自然の魔獣バギ",
+    "alt_titles": [
+      "Baggy"
+    ]
   }
 }
