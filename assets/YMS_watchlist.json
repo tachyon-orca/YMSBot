@@ -13792,13 +13792,6 @@
     "original_title": "Play",
     "alt_titles": []
   },
-  "tt1522846": {
-    "review_date": "2020-08-22",
-    "title": "The Bunny Game",
-    "release_date": "2011-10-19",
-    "original_title": "The Bunny Game",
-    "alt_titles": []
-  },
   "tt4441150": {
     "review_date": "2020-08-22",
     "title": "Salt and Fire",
@@ -32564,13 +32557,6 @@
     "original_title": "Come See Me in the Good Light",
     "alt_titles": []
   },
-  "tt17497960": {
-    "review_date": "2025-04-27",
-    "title": "BLKNWS: Terms & Conditions",
-    "release_date": "2025-01-27",
-    "original_title": "BLKNWS: Terms & Conditions",
-    "alt_titles": []
-  },
   "tt32928666": {
     "review_date": "2025-04-27",
     "title": "Familiar Touch",
@@ -33640,13 +33626,6 @@
     "original_title": "Erogenesis",
     "alt_titles": []
   },
-  "tt32284798": {
-    "review_date": "2025-07-21",
-    "title": "Dandelion's Odyssey",
-    "release_date": "2026-03-11",
-    "original_title": "Planètes",
-    "alt_titles": []
-  },
   "tt36724190": {
     "review_date": "2025-07-21"
   },
@@ -33921,6 +33900,184 @@
     "title": "Resident Evil",
     "release_date": "2026-09-16",
     "original_title": "Resident Evil",
+    "alt_titles": []
+  },
+  "tt29714073": {
+    "review_date": "2025-08-12",
+    "title": "Bad Apples",
+    "release_date": "2025-09-06",
+    "original_title": "Bad Apples",
+    "alt_titles": []
+  },
+  "tt17497960": {
+    "review_date": "2025-04-27",
+    "title": "BLKNWS: Terms & Conditions",
+    "release_date": "2025-01-27",
+    "original_title": "BLKNWS: Terms & Conditions",
+    "alt_titles": []
+  },
+  "tt35340614": {
+    "review_date": "2025-08-13",
+    "title": "The Blue Trail",
+    "release_date": "2025-08-28",
+    "original_title": "O Último Azul",
+    "alt_titles": []
+  },
+  "tt36543744": {
+    "review_date": "2025-08-13",
+    "title": "Bouchra",
+    "release_date": "2025-09-04",
+    "original_title": "Bouchra",
+    "alt_titles": []
+  },
+  "tt1464783": {
+    "review_date": "2025-08-13",
+    "title": "The Great Hip Hop Hoax",
+    "release_date": "2013-06-26",
+    "original_title": "The Great Hip Hop Hoax",
+    "alt_titles": []
+  },
+  "tt37815636": {
+    "review_date": "2025-08-13"
+  },
+  "tt0117883": {
+    "review_date": "2025-08-13",
+    "title": "Thesis",
+    "release_date": "1996-04-11",
+    "original_title": "Tesis",
+    "alt_titles": []
+  },
+  "tt30268321": {
+    "review_date": "2025-08-13",
+    "title": "Eleanor the Great",
+    "release_date": "2025-09-26",
+    "original_title": "Eleanor the Great",
+    "alt_titles": []
+  },
+  "tt37660887": {
+    "review_date": "2025-08-13",
+    "title": "Cover-Up",
+    "release_date": "2025-08-29",
+    "original_title": "Cover-Up",
+    "alt_titles": []
+  },
+  "tt37537636": {
+    "review_date": "2025-08-13",
+    "title": "Dry Leaf",
+    "release_date": "2025-08-13",
+    "original_title": "Dry Leaf",
+    "alt_titles": []
+  },
+  "tt36742232": {
+    "review_date": "2025-08-13",
+    "title": "Untitled Takashi Miike Film",
+    "release_date": "",
+    "original_title": "Untitled Takashi Miike Film",
+    "alt_titles": []
+  },
+  "tt32332915": {
+    "review_date": "2025-08-13",
+    "title": "I Want Your Sex",
+    "release_date": "",
+    "original_title": "I Want Your Sex",
+    "alt_titles": []
+  },
+  "tt0099776": {
+    "review_date": "2025-08-13",
+    "title": "Europa Europa",
+    "release_date": "1990-11-14",
+    "original_title": "Europa Europa",
+    "alt_titles": [
+      "Generation War"
+    ]
+  },
+  "tt34381258": {
+    "review_date": "2025-08-13",
+    "title": "Good Boy",
+    "release_date": "",
+    "original_title": "Good Boy",
+    "alt_titles": []
+  },
+  "tt31113406": {
+    "review_date": "2025-08-13",
+    "title": "We Shall not be Moved",
+    "release_date": "2024-12-11",
+    "original_title": "No Nos Moverán",
+    "alt_titles": []
+  },
+  "tt21327354": {
+    "review_date": "2025-08-13"
+  },
+  "tt37815958": {
+    "review_date": "2025-08-13",
+    "title": "Love+War",
+    "release_date": "2025-09-07",
+    "original_title": "Love+War",
+    "alt_titles": []
+  },
+  "tt34000545": {
+    "review_date": "2025-08-13",
+    "title": "Lucky Lu",
+    "release_date": "2025-05-19",
+    "original_title": "Lucky Lu",
+    "alt_titles": []
+  },
+  "tt33301434": {
+    "review_date": "2025-08-13",
+    "title": "Mile End Kicks",
+    "release_date": "2025-09-04",
+    "original_title": "Mile End Kicks",
+    "alt_titles": []
+  },
+  "tt32247943": {
+    "review_date": "2025-08-13",
+    "title": "Miroirs No. 3",
+    "release_date": "2025-08-27",
+    "original_title": "Miroirs No. 3",
+    "alt_titles": []
+  },
+  "tt35521200": {
+    "review_date": "2025-08-13",
+    "title": "Two Prosecutors",
+    "release_date": "2025-11-12",
+    "original_title": "Zwei Staatsanwälte",
+    "alt_titles": []
+  },
+  "tt1646114": {
+    "review_date": "2025-08-13",
+    "title": "My Joy",
+    "release_date": "2010-09-30",
+    "original_title": "Счастье моё",
+    "alt_titles": []
+  },
+  "tt0103074": {
+    "review_date": "2025-08-13",
+    "title": "Thelma & Louise",
+    "release_date": "1991-05-24",
+    "original_title": "Thelma & Louise",
+    "alt_titles": [
+      "Thelma and Louise"
+    ]
+  },
+  "tt33350479": {
+    "review_date": "2025-08-13",
+    "title": "The Road Between Us: The Ultimate Rescue",
+    "release_date": "",
+    "original_title": "The Road Between Us: The Ultimate Rescue",
+    "alt_titles": []
+  },
+  "tt35519445": {
+    "review_date": "2025-08-13",
+    "title": "Nino",
+    "release_date": "2025-09-17",
+    "original_title": "Nino",
+    "alt_titles": []
+  },
+  "tt31065630": {
+    "review_date": "2025-08-13",
+    "title": "Orphan",
+    "release_date": "2025-10-23",
+    "original_title": "Árva",
     "alt_titles": []
   }
 }
