@@ -7543,13 +7543,6 @@
     "original_title": "Overlord",
     "alt_titles": []
   },
-  "tt6219528": {
-    "review_date": "2018-02-17",
-    "title": "Idol's Eye",
-    "release_date": "",
-    "original_title": "Idol's Eye",
-    "alt_titles": []
-  },
   "tt5881528": {
     "review_date": "2018-02-17",
     "title": "Damsel",
@@ -34078,6 +34071,102 @@
     "title": "Orphan",
     "release_date": "2025-10-23",
     "original_title": "Árva",
+    "alt_titles": []
+  },
+  "tt27052428": {
+    "review_date": "2025-08-13",
+    "title": "Orwell: 2+2=5",
+    "release_date": "2026-02-25",
+    "original_title": "Orwell: 2+2=5",
+    "alt_titles": []
+  },
+  "tt36598711": {
+    "review_date": "2025-08-13",
+    "title": "Put Your Soul on Your Hand and Walk",
+    "release_date": "2025-09-24",
+    "original_title": "Put Your Soul on Your Hand and Walk",
+    "alt_titles": []
+  },
+  "tt35674521": {
+    "review_date": "2025-08-13",
+    "title": "Rose of Nevada",
+    "release_date": "2025-08-30",
+    "original_title": "Rose of Nevada",
+    "alt_titles": []
+  },
+  "tt35114460": {
+    "review_date": "2025-08-13",
+    "title": "Scarlet",
+    "release_date": "2025-11-21",
+    "original_title": "果てしなきスカーレット",
+    "alt_titles": [
+      "Scarlet Without Limits"
+    ]
+  },
+  "tt32985279": {
+    "review_date": "2025-08-14",
+    "title": "Steve",
+    "release_date": "2025-09-19",
+    "original_title": "Steve",
+    "alt_titles": []
+  },
+  "tt34819091": {
+    "review_date": "2025-08-14",
+    "title": "The Testament of Ann Lee",
+    "release_date": "2025-09-01",
+    "original_title": "The Testament of Ann Lee",
+    "alt_titles": [
+      "Ann Lee",
+      "The Woman Clothed by the Sun"
+    ]
+  },
+  "tt29768334": {
+    "review_date": "2025-08-14",
+    "title": "Train Dreams",
+    "release_date": "2025-11-07",
+    "original_title": "Train Dreams",
+    "alt_titles": []
+  },
+  "tt22104178": {
+    "review_date": "2025-08-14",
+    "title": "Under The Same Sun",
+    "release_date": "",
+    "original_title": "Bajo el mismo sol",
+    "alt_titles": []
+  },
+  "tt0332626": {
+    "review_date": "2025-08-14",
+    "title": "Gambling, Gods and LSD",
+    "release_date": "2002-09-08",
+    "original_title": "Gambling, Gods and LSD",
+    "alt_titles": []
+  },
+  "tt37661885": {
+    "review_date": "2025-08-14",
+    "title": "The World of Love",
+    "release_date": "2025-09-07",
+    "original_title": "세계의 주인",
+    "alt_titles": []
+  },
+  "tt1646984": {
+    "review_date": "2025-08-14",
+    "title": "You All Are Captains",
+    "release_date": "2010-05-19",
+    "original_title": "Todos vós sodes capitáns",
+    "alt_titles": []
+  },
+  "tt5606268": {
+    "review_date": "2025-08-14",
+    "title": "Mimosas",
+    "release_date": "2016-08-24",
+    "original_title": "ميموزا",
+    "alt_titles": []
+  },
+  "tt8212958": {
+    "review_date": "2025-08-14",
+    "title": "Fire Will Come",
+    "release_date": "2019-09-04",
+    "original_title": "O que arde",
     "alt_titles": []
   }
 }
