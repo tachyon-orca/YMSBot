@@ -5009,13 +5009,6 @@
       "Pee-wees Big Adventure"
     ]
   },
-  "tt5937788": {
-    "review_date": "2016-08-24",
-    "title": "Anatomy of Violence",
-    "release_date": "2016-09-12",
-    "original_title": "Anatomy of Violence",
-    "alt_titles": []
-  },
   "tt0240200": {
     "review_date": "2016-08-24",
     "title": "Water",
@@ -23956,27 +23949,6 @@
     "original_title": "戦慄怪奇ファイル コワすぎ！史上最恐の劇場版",
     "alt_titles": []
   },
-  "tt14764558": {
-    "review_date": "2022-09-29",
-    "title": "Senritsu Kaiki File Kowasugi! Final Chapter",
-    "release_date": "2015-04-11",
-    "original_title": "戦慄怪奇ファイル コワすぎ！最終章",
-    "alt_titles": []
-  },
-  "tt14765372": {
-    "review_date": "2022-09-29",
-    "title": "Senritsu Kaiki File Super Kowa Too! Fear Adventure: Kokkuri-san",
-    "release_date": "2015-06-13",
-    "original_title": "戦慄怪奇ファイル 超コワすぎ！ FILE-01 恐怖降臨！コックリさん",
-    "alt_titles": []
-  },
-  "tt14765414": {
-    "review_date": "2022-09-29",
-    "title": "Senritsu Kaiki File Super Kowa Too! Dark Mystery: Snake Woman",
-    "release_date": "2015-07-11",
-    "original_title": "戦慄怪奇ファイル 超コワすぎ！ FILE-02 暗黒奇譚！蛇女の怪",
-    "alt_titles": []
-  },
   "tt0083931": {
     "review_date": "2022-09-29",
     "title": "Son of the White Mare",
@@ -25560,15 +25532,6 @@
     "release_date": "2020-09-11",
     "original_title": "Dave Not Coming Back",
     "alt_titles": []
-  },
-  "tt2717822": {
-    "review_date": "2023-02-24",
-    "title": "Blackhat",
-    "release_date": "2015-01-13",
-    "original_title": "Blackhat",
-    "alt_titles": [
-      "Amenaza en la Red"
-    ]
   },
   "tt10687116": {
     "review_date": "2023-02-24",
@@ -28143,9 +28106,6 @@
     "release_date": "1972-07-24",
     "original_title": "Marjoe",
     "alt_titles": []
-  },
-  "tt4942404": {
-    "review_date": "2023-12-12"
   },
   "tt0061177": {
     "review_date": "2023-12-14",
@@ -32639,13 +32599,6 @@
     "original_title": "The Encampments",
     "alt_titles": []
   },
-  "tt5561598": {
-    "review_date": "2025-04-30",
-    "title": "Louis Theroux: A Different Brain",
-    "release_date": "2016-05-15",
-    "original_title": "Louis Theroux: A Different Brain",
-    "alt_titles": []
-  },
   "tt5561592": {
     "review_date": "2025-04-30",
     "title": "Louis Theroux: Drinking to Oblivion",
@@ -32658,13 +32611,6 @@
     "title": "Louis Theroux: Transgender Kids",
     "release_date": "2015-04-05",
     "original_title": "Louis Theroux: Transgender Kids",
-    "alt_titles": []
-  },
-  "tt4546868": {
-    "review_date": "2025-04-30",
-    "title": "Louis Theroux: By Reason of Insanity",
-    "release_date": "2015-03-22",
-    "original_title": "Louis Theroux: By Reason of Insanity",
     "alt_titles": []
   },
   "tt0068230": {
@@ -34193,5 +34139,19 @@
     "alt_titles": [
       "The Trial"
     ]
+  },
+  "tt0099800": {
+    "review_date": "2025-08-19",
+    "title": "House Party",
+    "release_date": "1990-01-20",
+    "original_title": "House Party",
+    "alt_titles": []
+  },
+  "tt5937788": {
+    "review_date": "2016-08-24",
+    "title": "Anatomy of Violence",
+    "release_date": "2016-09-12",
+    "original_title": "Anatomy of Violence",
+    "alt_titles": []
   }
 }
