@@ -121,13 +121,6 @@
     "original_title": "Gosford Park",
     "alt_titles": []
   },
-  "tt0247425": {
-    "review_date": "2011-09-02",
-    "title": "In the Bedroom",
-    "release_date": "2001-11-23",
-    "original_title": "In the Bedroom",
-    "alt_titles": []
-  },
   "tt0283509": {
     "review_date": "2011-09-02",
     "title": "No Man's Land",
@@ -6090,13 +6083,6 @@
       "Copykat"
     ]
   },
-  "tt5952332": {
-    "review_date": "2017-04-06",
-    "title": "Amanda Knox",
-    "release_date": "2016-09-10",
-    "original_title": "Amanda Knox",
-    "alt_titles": []
-  },
   "tt6739646": {
     "review_date": "2017-04-08",
     "title": "I Am Heath Ledger",
@@ -6245,15 +6231,6 @@
     "release_date": "1982-12-27",
     "original_title": "Mazes and Monsters",
     "alt_titles": []
-  },
-  "tt4964772": {
-    "review_date": "2017-05-06",
-    "title": "Risk",
-    "release_date": "2017-05-05",
-    "original_title": "Risk",
-    "alt_titles": [
-      "Asylum"
-    ]
   },
   "tt0058604": {
     "review_date": "2017-05-17",
@@ -31512,13 +31489,6 @@
       "Sunday Lunch"
     ]
   },
-  "tt6044414": {
-    "review_date": "2025-01-01",
-    "title": "Bad Black",
-    "release_date": "2016-09-25",
-    "original_title": "Bad Black",
-    "alt_titles": []
-  },
   "tt4964598": {
     "review_date": "2025-01-01",
     "title": "Heart Attack",
@@ -31725,15 +31695,6 @@
     "alt_titles": [
       "Save the Green Planet",
       "Save the Green Planet!"
-    ]
-  },
-  "tt5903392": {
-    "review_date": "2025-01-27",
-    "title": "77 Minutes",
-    "release_date": "2016-09-23",
-    "original_title": "77 Minutes",
-    "alt_titles": [
-      "1984 San Diego McDonald's Massacre: 77 Minutes"
     ]
   },
   "tt28523838": {
@@ -32562,13 +32523,6 @@
     "original_title": "Slanted",
     "alt_titles": []
   },
-  "tt32843349": {
-    "review_date": "2025-04-27",
-    "title": "Sorry, Baby",
-    "release_date": "2025-06-27",
-    "original_title": "Sorry, Baby",
-    "alt_titles": []
-  },
   "tt27502360": {
     "review_date": "2025-04-27",
     "title": "Terrestrial Verses",
@@ -32597,13 +32551,6 @@
     "title": "The Encampments",
     "release_date": "2025-03-28",
     "original_title": "The Encampments",
-    "alt_titles": []
-  },
-  "tt5561592": {
-    "review_date": "2025-04-30",
-    "title": "Louis Theroux: Drinking to Oblivion",
-    "release_date": "2016-04-24",
-    "original_title": "Louis Theroux: Drinking to Oblivion",
     "alt_titles": []
   },
   "tt4613322": {
@@ -34152,6 +34099,79 @@
     "title": "Anatomy of Violence",
     "release_date": "2016-09-12",
     "original_title": "Anatomy of Violence",
+    "alt_titles": []
+  },
+  "tt22262118": {
+    "review_date": "2025-08-20",
+    "title": "77 Minutes: Surviving the Uvalde Mass Shooting",
+    "release_date": "2023-03-01",
+    "original_title": "77 Minutes: Surviving the Uvalde Mass Shooting",
+    "alt_titles": []
+  },
+  "tt6880996": {
+    "review_date": "2025-08-20",
+    "title": "49 Pulses",
+    "release_date": "2017-09-22",
+    "original_title": "49 Pulses",
+    "alt_titles": []
+  },
+  "tt37510098": {
+    "review_date": "2025-08-20"
+  },
+  "tt18283920": {
+    "review_date": "2025-08-20",
+    "title": "Concert Crush: The Travis Scott Festival Tragedy",
+    "release_date": "2022-04-29",
+    "original_title": "Concert Crush: The Travis Scott Festival Tragedy",
+    "alt_titles": []
+  },
+  "tt5952332": {
+    "review_date": "2017-04-06",
+    "title": "Amanda Knox",
+    "release_date": "2016-09-10",
+    "original_title": "Amanda Knox",
+    "alt_titles": []
+  },
+  "tt0303720": {
+    "review_date": "2025-08-20",
+    "title": "West Side Avenue",
+    "release_date": "2001-04-05",
+    "original_title": "Batang West Side",
+    "alt_titles": []
+  },
+  "tt3127480": {
+    "review_date": "2025-08-20",
+    "title": "Computer Hearts",
+    "release_date": "2014-04-18",
+    "original_title": "Computer Hearts",
+    "alt_titles": []
+  },
+  "tt26757462": {
+    "review_date": "2025-08-20",
+    "title": "Hellboy: The Crooked Man",
+    "release_date": "2024-08-29",
+    "original_title": "Hellboy: The Crooked Man",
+    "alt_titles": []
+  },
+  "tt0126814": {
+    "review_date": "2025-08-21",
+    "title": "Big Meat Eater",
+    "release_date": "1982-04-30",
+    "original_title": "Big Meat Eater",
+    "alt_titles": []
+  },
+  "tt0829097": {
+    "review_date": "2025-08-21",
+    "title": "Analife",
+    "release_date": "2005-03-19",
+    "original_title": "アナライフ",
+    "alt_titles": []
+  },
+  "tt35931863": {
+    "review_date": "2025-08-22",
+    "title": "Temptation Island",
+    "release_date": "2025-03-12",
+    "original_title": "Temptation Island",
     "alt_titles": []
   }
 }
