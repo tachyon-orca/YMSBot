@@ -4022,17 +4022,6 @@
     "original_title": "The Stuff",
     "alt_titles": []
   },
-  "tt3587200": {
-    "review_date": "2015-10-21",
-    "title": "The Last Girl",
-    "release_date": "2015-08-06",
-    "original_title": "The Last Girl",
-    "alt_titles": [
-      "A Handful of Stars",
-      "What a World",
-      "White Cross"
-    ]
-  },
   "tt0070723": {
     "review_date": "2015-10-24",
     "title": "Soylent Green",
@@ -26320,9 +26309,6 @@
     "original_title": "Twisted: The Untold Story of a Royal Vizier",
     "alt_titles": []
   },
-  "tt4469606": {
-    "review_date": "2023-06-17"
-  },
   "tt13920920": {
     "review_date": "2023-06-20",
     "title": "Subtraction",
@@ -34148,5 +34134,14 @@
     "release_date": "2025-03-12",
     "original_title": "Temptation Island",
     "alt_titles": []
+  },
+  "tt31842994": {
+    "review_date": "2025-08-24",
+    "title": "Boomers",
+    "release_date": "2024-11-04",
+    "original_title": "Boomers",
+    "alt_titles": [
+      "Boomers: The Rise of the Gerontocracy"
+    ]
   }
 }
