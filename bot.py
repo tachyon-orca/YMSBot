@@ -1,52 +1,19 @@
+import asyncio
 import json
-import random
+import logging
 import time
 from datetime import datetime, timezone
 
 import inflect
+import twitchio
 from dotenv import dotenv_values
-from twitchio.ext import commands, routines
-
 from review_utils import ReviewGetter
+from twitchio import authentication, eventsub, web
+from twitchio.ext import commands
 
-secrets = dotenv_values(".env")
-
-active_channels = ["ymsplays"]
+LOGGER: logging.Logger = logging.getLogger(__name__)
 
 inflect_engine = inflect.engine()
-
-# scoot_shills = [
-#     ["Please support Scoot!", 5],
-#     ["Send Scoot money!", 1],
-#     ["Help Scoot fix his old and broken back!", 1],
-#     ["Donate to Scoot's MTF (man-to-feline) surgery fund!", 1],
-#     ["Pussy pics ain't free! Pay Scoot here:", 1],
-#     ["Happy birthday Scoot! Send him a present!", 1],
-#     ["Cool Scoot loves you!", 1],
-#     ["UwU what's this? Is it fow Scoot?", 0.1],
-# ]
-# scoot_links = " Paypal: paypal.me/notscotthenson If you don't have paypal: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NXPSAJ6BF6L72 Cameo: https://www.cameo.com/scoot Wrestling merch: prowrestlingtees.com/scotthenson Youtube: youtube.com/@notscotthenson Discord: discord.gg/zXXv7p92xr"
-
-
-# gael_msg = "Gaël's Paypal: https://www.paypal.com/paypalme/vexelg Twitter: https://twitter.com/_vexel"
-
-# def _generate_scoot_shill():
-#     msgs, weights = zip(*scoot_shills)
-#     msg = random.choices(msgs, weights=weights)[0]
-#     return msg + scoot_links
-
-# @routines.routine(minutes=10)
-# async def shill_scoot_recurr():
-#     for chname in active_channels:
-#         channel = bot.get_channel(chname)
-#         await channel.send(_generate_scoot_shill())
-
-
-# @routines.routine(minutes=10)
-# async def shill_gael_recurr():
-#     for chname in active_channels:
-#         channel = bot.get_channel(chname)
-#         await channel.send(gael_msg)
 
 
 def _format_time_interval(nano_seconds):
@@ -68,60 +35,70 @@ def _format_time_interval(nano_seconds):
 
 
 class Bot(commands.Bot):
-    def __init__(self):
-        # Initialise our Bot with our access token, prefix and a list of channels to join on boot...
-        # prefix can be a callable, which returns a list of strings or a string...
-        # initial_channels can also be a callable which returns a list of strings...
-        super().__init__(
-            token=secrets["ACCESS_TOKEN"], prefix="!", initial_channels=active_channels
-        )
-        self.review_getter = ReviewGetter()
-        self.brbtimer = None
+    def __init__(self, **kwargs) -> None:
+        adapter = web.StarletteAdapter(domain="bot.tachyorca.com", port=4343)
+        super().__init__(adapter=adapter, **kwargs)
         self.load_static_commands()
 
-    def load_static_commands(self):
+    async def setup_hook(self) -> None:
+        # Add our General Commands Component...
+        await self.add_component(DynamicCommands())
+
+        with open(".tio.tokens.json", "rb") as fp:
+            tokens = json.load(fp)
+
+        for user_id in tokens:
+            if user_id == self.bot_id:
+                continue
+
+            # Subscribe to chat for everyone we have a token...
+            chat = eventsub.ChatMessageSubscription(
+                broadcaster_user_id=user_id, user_id=self.bot_id
+            )
+            await self.subscribe_websocket(chat)
+
+    async def event_ready(self) -> None:
+        LOGGER.info("Logged in as: %s", self.user)
+
+    async def event_oauth_authorized(
+        self, payload: authentication.UserTokenPayload
+    ) -> None:
+        # Stores tokens in .tio.tokens.json by default; can be overriden to use a DB for example
+        # Adds the token to our Client to make requests and subscribe to EventSub...
+        await self.add_token(payload.access_token, payload.refresh_token)
+
+        if payload.user_id == self.bot_id:
+            return
+
+        # Subscribe to chat for new authorizations...
+        chat = eventsub.ChatMessageSubscription(
+            broadcaster_user_id=payload.user_id, user_id=self.bot_id
+        )
+        await self.subscribe_websocket(chat)
+
+    def load_static_commands(self, commands_file="assets/static_commands.json"):
         self.static_commands = []
-        with open("assets/static_commands.json") as f:
+        with open(commands_file) as f:
             static_commands = json.load(f)
         for cmd in static_commands:
 
             def _make_command(cmd):
+                @commands.cooldown(rate=1, per=5, key=commands.BucketType.channel)
                 async def _cmd(ctx: commands.Context):
                     await ctx.send(cmd["message"])
 
                 return _cmd
 
-            commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)(
-                self.command(
-                    name=cmd["name"],
-                    aliases=cmd["aliases"] if len(cmd["aliases"]) > 0 else None,
-                )(_make_command(cmd))
+            packaged = commands.Command(
+                name=cmd["name"], aliases=cmd["aliases"], callback=_make_command(cmd)
             )
+            self.add_command(packaged)
             hidden = cmd.get("hidden", False)
             if not hidden:
                 self.static_commands.append(cmd["name"])
 
-    async def event_ready(self):
-        # Notify us when everything is ready!
-        # We are logged in and ready to chat and use commands...
-        print(f"Logged in as | {self.nick}")
-        print(f"User id is | {self.user_id}")
-
-    async def event_message(self, message):
-        # Messages with echo set to True are messages sent by the bot...
-        # For now we just want to ignore them...
-        if message.echo:
-            return
-
-        if message.channel.name not in active_channels:
-            print(f"Bot in wrong channel: {message.channel.name}")
-            return
-        # print(message.content)
-
-        await self.handle_commands(message)
-
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
     @commands.command(name="commands")
+    @commands.cooldown(rate=1, per=5, key=commands.BucketType.channel)
     async def list_commands(self, ctx: commands.Context):
         await ctx.send(
             ", ".join(
@@ -131,52 +108,30 @@ class Bot(commands.Bot):
             + ". All commands have a 5 second cooldown."
         )
 
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.user)
+
+class DynamicCommands(commands.Component):
+    def __init__(self):
+        self.review_getter = ReviewGetter()
+        self.brbtimer = None
+
+    @commands.cooldown(rate=1, per=5, key=commands.BucketType.user)
     @commands.command(aliases=("rating", "ratings", "rated"))
     async def review(self, ctx: commands.Context, *args: str):
         title = " ".join(args)
         await ctx.reply(self.review_getter.process_query(title))
 
-    # @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
-    # @commands.command()
-    # async def scoot(self, ctx: commands.Context, arg: str | None):
-    #     if ctx.author.is_mod or ctx.author.is_broadcaster:
-    #         match arg:
-    #             case "s":
-    #                 shill_scoot_recurr.start()
-    #             case "e":
-    #                 shill_scoot_recurr.stop()
-    #             case _:
-    #                 await ctx.send(_generate_scoot_shill())
-    #     else:
-    #         await ctx.send(_generate_scoot_shill())
-
-    # @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
-    # @commands.command()
-    # async def gael(self, ctx: commands.Context, arg: str | None):
-    #     if ctx.author.is_mod or ctx.author.is_broadcaster:
-    #         match arg:
-    #             case "s":
-    #                 shill_gael_recurr.start()
-    #             case "e":
-    #                 shill_gael_recurr.stop()
-    #             case _:
-    #                 await ctx.send(gael_msg)
-    #     else:
-    #         await ctx.send(gael_msg)
-
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.cooldown(rate=1, per=5, key=commands.BucketType.channel)
     @commands.command()
     async def left(self, ctx: commands.Context):
-        if ctx.author.is_mod or ctx.author.is_broadcaster:
+        if ctx.author.moderator or ctx.author.broadcaster:
             if self.brbtimer is None:
                 self.brbtimer = time.time_ns()
             await ctx.send("peepoLeave Oh no, Adum has left the stream!")
 
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.cooldown(rate=1, per=5, key=commands.BucketType.channel)
     @commands.command()
     async def back(self, ctx: commands.Context):
-        if ctx.author.is_mod or ctx.author.is_broadcaster:
+        if ctx.author.moderator or ctx.author.broadcaster:
             msg = "peepoArrive Adum is back!"
             if self.brbtimer is not None:
                 brbtime = time.time_ns() - self.brbtimer
@@ -197,7 +152,7 @@ class Bot(commands.Bot):
                 self.brbtimer = None
             await ctx.send(msg)
 
-    @commands.cooldown(rate=1, per=5, bucket=commands.Bucket.channel)
+    @commands.cooldown(rate=1, per=5, key=commands.BucketType.channel)
     @commands.command()
     async def brbtime(self, ctx: commands.Context):
         if self.brbtimer is not None:
@@ -205,6 +160,25 @@ class Bot(commands.Bot):
             await ctx.send(f"Adum has been gone for {_format_time_interval(brbtime)}.")
 
 
-bot = Bot()
-bot.run()
-# bot.run() is blocking and will stop execution of any below code here until stopped or closed.
+def main() -> None:
+    secrets = dotenv_values(".env")
+    twitchio.utils.setup_logging(level=logging.INFO)
+
+    async def runner() -> None:
+        async with Bot(
+            client_id=secrets["CLIENT_ID"],
+            client_secret=secrets["CLIENT_SECRET"],
+            bot_id=secrets["BOT_ID"],
+            owner_id=secrets["OWNER_ID"],
+            prefix="!",
+        ) as bot:
+            await bot.start()
+
+    try:
+        asyncio.run(runner())
+    except KeyboardInterrupt:
+        LOGGER.warning("Shutting down due to KeyboardInterrupt")
+
+
+if __name__ == "__main__":
+    main()

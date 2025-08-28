@@ -13,7 +13,6 @@ pip install -r requirements.txt
 ### Basic commands
 
 - `!commands`: list all commands
-- `!scoot` to shill Scoot. `!scoot s` (mods only) to start posting every five minutes. `!scoot e` (mods only) to stop. Same for `!gael`.
 
 Commands that only post a blob of text are defined in [`assets/static_commands.json`](assets/static_commands.json).
 

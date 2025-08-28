@@ -6,5 +6,6 @@ PyMovieDb
 python-dotenv
 requests
 tqdm
-twitchio
+twitchio[starlette]
 discord.py
+lxml[html_clean]

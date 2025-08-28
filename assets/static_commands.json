@@ -35,6 +35,11 @@
         "message": "NEW MERCH http://www.ymsmerch.com"
     },
     {
+        "name": "tts",
+        "aliases": ["TTS"],
+        "message": "COOL CAT TTS https://streamlabs.com/ymsplays/tip"
+    },
+    {
         "name": "notgus",
         "aliases": [],
         "hidden": true,
