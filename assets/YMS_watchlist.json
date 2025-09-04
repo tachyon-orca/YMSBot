@@ -32788,13 +32788,6 @@
       "Peter Pan Wendy"
     ]
   },
-  "tt36456563": {
-    "review_date": "2025-06-02",
-    "title": "Magellan",
-    "release_date": "2025-05-18",
-    "original_title": "Magalhães",
-    "alt_titles": []
-  },
   "tt13478510": {
     "review_date": "2025-06-02",
     "title": "The Fence",
@@ -32906,13 +32899,6 @@
     "alt_titles": [
       "Jay Kelly"
     ]
-  },
-  "tt33408463": {
-    "review_date": "2025-06-02",
-    "title": "Evil Puddle",
-    "release_date": "2025-05-24",
-    "original_title": "Evil Puddle",
-    "alt_titles": []
   },
   "tt28088049": {
     "review_date": "2025-06-02",
@@ -34277,5 +34263,21 @@
     "alt_titles": [
       "Using"
     ]
+  },
+  "tt31194612": {
+    "review_date": "2025-09-02",
+    "title": "Highest 2 Lowest",
+    "release_date": "2025-08-14",
+    "original_title": "Highest 2 Lowest",
+    "alt_titles": [
+      "Highest to Lowest"
+    ]
+  },
+  "tt28055434": {
+    "review_date": "2025-09-03",
+    "title": "Close to You",
+    "release_date": "2024-08-16",
+    "original_title": "Close to You",
+    "alt_titles": []
   }
 }
