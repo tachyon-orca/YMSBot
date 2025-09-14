@@ -31889,26 +31889,6 @@
       "Untitled Trey Parker/Matt Stone/Kendrick Lamar Comedy"
     ]
   },
-  "tt1312221": {
-    "review_date": "2025-02-28",
-    "title": "Frankenstein",
-    "release_date": "",
-    "original_title": "Frankenstein",
-    "alt_titles": [
-      "Guillermo del Toro's Frankenstein",
-      "Dr. Frankenstein"
-    ]
-  },
-  "tt14364480": {
-    "review_date": "2025-02-28",
-    "title": "Wake Up Dead Man: A Knives Out Mystery",
-    "release_date": "2025-12-31",
-    "original_title": "Wake Up Dead Man: A Knives Out Mystery",
-    "alt_titles": [
-      "Knives Out 3",
-      "Wake Up Dead Man"
-    ]
-  },
   "tt27200708": {
     "review_date": "2025-02-28",
     "title": "Mother Mary",
@@ -32597,22 +32577,6 @@
     "title": "The Secret Agent",
     "release_date": "2025-08-21",
     "original_title": "O Agente Secreto",
-    "alt_titles": []
-  },
-  "tt36491653": {
-    "review_date": "2025-05-24",
-    "title": "It Was Just an Accident",
-    "release_date": "2025-09-10",
-    "original_title": "یک تصادف ساده",
-    "alt_titles": [
-      "It Was Just an Accident"
-    ]
-  },
-  "tt32298285": {
-    "review_date": "2025-05-24",
-    "title": "Sirât",
-    "release_date": "2025-06-06",
-    "original_title": "Sirât",
     "alt_titles": []
   },
   "tt28690468": {
@@ -33366,13 +33330,6 @@
     "original_title": "Pillion",
     "alt_titles": []
   },
-  "tt22530226": {
-    "review_date": "2025-07-21",
-    "title": "A Useful Ghost",
-    "release_date": "2025-08-27",
-    "original_title": "ผีใช้ได้ค่ะ",
-    "alt_titles": []
-  },
   "tt32472708": {
     "review_date": "2025-07-21",
     "title": "Sleepless City",
@@ -33542,13 +33499,6 @@
   "tt5607660": {
     "review_date": "2025-07-31"
   },
-  "tt37679220": {
-    "review_date": "2025-07-31",
-    "title": "JUNK WORLD",
-    "release_date": "2025-06-13",
-    "original_title": "JUNK WORLD",
-    "alt_titles": []
-  },
   "tt34964205": {
     "review_date": "2025-08-01",
     "title": "2000 Meters to Andriivka",
@@ -33596,15 +33546,6 @@
       "Wolf's Lair"
     ]
   },
-  "tt35222590": {
-    "review_date": "2025-08-06",
-    "title": "Exit 8",
-    "release_date": "2025-08-28",
-    "original_title": "８番出口",
-    "alt_titles": [
-      "Exit 8"
-    ]
-  },
   "tt37068844": {
     "review_date": "2025-08-06",
     "title": "White Man Walking",
@@ -33617,13 +33558,6 @@
     "title": "Dreaming Dogs",
     "release_date": "2024-12-13",
     "original_title": "Dreaming Dogs",
-    "alt_titles": []
-  },
-  "tt18382850": {
-    "review_date": "2025-08-07",
-    "title": "If I Had Legs I'd Kick You",
-    "release_date": "2025-10-10",
-    "original_title": "If I Had Legs I'd Kick You",
     "alt_titles": []
   },
   "tt27613895": {
@@ -34181,6 +34115,61 @@
     "title": "Close to You",
     "release_date": "2024-08-16",
     "original_title": "Close to You",
+    "alt_titles": []
+  },
+  "tt6921006": {
+    "review_date": "2025-09-12",
+    "episode_title": "Main Event 533",
+    "release_date": "2022-12-15",
+    "title": "WWE Main Event",
+    "original_title": "WWE Main Event",
+    "alt_titles": []
+  },
+  "tt0100023": {
+    "review_date": "2025-09-12",
+    "title": "Life Is Cheap... But Toilet Paper Is Expensive",
+    "release_date": "1989-09-15",
+    "original_title": "Life Is Cheap... But Toilet Paper Is Expensive",
+    "alt_titles": []
+  },
+  "tt37660515": {
+    "review_date": "2025-09-12",
+    "title": "Barrio Triste",
+    "release_date": "2025-09-01",
+    "original_title": "Barrio Triste",
+    "alt_titles": [
+      "Untitled Stillz Supernatural Thriller"
+    ]
+  },
+  "tt14364480": {
+    "review_date": "2025-02-28",
+    "title": "Wake Up Dead Man: A Knives Out Mystery",
+    "release_date": "2025-12-31",
+    "original_title": "Wake Up Dead Man: A Knives Out Mystery",
+    "alt_titles": [
+      "Knives Out 3",
+      "Wake Up Dead Man"
+    ]
+  },
+  "tt10374610": {
+    "review_date": "2025-09-13",
+    "title": "The Long Walk",
+    "release_date": "2025-09-10",
+    "original_title": "The Long Walk",
+    "alt_titles": []
+  },
+  "tt32252801": {
+    "review_date": "2025-09-14",
+    "title": "Blue Heron",
+    "release_date": "2025-08-08",
+    "original_title": "Blue Heron",
+    "alt_titles": []
+  },
+  "tt14905854": {
+    "review_date": "2025-09-14",
+    "title": "Hamnet",
+    "release_date": "2025-11-27",
+    "original_title": "Hamnet",
     "alt_titles": []
   }
 }
