@@ -32531,7 +32531,7 @@
     "rating": "6"
   },
   "tt0057565": {
-    "review_date": "2025-07-19",
+    "review_date": "2025-09-18",
     "title": "High and Low",
     "release_date": "1963-03-01",
     "original_title": "天国と地獄",
@@ -32539,7 +32539,7 @@
       "High and Low",
       "Heaven and Hell"
     ],
-    "rating": "9"
+    "rating": "10"
   },
   "tt5247410": {
     "review_date": "2025-07-27",
@@ -32917,5 +32917,15 @@
     "original_title": "ผีใช้ได้ค่ะ",
     "alt_titles": [],
     "rating": "7"
+  },
+  "tt31194612": {
+    "review_date": "2025-09-18",
+    "title": "Highest 2 Lowest",
+    "release_date": "2025-08-14",
+    "original_title": "Highest 2 Lowest",
+    "alt_titles": [
+      "Highest to Lowest"
+    ],
+    "rating": "2"
   }
 }

@@ -34101,15 +34101,6 @@
       "Using"
     ]
   },
-  "tt31194612": {
-    "review_date": "2025-09-02",
-    "title": "Highest 2 Lowest",
-    "release_date": "2025-08-14",
-    "original_title": "Highest 2 Lowest",
-    "alt_titles": [
-      "Highest to Lowest"
-    ]
-  },
   "tt28055434": {
     "review_date": "2025-09-03",
     "title": "Close to You",
@@ -34184,6 +34175,57 @@
     "title": "2 Lizards",
     "release_date": "2020-03-17",
     "original_title": "2 Lizards",
+    "alt_titles": []
+  },
+  "tt0054460": {
+    "review_date": "2025-09-18",
+    "title": "The Bad Sleep Well",
+    "release_date": "1960-09-19",
+    "original_title": "悪い奴ほどよく眠る",
+    "alt_titles": [
+      "The Rose in the Mud"
+    ]
+  },
+  "tt0056327": {
+    "review_date": "2025-09-18",
+    "title": "Pale Flower",
+    "release_date": "1964-03-01",
+    "original_title": "乾いた花",
+    "alt_titles": []
+  },
+  "tt0080979": {
+    "review_date": "2025-09-18",
+    "title": "Kagemusha",
+    "release_date": "1980-04-26",
+    "original_title": "影武者",
+    "alt_titles": [
+      "Kagemusha the Shadow Warrior"
+    ]
+  },
+  "tt0058888": {
+    "review_date": "2025-09-18",
+    "title": "Red Beard",
+    "release_date": "1965-04-03",
+    "original_title": "赤ひげ",
+    "alt_titles": [
+      "Akahige"
+    ]
+  },
+  "tt0065649": {
+    "review_date": "2025-09-18",
+    "title": "Dodes'ka-den",
+    "release_date": "1970-10-31",
+    "original_title": "どですかでん",
+    "alt_titles": [
+      "Dodesukaden",
+      "Clickety-Clack"
+    ]
+  },
+  "tt31710990": {
+    "review_date": "2025-09-18",
+    "title": "Dreams",
+    "release_date": "2025-07-10",
+    "original_title": "Dreams",
     "alt_titles": []
   }
 }
