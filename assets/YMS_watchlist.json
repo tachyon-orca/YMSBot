@@ -10553,8 +10553,14 @@
     "original_title": "Generation Kill",
     "alt_titles": []
   },
-  "tt1758429": {
-    "review_date": "2019-07-17"
+  "tt1442449": {
+    "review_date": "2019-07-17",
+    "title": "Spartacus",
+    "release_date": "2010-01-22",
+    "original_title": "Spartacus",
+    "alt_titles": [
+      "No Time for Love"
+    ]
   },
   "tt0374463": {
     "review_date": "2019-07-17",
@@ -34249,6 +34255,22 @@
     "title": "Paris 05:59 / Théo & Hugo",
     "release_date": "2016-04-27",
     "original_title": "Théo et Hugo dans le même bateau",
+    "alt_titles": []
+  },
+  "tt0143746": {
+    "review_date": "2025-09-24",
+    "title": "Molly",
+    "release_date": "1999-10-22",
+    "original_title": "Molly",
+    "alt_titles": [
+      "Rescue Me"
+    ]
+  },
+  "tt27990245": {
+    "review_date": "2025-09-25",
+    "title": "Incident",
+    "release_date": "2023-04-25",
+    "original_title": "Incident",
     "alt_titles": []
   }
 }
