@@ -25233,13 +25233,6 @@
     "original_title": "Birdemic 3: Sea Eagle",
     "alt_titles": []
   },
-  "tt4254584": {
-    "review_date": "2023-02-03",
-    "title": "Kicks",
-    "release_date": "2016-09-09",
-    "original_title": "Kicks",
-    "alt_titles": []
-  },
   "tt4935158": {
     "review_date": "2023-02-03",
     "title": "Demon",
@@ -32491,15 +32484,6 @@
   "tt24215308": {
     "review_date": "2025-05-05"
   },
-  "tt20990442": {
-    "review_date": "2025-05-05",
-    "title": "HIM",
-    "release_date": "2025-09-18",
-    "original_title": "HIM",
-    "alt_titles": [
-      "GOAT"
-    ]
-  },
   "tt32544588": {
     "review_date": "2025-05-06",
     "title": "The Baldwins",
@@ -33235,13 +33219,6 @@
     "title": "Inside Job",
     "release_date": "2021-10-22",
     "original_title": "Inside Job",
-    "alt_titles": []
-  },
-  "tt29002950": {
-    "review_date": "2025-07-21",
-    "title": "Resurrection",
-    "release_date": "2025-10-15",
-    "original_title": "狂野时代",
     "alt_titles": []
   },
   "tt32909489": {
@@ -34258,6 +34235,62 @@
     "title": "Human Resource",
     "release_date": "2026-01-29",
     "original_title": "Human Resource",
+    "alt_titles": []
+  },
+  "tt31113017": {
+    "review_date": "2025-10-16",
+    "title": "Vampire Genesis",
+    "release_date": "2024-10-29",
+    "original_title": "Vampire Genesis",
+    "alt_titles": []
+  },
+  "tt1685536": {
+    "review_date": "2025-10-16",
+    "title": "Heaven's Story",
+    "release_date": "2010-10-02",
+    "original_title": "ヘヴンズ ストーリー",
+    "alt_titles": []
+  },
+  "tt37676033": {
+    "review_date": "2025-10-17",
+    "title": "V/H/S/HALLOWEEN",
+    "release_date": "2025-09-19",
+    "original_title": "V/H/S/HALLOWEEN",
+    "alt_titles": [
+      "V/H/S/8",
+      "V/H/S/HA//OWEEN",
+      "V/H/S/Halloween",
+      "Diet Phantasma",
+      "Coochie Coochie Coo",
+      "Ut Supra Sic Infra",
+      "Fun Size",
+      "Kidprint",
+      "Home Haunt"
+    ]
+  },
+  "tt0116126": {
+    "review_date": "2025-10-17",
+    "title": "Don't Be a Menace to South Central While Drinking Your Juice in the Hood",
+    "release_date": "1996-01-12",
+    "original_title": "Don't Be a Menace to South Central While Drinking Your Juice in the Hood",
+    "alt_titles": [
+      "Don't be a Menace"
+    ]
+  },
+  "tt32093575": {
+    "review_date": "2025-10-17",
+    "title": "Scary Movie",
+    "release_date": "2026-06-10",
+    "original_title": "Scary Movie",
+    "alt_titles": [
+      "Scary Movie 6"
+    ]
+  },
+  "tt36221414": {
+    "review_date": "2025-10-17",
+    "title": "With You, Our Love Will Make It Through",
+    "release_date": "2025-10-14",
+    "original_title": "キミと越えて恋になる",
     "alt_titles": []
   }
 }
