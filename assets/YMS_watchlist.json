@@ -13,15 +13,6 @@
     "original_title": "Offret",
     "alt_titles": []
   },
-  "tt0054215": {
-    "review_date": "2011-08-20",
-    "title": "Psycho",
-    "release_date": "1960-06-22",
-    "original_title": "Psycho",
-    "alt_titles": [
-      "Alfred Hitchcock's Psycho"
-    ]
-  },
   "tt0096283": {
     "review_date": "2011-08-20",
     "title": "My Neighbor Totoro",
@@ -34351,6 +34342,13 @@
     "title": "Relay",
     "release_date": "2025-08-21",
     "original_title": "Relay",
+    "alt_titles": []
+  },
+  "tt0063456": {
+    "review_date": "2025-10-24",
+    "title": "Pretty Poison",
+    "release_date": "1968-07-18",
+    "original_title": "Pretty Poison",
     "alt_titles": []
   }
 }
