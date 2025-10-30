@@ -32458,13 +32458,6 @@
       "The Asylum"
     ]
   },
-  "tt14999684": {
-    "review_date": "2025-05-01",
-    "title": "Shelby Oaks",
-    "release_date": "2025-08-21",
-    "original_title": "Shelby Oaks",
-    "alt_titles": []
-  },
   "tt15789898": {
     "review_date": "2025-05-03",
     "title": "Gold & Greed: The Hunt for Fenn's Treasure",
@@ -34375,6 +34368,27 @@
     "title": "Z",
     "release_date": "1969-02-26",
     "original_title": "Z",
+    "alt_titles": []
+  },
+  "tt37593265": {
+    "review_date": "2025-10-29",
+    "title": "Amityville",
+    "release_date": "",
+    "original_title": "Amityville",
+    "alt_titles": []
+  },
+  "tt23131648": {
+    "review_date": "2025-10-29",
+    "title": "Bloat",
+    "release_date": "2025-03-07",
+    "original_title": "Bloat",
+    "alt_titles": []
+  },
+  "tt0445396": {
+    "review_date": "2025-10-29",
+    "title": "The President's Last Bang",
+    "release_date": "2005-02-03",
+    "original_title": "그때 그사람들",
     "alt_titles": []
   }
 }
