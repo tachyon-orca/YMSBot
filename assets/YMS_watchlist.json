@@ -30094,9 +30094,6 @@
     "original_title": "The Monkey",
     "alt_titles": []
   },
-  "tt12300742": {
-    "review_date": "2024-06-26"
-  },
   "tt14225832": {
     "review_date": "2024-06-27",
     "title": "Reflection",
@@ -34390,5 +34387,51 @@
     "release_date": "2005-02-03",
     "original_title": "그때 그사람들",
     "alt_titles": []
+  },
+  "tt32448239": {
+    "review_date": "2025-10-30",
+    "title": "Dracula",
+    "release_date": "2025-10-15",
+    "original_title": "Dracula",
+    "alt_titles": []
+  },
+  "tt30516366": {
+    "review_date": "2025-10-30",
+    "title": "Chime",
+    "release_date": "2024-08-02",
+    "original_title": "Chime",
+    "alt_titles": []
+  },
+  "tt0098412": {
+    "review_date": "2025-10-30",
+    "title": "Sundown: The Vampire in Retreat",
+    "release_date": "1989-05-18",
+    "original_title": "Sundown: The Vampire in Retreat",
+    "alt_titles": []
+  },
+  "tt0098157": {
+    "review_date": "2025-10-30",
+    "title": "Rabid Grannies",
+    "release_date": "1988-12-12",
+    "original_title": "Les mémés cannibales",
+    "alt_titles": []
+  },
+  "tt0098404": {
+    "review_date": "2025-10-30",
+    "title": "Stuff Stephanie in the Incinerator",
+    "release_date": "1990-02-04",
+    "original_title": "Stuff Stephanie in the Incinerator",
+    "alt_titles": [
+      "In Deadly Heat"
+    ]
+  },
+  "tt0381392": {
+    "review_date": "2025-10-31",
+    "title": "Ma mère",
+    "release_date": "2004-05-19",
+    "original_title": "Ma mère",
+    "alt_titles": [
+      "Ma Mère"
+    ]
   }
 }
