@@ -1964,17 +1964,6 @@
       "Microcosmos: People of the Grass"
     ]
   },
-  "tt0142074": {
-    "review_date": "2014-03-20",
-    "title": "Alien Abduction: Incident in Lake County",
-    "release_date": "1998-01-20",
-    "original_title": "Alien Abduction: Incident in Lake County",
-    "alt_titles": [
-      "incident at lake county",
-      "alien abduction",
-      "alien abduction incident at lake county"
-    ]
-  },
   "tt0080569": {
     "review_date": "2014-03-26",
     "title": "Cruising",
@@ -34395,27 +34384,6 @@
     "original_title": "Dracula",
     "alt_titles": []
   },
-  "tt30516366": {
-    "review_date": "2025-10-30",
-    "title": "Chime",
-    "release_date": "2024-08-02",
-    "original_title": "Chime",
-    "alt_titles": []
-  },
-  "tt0098412": {
-    "review_date": "2025-10-30",
-    "title": "Sundown: The Vampire in Retreat",
-    "release_date": "1989-05-18",
-    "original_title": "Sundown: The Vampire in Retreat",
-    "alt_titles": []
-  },
-  "tt0098157": {
-    "review_date": "2025-10-30",
-    "title": "Rabid Grannies",
-    "release_date": "1988-12-12",
-    "original_title": "Les mémés cannibales",
-    "alt_titles": []
-  },
   "tt0098404": {
     "review_date": "2025-10-30",
     "title": "Stuff Stephanie in the Incinerator",
@@ -34433,5 +34401,45 @@
     "alt_titles": [
       "Ma Mère"
     ]
+  },
+  "tt0200659": {
+    "review_date": "2025-11-01",
+    "title": "Ghostwatch",
+    "release_date": "1992-10-31",
+    "original_title": "Ghostwatch",
+    "alt_titles": [
+      "Ghost Watch"
+    ]
+  },
+  "tt0169005": {
+    "review_date": "2025-11-01",
+    "title": "The McPherson Tape",
+    "release_date": "1989-01-01",
+    "original_title": "The McPherson Tape",
+    "alt_titles": [
+      "The McPherson Tape",
+      "The McPherson Tape: U.F.O. Abduction"
+    ]
+  },
+  "tt0352274": {
+    "review_date": "2025-11-01",
+    "title": "Dawn of an Evil Millennium",
+    "release_date": "1988-07-01",
+    "original_title": "Dawn of an Evil Millennium",
+    "alt_titles": []
+  },
+  "tt0434706": {
+    "review_date": "2025-11-01",
+    "title": "Monster",
+    "release_date": "2004-04-07",
+    "original_title": "MONSTER",
+    "alt_titles": []
+  },
+  "tt20852180": {
+    "review_date": "2025-11-01",
+    "title": "In the Dark",
+    "release_date": "2000-08-18",
+    "original_title": "In the Dark",
+    "alt_titles": []
   }
 }
