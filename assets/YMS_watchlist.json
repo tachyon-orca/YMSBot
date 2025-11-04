@@ -12873,9 +12873,6 @@
       "My Truth The Rape of Two Coreys"
     ]
   },
-  "tt1530535": {
-    "review_date": "2020-03-12"
-  },
   "tt8134186": {
     "review_date": "2020-03-13",
     "title": "Devs",
@@ -34044,13 +34041,6 @@
       "Wake Up Dead Man"
     ]
   },
-  "tt10374610": {
-    "review_date": "2025-09-13",
-    "title": "The Long Walk",
-    "release_date": "2025-09-10",
-    "original_title": "The Long Walk",
-    "alt_titles": []
-  },
   "tt32252801": {
     "review_date": "2025-09-14",
     "title": "Blue Heron",
@@ -34434,5 +34424,8 @@
     "release_date": "2000-08-18",
     "original_title": "In the Dark",
     "alt_titles": []
+  },
+  "tt37008269": {
+    "review_date": "2025-11-04"
   }
 }
