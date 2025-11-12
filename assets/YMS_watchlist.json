@@ -1568,9 +1568,6 @@
     "original_title": "Chuck Hank and the San Diego Twins",
     "alt_titles": []
   },
-  "tt2363436": {
-    "review_date": "2013-09-22"
-  },
   "tt3121200": {
     "review_date": "2013-09-25",
     "title": "Breakdown Lane",
@@ -34447,6 +34444,27 @@
     "title": "Predator: Badlands",
     "release_date": "2025-11-05",
     "original_title": "Predator: Badlands",
+    "alt_titles": []
+  },
+  "tt38209102": {
+    "review_date": "2025-11-10",
+    "title": "Lizard Music",
+    "release_date": "",
+    "original_title": "Lizard Music",
+    "alt_titles": []
+  },
+  "tt6945932": {
+    "review_date": "2025-11-11",
+    "title": "Scarborough",
+    "release_date": "2019-09-06",
+    "original_title": "Scarborough",
+    "alt_titles": []
+  },
+  "tt0041386": {
+    "review_date": "2025-11-11",
+    "title": "The Fountainhead",
+    "release_date": "1949-06-25",
+    "original_title": "The Fountainhead",
     "alt_titles": []
   }
 }

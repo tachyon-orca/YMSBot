@@ -32044,12 +32044,12 @@
     "rating": "5"
   },
   "tt35522483": {
-    "review_date": "2025-03-10",
+    "review_date": "2025-11-11",
     "title": "Nirvanna the Band the Show the Movie",
-    "release_date": "2025-03-09",
+    "release_date": "2026-02-13",
     "original_title": "Nirvanna the Band the Show the Movie",
     "alt_titles": [],
-    "rating": "9"
+    "rating": "10"
   },
   "tt30505698": {
     "review_date": "2025-03-10",
@@ -33142,5 +33142,19 @@
     "original_title": "The Long Walk",
     "alt_titles": [],
     "rating": "3"
+  },
+  "tt10648342": {
+    "review_date": "2025-11-11",
+    "title": "Thor: Love and Thunder",
+    "release_date": "2022-07-06",
+    "original_title": "Thor: Love and Thunder",
+    "alt_titles": [
+      "Thor 4",
+      "Marvel Studios' Thor: Love and Thunder",
+      "Thor - Love and Thunder",
+      "Thor IV",
+      "Thor 4: Love and Thunder"
+    ],
+    "rating": "1"
   }
 }
