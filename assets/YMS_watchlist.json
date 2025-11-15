@@ -13548,15 +13548,6 @@
       "Super Powerful Man"
     ]
   },
-  "tt0225009": {
-    "review_date": "2020-07-26",
-    "title": "964 Pinocchio",
-    "release_date": "1991-09-14",
-    "original_title": "ピノキオ√964",
-    "alt_titles": [
-      "964 Pinocchio"
-    ]
-  },
   "tt11614912": {
     "review_date": "2020-07-29",
     "title": "She Dies Tomorrow",
@@ -15581,13 +15572,6 @@
       "Marie Colvin",
       "Private War, A"
     ]
-  },
-  "tt0075686": {
-    "review_date": "2021-01-19",
-    "title": "Annie Hall",
-    "release_date": "1977-04-19",
-    "original_title": "Annie Hall",
-    "alt_titles": []
   },
   "tt11327514": {
     "review_date": "2021-01-19",
@@ -30716,13 +30700,6 @@
     "original_title": "The Chain",
     "alt_titles": []
   },
-  "tt14107334": {
-    "review_date": "2024-10-22",
-    "title": "The Running Man",
-    "release_date": "2025-11-20",
-    "original_title": "The Running Man",
-    "alt_titles": []
-  },
   "tt0105796": {
     "review_date": "2024-10-24",
     "title": "The Cat",
@@ -34466,5 +34443,48 @@
     "release_date": "1949-06-25",
     "original_title": "The Fountainhead",
     "alt_titles": []
+  },
+  "tt0261725": {
+    "review_date": "2025-11-13",
+    "title": "Harpy",
+    "release_date": "1979-05-01",
+    "original_title": "Harpya",
+    "alt_titles": []
+  },
+  "tt0098150": {
+    "review_date": "2025-11-13",
+    "title": "Magic Cop",
+    "release_date": "1990-11-01",
+    "original_title": "驅魔警察",
+    "alt_titles": [
+      "Mr. Vampire 5"
+    ]
+  },
+  "tt20316748": {
+    "review_date": "2025-11-13",
+    "title": "Twilight of the Warriors: Walled In",
+    "release_date": "2024-05-01",
+    "original_title": "九龍城寨之圍城",
+    "alt_titles": [
+      "Twilight of the Warriors: Walled In"
+    ]
+  },
+  "tt0091578": {
+    "review_date": "2025-11-15",
+    "title": "My Beautiful Laundrette",
+    "release_date": "1985-11-16",
+    "original_title": "My Beautiful Laundrette",
+    "alt_titles": [
+      "Powders"
+    ]
+  },
+  "tt0267116": {
+    "review_date": "2025-11-15",
+    "title": "Wild Zero",
+    "release_date": "1999-08-28",
+    "original_title": "WiLD ZERO",
+    "alt_titles": [
+      "WiLD ZERO"
+    ]
   }
 }

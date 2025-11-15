@@ -33156,5 +33156,32 @@
       "Thor 4: Love and Thunder"
     ],
     "rating": "1"
+  },
+  "tt0075686": {
+    "review_date": "2025-11-15",
+    "title": "Annie Hall",
+    "release_date": "1977-04-19",
+    "original_title": "Annie Hall",
+    "alt_titles": [],
+    "rating": "6"
+  },
+  "tt14107334": {
+    "review_date": "2025-11-14",
+    "title": "The Running Man",
+    "release_date": "2025-11-11",
+    "original_title": "The Running Man",
+    "alt_titles": [],
+    "rating": "3"
+  },
+  "tt0225009": {
+    "review_date": "2025-11-13",
+    "title": "964 Pinocchio",
+    "release_date": "1991-09-14",
+    "original_title": "ピノキオ√964",
+    "alt_titles": [
+      "964 Pinocchio",
+      "Pinocchio 964"
+    ],
+    "rating": "7"
   }
 }
