@@ -34413,13 +34413,6 @@
     "original_title": "Scarborough",
     "alt_titles": []
   },
-  "tt0041386": {
-    "review_date": "2025-11-11",
-    "title": "The Fountainhead",
-    "release_date": "1949-06-25",
-    "original_title": "The Fountainhead",
-    "alt_titles": []
-  },
   "tt0261725": {
     "review_date": "2025-11-13",
     "title": "Harpy",
@@ -34468,6 +34461,16 @@
     "title": "Don't Log Off",
     "release_date": "2025-07-11",
     "original_title": "Don't Log Off",
+    "alt_titles": []
+  },
+  "tt23632942": {
+    "review_date": "2025-11-24"
+  },
+  "tt31450459": {
+    "review_date": "2025-11-24",
+    "title": "Judy",
+    "release_date": "2026-10-01",
+    "original_title": "Judy",
     "alt_titles": []
   }
 }
