@@ -32770,12 +32770,12 @@
     "rating": "8"
   },
   "tt1527793": {
-    "review_date": "2025-09-09",
+    "review_date": "2025-12-02",
     "title": "No Other Choice",
     "release_date": "2025-09-24",
     "original_title": "어쩔수가없다",
     "alt_titles": [],
-    "rating": "9"
+    "rating": "10"
   },
   "tt37815958": {
     "review_date": "2025-09-09",
@@ -33221,5 +33221,47 @@
       "Oliver Company"
     ],
     "rating": "5"
+  },
+  "tt32085997": {
+    "review_date": "2025-12-01",
+    "title": "Misericordia",
+    "release_date": "2024-10-16",
+    "original_title": "Miséricorde",
+    "alt_titles": [],
+    "rating": "8"
+  },
+  "tt0091578": {
+    "review_date": "2025-12-01",
+    "title": "My Beautiful Laundrette",
+    "release_date": "1985-11-16",
+    "original_title": "My Beautiful Laundrette",
+    "alt_titles": [
+      "Powders"
+    ],
+    "rating": "6"
+  },
+  "tt36625950": {
+    "review_date": "2025-12-01",
+    "title": "2 Lizards",
+    "release_date": "2020-03-17",
+    "original_title": "2 Lizards",
+    "alt_titles": [],
+    "rating": "7"
+  },
+  "tt4178046": {
+    "review_date": "2025-12-01",
+    "title": "Interesting Ball",
+    "release_date": "2014-11-03",
+    "original_title": "Interesting Ball",
+    "alt_titles": [],
+    "rating": "7"
+  },
+  "tt26443597": {
+    "review_date": "2025-12-01",
+    "title": "Zootopia 2",
+    "release_date": "2025-11-26",
+    "original_title": "Zootopia 2",
+    "alt_titles": [],
+    "rating": "7"
   }
 }
