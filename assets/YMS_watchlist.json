@@ -32448,13 +32448,6 @@
     "original_title": "Die, My Love",
     "alt_titles": []
   },
-  "tt27847051": {
-    "review_date": "2025-05-24",
-    "title": "The Secret Agent",
-    "release_date": "2025-08-21",
-    "original_title": "O Agente Secreto",
-    "alt_titles": []
-  },
   "tt28690468": {
     "review_date": "2025-05-24",
     "title": "Sound of Falling",
@@ -34452,6 +34445,23 @@
     "title": "i hate myself :)",
     "release_date": "2017-04-07",
     "original_title": "i hate myself :)",
+    "alt_titles": []
+  },
+  "tt28074537": {
+    "review_date": "2025-12-05",
+    "title": "Dogvvalker",
+    "release_date": "2022-02-03",
+    "original_title": "Dogvvalker",
+    "alt_titles": []
+  },
+  "tt35701704": {
+    "review_date": "2025-12-05"
+  },
+  "tt9426194": {
+    "review_date": "2025-12-05",
+    "title": "Trigger Warning with Killer Mike",
+    "release_date": "2019-01-18",
+    "original_title": "Trigger Warning with Killer Mike",
     "alt_titles": []
   }
 }
