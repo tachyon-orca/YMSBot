@@ -22178,15 +22178,6 @@
     "original_title": "Four Weddings and a Funeral",
     "alt_titles": []
   },
-  "tt6019206": {
-    "review_date": "2022-04-27",
-    "title": "Kill Bill: The Whole Bloody Affair",
-    "release_date": "2011-03-27",
-    "original_title": "Kill Bill: The Whole Bloody Affair",
-    "alt_titles": [
-      "Kill Bill"
-    ]
-  },
   "tt16360006": {
     "review_date": "2022-04-27",
     "title": "Bubble",
@@ -33024,13 +33015,6 @@
     "original_title": "The Thinning: New World Order",
     "alt_titles": []
   },
-  "tt36158276": {
-    "review_date": "2025-07-09",
-    "title": "Castration Movie",
-    "release_date": "",
-    "original_title": "Castration Movie",
-    "alt_titles": []
-  },
   "tt0096455": {
     "review_date": "2025-07-12",
     "title": "The Wizard of Loneliness",
@@ -34469,6 +34453,20 @@
     "title": "I Love LA",
     "release_date": "2025-11-02",
     "original_title": "I Love LA",
+    "alt_titles": []
+  },
+  "tt0486665": {
+    "review_date": "2025-12-08",
+    "title": "Trail of the Screaming Forehead",
+    "release_date": "2007-06-08",
+    "original_title": "Trail of the Screaming Forehead",
+    "alt_titles": []
+  },
+  "tt8667404": {
+    "review_date": "2025-12-10",
+    "title": "The Chronology of Water",
+    "release_date": "2025-10-15",
+    "original_title": "The Chronology of Water",
     "alt_titles": []
   }
 }
