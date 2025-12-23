@@ -31760,13 +31760,6 @@
     "original_title": "Marty Supreme",
     "alt_titles": []
   },
-  "tt32159989": {
-    "review_date": "2025-02-28",
-    "title": "After the Hunt",
-    "release_date": "2025-10-10",
-    "original_title": "After the Hunt",
-    "alt_titles": []
-  },
   "tt17042980": {
     "review_date": "2025-02-28",
     "title": "Whitney Springs",
@@ -31782,9 +31775,6 @@
     "release_date": "",
     "original_title": "Mother Mary",
     "alt_titles": []
-  },
-  "tt32275943": {
-    "review_date": "2025-02-28"
   },
   "tt28521744": {
     "review_date": "2025-02-28",
@@ -32172,13 +32162,6 @@
   },
   "tt32767969": {
     "review_date": "2025-04-11"
-  },
-  "tt33247023": {
-    "review_date": "2025-04-11",
-    "title": "Splitsville",
-    "release_date": "2025-11-06",
-    "original_title": "Splitsville",
-    "alt_titles": []
   },
   "tt0050371": {
     "review_date": "2025-04-13",
@@ -33818,13 +33801,6 @@
     "original_title": "国宝",
     "alt_titles": []
   },
-  "tt35492581": {
-    "review_date": "2025-09-01",
-    "title": "Kontinental '25",
-    "release_date": "2025-09-24",
-    "original_title": "Kontinental '25",
-    "alt_titles": []
-  },
   "tt32204858": {
     "review_date": "2025-09-01",
     "title": "Late Shift",
@@ -34467,6 +34443,125 @@
     "title": "The Chronology of Water",
     "release_date": "2025-10-15",
     "original_title": "The Chronology of Water",
+    "alt_titles": []
+  },
+  "tt39150234": {
+    "review_date": "2025-12-10",
+    "title": "The History of Concrete",
+    "release_date": "2026-01-22",
+    "original_title": "The History of Concrete",
+    "alt_titles": []
+  },
+  "tt39017403": {
+    "review_date": "2025-12-11",
+    "title": "Corey Feldman vs. the World",
+    "release_date": "2025-12-03",
+    "original_title": "Corey Feldman vs. the World",
+    "alt_titles": []
+  },
+  "tt0204700": {
+    "review_date": "2025-12-11",
+    "title": "Trouble Every Day",
+    "release_date": "2001-07-11",
+    "original_title": "Trouble Every Day",
+    "alt_titles": []
+  },
+  "tt0117038": {
+    "review_date": "2025-12-12",
+    "title": "Michael",
+    "release_date": "1996-12-25",
+    "original_title": "Michael",
+    "alt_titles": []
+  },
+  "tt0098769": {
+    "review_date": "2025-12-12",
+    "title": "The Civil War",
+    "release_date": "1990-09-23",
+    "original_title": "The Civil War",
+    "alt_titles": []
+  },
+  "tt35328184": {
+    "review_date": "2025-12-12",
+    "title": "The American Revolution",
+    "release_date": "2025-11-16",
+    "original_title": "The American Revolution",
+    "alt_titles": []
+  },
+  "tt20863280": {
+    "review_date": "2025-12-12",
+    "title": "The U.S. and the Holocaust",
+    "release_date": "2022-09-18",
+    "original_title": "The U.S. and the Holocaust",
+    "alt_titles": []
+  },
+  "tt10756184": {
+    "review_date": "2025-12-12",
+    "title": "Saloum",
+    "release_date": "2023-01-25",
+    "original_title": "Saloum",
+    "alt_titles": []
+  },
+  "tt13598080": {
+    "review_date": "2025-12-12",
+    "title": "Zero",
+    "release_date": "2025-04-11",
+    "original_title": "Zero",
+    "alt_titles": []
+  },
+  "tt8125842": {
+    "review_date": "2025-12-15",
+    "title": "Blind Spot",
+    "release_date": "2018-08-24",
+    "original_title": "Blindsone",
+    "alt_titles": [
+      "Blind Spot"
+    ]
+  },
+  "tt34963732": {
+    "review_date": "2025-12-16",
+    "title": "Predators",
+    "release_date": "2025-09-19",
+    "original_title": "Predators",
+    "alt_titles": []
+  },
+  "tt37206123": {
+    "review_date": "2025-12-18",
+    "title": "End of History",
+    "release_date": "2025-05-01",
+    "original_title": "End of History",
+    "alt_titles": []
+  },
+  "tt1183252": {
+    "review_date": "2025-12-18",
+    "title": "Chocolate",
+    "release_date": "2008-02-07",
+    "original_title": "ช็อคโกแลต",
+    "alt_titles": []
+  },
+  "tt11378946": {
+    "review_date": "2025-12-18",
+    "title": "Michael",
+    "release_date": "2026-04-22",
+    "original_title": "Michael",
+    "alt_titles": [
+      "Michael Jackson Biopic"
+    ]
+  },
+  "tt14140644": {
+    "review_date": "2025-12-20"
+  },
+  "tt0068327": {
+    "review_date": "2025-12-20",
+    "title": "Cabaret",
+    "release_date": "1972-02-13",
+    "original_title": "Cabaret",
+    "alt_titles": []
+  },
+  "tt33347919": {
+    "review_date": "2025-12-22",
+    "title": "Adopted",
+    "release_date": "2024-12-20",
+    "original_title": "Adopted",
     "alt_titles": []
   }
 }

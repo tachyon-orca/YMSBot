@@ -27569,15 +27569,14 @@
     "alt_titles": []
   },
   "tt0120663": {
-    "review_date": "2012-10-26",
-    "rating": "8",
+    "review_date": "2025-12-13",
     "title": "Eyes Wide Shut",
     "release_date": "1999-07-16",
     "original_title": "Eyes Wide Shut",
     "alt_titles": [
-      "Traumnovelle",
-      "EWS"
-    ]
+      "Traumnovelle"
+    ],
+    "rating": "6"
   },
   "tt0245429": {
     "review_date": "2012-10-26",
@@ -32762,12 +32761,12 @@
     "rating": "8"
   },
   "tt27714581": {
-    "review_date": "2025-09-06",
+    "review_date": "2025-12-18",
     "title": "Sentimental Value",
     "release_date": "2025-08-20",
     "original_title": "Affeksjonsverdi",
     "alt_titles": [],
-    "rating": "8"
+    "rating": "9"
   },
   "tt1527793": {
     "review_date": "2025-12-02",
@@ -33302,5 +33301,65 @@
       "Kill Bill: The Whole Bloody Affair - The Lost Chapter"
     ],
     "rating": "2"
+  },
+  "tt32275943": {
+    "review_date": "2025-12-22",
+    "title": "Alpha",
+    "release_date": "2025-01-29",
+    "original_title": "Alpha",
+    "alt_titles": [],
+    "rating": "5"
+  },
+  "tt4712810": {
+    "review_date": "2025-12-22",
+    "title": "Now You See Me: Now You Don't",
+    "release_date": "2025-11-12",
+    "original_title": "Now You See Me: Now You Don't",
+    "alt_titles": [
+      "Now You See Me 3"
+    ],
+    "rating": "2"
+  },
+  "tt33247023": {
+    "review_date": "2025-12-20",
+    "title": "Splitsville",
+    "release_date": "2025-08-21",
+    "original_title": "Splitsville",
+    "alt_titles": [],
+    "rating": "8"
+  },
+  "tt35492581": {
+    "review_date": "2025-12-18",
+    "title": "Kontinental '25",
+    "release_date": "2025-09-24",
+    "original_title": "Kontinental '25",
+    "alt_titles": [],
+    "rating": "7"
+  },
+  "tt32159989": {
+    "review_date": "2025-12-16",
+    "title": "After the Hunt",
+    "release_date": "2025-10-09",
+    "original_title": "After the Hunt",
+    "alt_titles": [
+      "Luca Guadagnino's After the Hunt"
+    ],
+    "rating": "5"
+  },
+  "tt39165092": {
+    "review_date": "2025-12-13",
+    "rating": "7"
+  },
+  "tt0170016": {
+    "review_date": "2025-12-13",
+    "title": "How the Grinch Stole Christmas",
+    "release_date": "2000-11-17",
+    "original_title": "How the Grinch Stole Christmas",
+    "alt_titles": [
+      "Dr. Seuss' How the Grinch Stole Christmas",
+      "The Grinch",
+      "How the Grinch Stole Christmas"
+    ],
+    "rating": "3"
   }
 }
