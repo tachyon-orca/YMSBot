@@ -19290,16 +19290,6 @@
       "Return of the Bastard Swordsman"
     ]
   },
-  "tt13872248": {
-    "review_date": "2021-07-27",
-    "title": "The Sadness",
-    "release_date": "2021-01-22",
-    "original_title": "哭悲",
-    "alt_titles": [
-      "Ku bei",
-      "The Sadness"
-    ]
-  },
   "tt4431104": {
     "review_date": "2021-07-27",
     "title": "Septet: The Story of Hong Kong",
@@ -21199,13 +21189,6 @@
     "title": "The Searchers",
     "release_date": "1956-05-16",
     "original_title": "The Searchers",
-    "alt_titles": []
-  },
-  "tt14039582": {
-    "review_date": "2022-01-24",
-    "title": "Drive My Car",
-    "release_date": "2021-08-18",
-    "original_title": "ドライブ・マイ・カー",
     "alt_titles": []
   },
   "tt5715760": {
@@ -31433,16 +31416,6 @@
     "original_title": "Vermiglio",
     "alt_titles": []
   },
-  "tt1757678": {
-    "review_date": "2025-01-07",
-    "title": "Avatar: Fire and Ash",
-    "release_date": "2025-12-17",
-    "original_title": "Avatar: Fire and Ash",
-    "alt_titles": [
-      "Avatar 3",
-      "Avatar: The Seed Bearer"
-    ]
-  },
   "tt32606918": {
     "review_date": "2025-01-07",
     "title": "From Ground Zero",
@@ -31751,13 +31724,6 @@
     "title": "The Cable Guy",
     "release_date": "1996-06-10",
     "original_title": "The Cable Guy",
-    "alt_titles": []
-  },
-  "tt32916440": {
-    "review_date": "2025-02-28",
-    "title": "Marty Supreme",
-    "release_date": "2025-12-25",
-    "original_title": "Marty Supreme",
     "alt_titles": []
   },
   "tt17042980": {
@@ -34562,6 +34528,52 @@
     "title": "Adopted",
     "release_date": "2024-12-20",
     "original_title": "Adopted",
+    "alt_titles": []
+  },
+  "tt32263401": {
+    "review_date": "2025-12-31",
+    "title": "Reflection in a Dead Diamond",
+    "release_date": "2025-06-25",
+    "original_title": "Reflet dans un diamant mort",
+    "alt_titles": []
+  },
+  "tt39227597": {
+    "review_date": "2025-12-31",
+    "title": "Dave Chappelle: The Unstoppable...",
+    "release_date": "2025-12-19",
+    "original_title": "Dave Chappelle: The Unstoppable...",
+    "alt_titles": []
+  },
+  "tt0120885": {
+    "review_date": "2026-01-04",
+    "title": "Wag the Dog",
+    "release_date": "1997-12-25",
+    "original_title": "Wag the Dog",
+    "alt_titles": []
+  },
+  "tt30810787": {
+    "review_date": "2026-01-05",
+    "title": "Dreams",
+    "release_date": "2024-10-04",
+    "original_title": "Drømmer",
+    "alt_titles": [
+      "Dreams"
+    ]
+  },
+  "tt30810792": {
+    "review_date": "2026-01-05",
+    "title": "Love",
+    "release_date": "2024-11-10",
+    "original_title": "Kjærlighet",
+    "alt_titles": [
+      "Love"
+    ]
+  },
+  "tt26270862": {
+    "review_date": "2026-01-05",
+    "title": "Sex",
+    "release_date": "2024-03-01",
+    "original_title": "Sex",
     "alt_titles": []
   }
 }
