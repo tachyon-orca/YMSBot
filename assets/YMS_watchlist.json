@@ -862,17 +862,6 @@
     "original_title": "The Ruling Class",
     "alt_titles": []
   },
-  "tt0088258": {
-    "review_date": "2012-09-25",
-    "title": "This Is Spinal Tap",
-    "release_date": "1984-03-02",
-    "original_title": "This Is Spinal Tap",
-    "alt_titles": [
-      "Rock 'n' Roll Nightmare",
-      "This is Spinal Tap®: A Rockumentary by Martin Di Bergi",
-      "This Is Spın̈al Tap"
-    ]
-  },
   "tt1244666": {
     "review_date": "2012-10-07",
     "title": "Fish Story",
@@ -30100,13 +30089,6 @@
       "Bando Stone & The New World"
     ]
   },
-  "tt10078772": {
-    "review_date": "2024-07-19",
-    "title": "Flight Risk",
-    "release_date": "2024-10-17",
-    "original_title": "Flight Risk",
-    "alt_titles": []
-  },
   "tt11847410": {
     "review_date": "2024-07-19",
     "title": "The Fallout",
@@ -33170,13 +33152,6 @@
       "The Great Arch"
     ]
   },
-  "tt27722618": {
-    "review_date": "2025-07-21",
-    "title": "Left-Handed Girl",
-    "release_date": "2025-09-17",
-    "original_title": "Left-Handed Girl",
-    "alt_titles": []
-  },
   "tt34968474": {
     "review_date": "2025-07-21",
     "title": "The Six Billion Dollar Man",
@@ -33302,13 +33277,6 @@
     "title": "Peep \"TV\" Show",
     "release_date": "2005-03-26",
     "original_title": "Peep \"TV\" Show",
-    "alt_titles": []
-  },
-  "tt32536315": {
-    "review_date": "2025-08-05",
-    "title": "Blue Moon",
-    "release_date": "2025-10-17",
-    "original_title": "Blue Moon",
     "alt_titles": []
   },
   "tt0090271": {
@@ -34575,5 +34543,70 @@
     "release_date": "2024-03-01",
     "original_title": "Sex",
     "alt_titles": []
+  },
+  "tt37803364": {
+    "review_date": "2026-01-08",
+    "title": "Possible Love",
+    "release_date": "",
+    "original_title": "가능한 사랑",
+    "alt_titles": []
+  },
+  "tt0109066": {
+    "review_date": "2026-01-08",
+    "title": "Vive L'Amour",
+    "release_date": "1995-03-02",
+    "original_title": "愛情萬歲",
+    "alt_titles": []
+  },
+  "tt0377556": {
+    "review_date": "2026-01-08",
+    "title": "Goodbye, Dragon Inn",
+    "release_date": "2003-12-12",
+    "original_title": "不散",
+    "alt_titles": []
+  },
+  "tt0107034": {
+    "review_date": "2026-01-08",
+    "title": "The Good Son",
+    "release_date": "1993-09-24",
+    "original_title": "The Good Son",
+    "alt_titles": []
+  },
+  "tt0466856": {
+    "review_date": "2026-01-11",
+    "title": "ATL",
+    "release_date": "2006-03-31",
+    "original_title": "ATL",
+    "alt_titles": []
+  },
+  "tt0161100": {
+    "review_date": "2026-01-11",
+    "title": "The Wood",
+    "release_date": "1999-07-16",
+    "original_title": "The Wood",
+    "alt_titles": []
+  },
+  "tt0114609": {
+    "review_date": "2026-01-11",
+    "title": "Tales from the Hood",
+    "release_date": "1995-05-24",
+    "original_title": "Tales from the Hood",
+    "alt_titles": [
+      "Boys Do Get Bruised",
+      "Hard-Core Convert",
+      "KKK Comeuppance",
+      "Rogue Cop Revelation",
+      "Welcome to My Mortuary"
+    ]
+  },
+  "tt1797348": {
+    "review_date": "2026-01-11",
+    "title": "7 Days in Havana",
+    "release_date": "2012-04-05",
+    "original_title": "7 días en La Habana",
+    "alt_titles": []
+  },
+  "tt6867482": {
+    "review_date": "2026-01-11"
   }
 }
