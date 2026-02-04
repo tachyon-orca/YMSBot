@@ -34,7 +34,7 @@ jobs:
 
       - name: Fetch Ratings
         run: |
-          docker run --rm --mount type=bind,source="$(pwd)",target=/mnt/output tachyorca/imdb_user_crawler:main get_ratings.py /mnt/output/yms_ratings.json
+          docker run --rm --network host --mount type=bind,source="$(pwd)",target=/mnt/output tachyorca/imdb_user_crawler:main get_ratings.py /mnt/output/yms_ratings.json
 
       - name: Update Ratings
         run: |
@@ -42,7 +42,7 @@ jobs:
 
       - name: Fetch Watchlist
         run: |
-          docker run --rm --mount type=bind,source="$(pwd)",target=/mnt/output tachyorca/imdb_user_crawler:main download_watchlist.py /mnt/output/yms_watchlist.json
+          docker run --rm --network host --mount type=bind,source="$(pwd)",target=/mnt/output tachyorca/imdb_user_crawler:main download_watchlist.py /mnt/output/yms_watchlist.json
 
       - name: Update Watchlist
         run: |
