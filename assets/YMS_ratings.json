@@ -33549,12 +33549,12 @@
     "rating": "4"
   },
   "tt32321317": {
-    "review_date": "2026-03-04",
+    "review_date": "2026-03-11",
     "title": "Pillion",
     "release_date": "2025-11-28",
     "original_title": "Pillion",
     "alt_titles": [],
-    "rating": "8"
+    "rating": "9"
   },
   "tt27613895": {
     "review_date": "2026-03-02",
@@ -33722,5 +33722,49 @@
       "Disney and Pixar's Elio"
     ],
     "rating": "2"
+  },
+  "tt0048424": {
+    "review_date": "2026-03-11",
+    "title": "The Night of the Hunter",
+    "release_date": "1955-07-26",
+    "original_title": "The Night of the Hunter",
+    "alt_titles": [],
+    "rating": "6"
+  },
+  "tt3005278": {
+    "review_date": "2026-03-08",
+    "rating": "2"
+  },
+  "tt4434690": {
+    "review_date": "2026-03-08",
+    "rating": "3"
+  },
+  "tt4177746": {
+    "review_date": "2026-03-08",
+    "rating": "1"
+  },
+  "tt0234740": {
+    "review_date": "2026-03-08",
+    "title": "Sissy-Boy Slap-Party",
+    "release_date": "2004-08-11",
+    "original_title": "Sissy-Boy Slap-Party",
+    "alt_titles": [],
+    "rating": "3"
+  },
+  "tt0860922": {
+    "review_date": "2026-03-08",
+    "title": "Nude Caboose",
+    "release_date": "2006-09-13",
+    "original_title": "Nude Caboose",
+    "alt_titles": [],
+    "rating": "2"
+  },
+  "tt0319185": {
+    "review_date": "2026-03-08",
+    "title": "Chirpy",
+    "release_date": "2001-01-01",
+    "original_title": "Chirpy",
+    "alt_titles": [],
+    "rating": "6"
   }
 }

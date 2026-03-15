@@ -14236,13 +14236,6 @@
     "original_title": "Matilda",
     "alt_titles": []
   },
-  "tt0048424": {
-    "review_date": "2020-10-08",
-    "title": "The Night of the Hunter",
-    "release_date": "1955-08-26",
-    "original_title": "The Night of the Hunter",
-    "alt_titles": []
-  },
   "tt8967870": {
     "review_date": "2020-10-09",
     "title": "Monkey Beach",
@@ -35145,6 +35138,64 @@
     "title": "The Parallax View",
     "release_date": "1974-06-14",
     "original_title": "The Parallax View",
+    "alt_titles": []
+  },
+  "tt0072610": {
+    "review_date": "2026-03-05",
+    "title": "The Adventures of the Wilderness Family",
+    "release_date": "1975-12-19",
+    "original_title": "The Adventures of the Wilderness Family",
+    "alt_titles": []
+  },
+  "tt34548722": {
+    "review_date": "2026-03-05",
+    "title": "Sore: A Wife from the Future",
+    "release_date": "2025-07-10",
+    "original_title": "Sore: Istri Dari Masa Depan",
+    "alt_titles": [
+      "Sore: Wife from the Future"
+    ]
+  },
+  "tt13365348": {
+    "review_date": "2026-03-07",
+    "title": "Archive 81",
+    "release_date": "2022-01-14",
+    "original_title": "Archive 81",
+    "alt_titles": []
+  },
+  "tt0118125": {
+    "review_date": "2026-03-08",
+    "title": "The Watermelon Woman",
+    "release_date": "1997-03-05",
+    "original_title": "The Watermelon Woman",
+    "alt_titles": []
+  },
+  "tt35664086": {
+    "review_date": "2026-03-08",
+    "title": "Snow Bear",
+    "release_date": "2024-11-21",
+    "original_title": "Snow Bear",
+    "alt_titles": []
+  },
+  "tt0081283": {
+    "review_date": "2026-03-10",
+    "title": "Ordinary People",
+    "release_date": "1980-09-19",
+    "original_title": "Ordinary People",
+    "alt_titles": []
+  },
+  "tt2409818": {
+    "review_date": "2026-03-11",
+    "title": "Open Windows",
+    "release_date": "2014-07-04",
+    "original_title": "Open Windows",
+    "alt_titles": []
+  },
+  "tt0093239": {
+    "review_date": "2026-03-13",
+    "title": "I've Heard the Mermaids Singing",
+    "release_date": "1987-09-11",
+    "original_title": "I've Heard the Mermaids Singing",
     "alt_titles": []
   }
 }
