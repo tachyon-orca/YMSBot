@@ -5433,15 +5433,6 @@
     "original_title": "Mystery Team",
     "alt_titles": []
   },
-  "tt0062136": {
-    "review_date": "2016-11-14",
-    "title": "PlayTime",
-    "release_date": "1967-12-16",
-    "original_title": "PlayTime",
-    "alt_titles": [
-      "PlayTime"
-    ]
-  },
   "tt1223975": {
     "review_date": "2016-11-14",
     "title": "Tony Manero",
@@ -9057,13 +9048,6 @@
     "title": "The Cell",
     "release_date": "2000-08-17",
     "original_title": "The Cell",
-    "alt_titles": []
-  },
-  "tt0111689": {
-    "review_date": "2019-01-07",
-    "title": "What Happened Was...",
-    "release_date": "1994-09-09",
-    "original_title": "What Happened Was...",
     "alt_titles": []
   },
   "tt4158876": {
@@ -32780,13 +32764,6 @@
       "In and Out"
     ]
   },
-  "tt12042730": {
-    "review_date": "2025-06-28",
-    "title": "Project Hail Mary",
-    "release_date": "2026-03-20",
-    "original_title": "Project Hail Mary",
-    "alt_titles": []
-  },
   "tt2599226": {
     "review_date": "2025-06-28",
     "title": "An Easter Bunny Puppy",
@@ -35197,5 +35174,78 @@
     "release_date": "1987-09-11",
     "original_title": "I've Heard the Mermaids Singing",
     "alt_titles": []
+  },
+  "tt28810495": {
+    "review_date": "2026-03-16",
+    "title": "Pop Star Academy: KATSEYE",
+    "release_date": "2024-08-21",
+    "original_title": "Pop Star Academy: KATSEYE",
+    "alt_titles": []
+  },
+  "tt34704424": {
+    "review_date": "2026-03-19",
+    "title": "Madwoman's Game",
+    "release_date": "2026-03-16",
+    "original_title": "Madwoman's Game",
+    "alt_titles": []
+  },
+  "tt0073179": {
+    "review_date": "2026-03-21",
+    "title": "The Irony of Fate, or Enjoy Your Bath!",
+    "release_date": "1975-12-31",
+    "original_title": "Ирония судьбы, или С легким паром!",
+    "alt_titles": []
+  },
+  "tt33398476": {
+    "review_date": "2026-03-24"
+  },
+  "tt0587653": {
+    "review_date": "2026-03-24"
+  },
+  "tt4338128": {
+    "review_date": "2026-03-24",
+    "title": "The Shape of Something Squashed",
+    "release_date": "2014-05-15",
+    "original_title": "The Shape of Something Squashed",
+    "alt_titles": []
+  },
+  "tt5875364": {
+    "review_date": "2026-03-25",
+    "title": "Horseshoe Finale",
+    "release_date": "2015-12-05",
+    "original_title": "Horseshoe Finale",
+    "alt_titles": []
+  },
+  "tt0099939": {
+    "review_date": "2026-03-26",
+    "title": "King of New York",
+    "release_date": "1990-07-18",
+    "original_title": "King of New York",
+    "alt_titles": []
+  },
+  "tt7236034": {
+    "review_date": "2026-03-26",
+    "title": "I Want to Eat Your Pancreas",
+    "release_date": "2018-09-01",
+    "original_title": "君の膵臓をたべたい",
+    "alt_titles": [
+      "Kimi no Suizou wo Tabetai"
+    ]
+  },
+  "tt28664733": {
+    "review_date": "2026-03-26",
+    "title": "Lost in Starlight",
+    "release_date": "2025-05-30",
+    "original_title": "이 별에 필요한",
+    "alt_titles": []
+  },
+  "tt40644918": {
+    "review_date": "2026-03-27",
+    "title": "40 Years of Fuckin' Up",
+    "release_date": "2026-03-15",
+    "original_title": "40 Years of Fuckin' Up",
+    "alt_titles": [
+      "NOFX: 40 Years of Fuckin' Up"
+    ]
   }
 }

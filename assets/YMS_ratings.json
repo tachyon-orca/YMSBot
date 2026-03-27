@@ -33766,5 +33766,31 @@
     "original_title": "Chirpy",
     "alt_titles": [],
     "rating": "6"
+  },
+  "tt0062136": {
+    "review_date": "2026-03-27",
+    "title": "PlayTime",
+    "release_date": "1967-12-13",
+    "original_title": "PlayTime",
+    "alt_titles": [
+      "PlayTime"
+    ],
+    "rating": "9"
+  },
+  "tt0111689": {
+    "review_date": "2026-03-25",
+    "title": "What Happened Was...",
+    "release_date": "1994-09-09",
+    "original_title": "What Happened Was...",
+    "alt_titles": [],
+    "rating": "8"
+  },
+  "tt12042730": {
+    "review_date": "2026-03-24",
+    "title": "Project Hail Mary",
+    "release_date": "2026-03-15",
+    "original_title": "Project Hail Mary",
+    "alt_titles": [],
+    "rating": "6"
   }
 }
