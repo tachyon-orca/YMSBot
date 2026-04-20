@@ -33792,5 +33792,47 @@
     "original_title": "Project Hail Mary",
     "alt_titles": [],
     "rating": "6"
+  },
+  "tt0077405": {
+    "review_date": "2026-04-20",
+    "title": "Days of Heaven",
+    "release_date": "1978-09-13",
+    "original_title": "Days of Heaven",
+    "alt_titles": [],
+    "rating": "8"
+  },
+  "tt30851137": {
+    "review_date": "2026-04-20",
+    "title": "The Bride!",
+    "release_date": "2026-03-04",
+    "original_title": "The Bride!",
+    "alt_titles": [
+      "Untitled Maggie Gyllenhaal Project"
+    ],
+    "rating": "2"
+  },
+  "tt33071426": {
+    "review_date": "2026-04-07",
+    "title": "The Drama",
+    "release_date": "2026-03-26",
+    "original_title": "The Drama",
+    "alt_titles": [],
+    "rating": "8"
+  },
+  "tt0117038": {
+    "review_date": "2026-04-02",
+    "title": "Michael",
+    "release_date": "1996-12-25",
+    "original_title": "Michael",
+    "alt_titles": [],
+    "rating": "2"
+  },
+  "tt13186604": {
+    "review_date": "2026-03-29",
+    "title": "Uglies",
+    "release_date": "2024-09-12",
+    "original_title": "Uglies",
+    "alt_titles": [],
+    "rating": "3"
   }
 }
