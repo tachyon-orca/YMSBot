@@ -4195,9 +4195,6 @@
     "original_title": "The Promise",
     "alt_titles": []
   },
-  "tt1223947": {
-    "review_date": "2016-01-14"
-  },
   "tt0133751": {
     "review_date": "2016-01-18",
     "title": "The Faculty",
@@ -19633,18 +19630,6 @@
       "The Road"
     ]
   },
-  "tt0108255": {
-    "review_date": "2021-08-31",
-    "title": "Super Mario Bros.",
-    "release_date": "1993-05-28",
-    "original_title": "Super Mario Bros.",
-    "alt_titles": [
-      "Super Mario: The Movie",
-      "Super Mario Brothers",
-      "Super Mario Bros",
-      "The Super Mario Bros."
-    ]
-  },
   "tt0116669": {
     "review_date": "2021-08-31",
     "title": "Jack",
@@ -34292,15 +34277,6 @@
     "original_title": "ช็อคโกแลต",
     "alt_titles": []
   },
-  "tt11378946": {
-    "review_date": "2025-12-18",
-    "title": "Michael",
-    "release_date": "2026-04-22",
-    "original_title": "Michael",
-    "alt_titles": [
-      "Michael Jackson Biopic"
-    ]
-  },
   "tt14140644": {
     "review_date": "2025-12-20"
   },
@@ -35499,6 +35475,222 @@
     "title": "The Samurai and the Prisoner",
     "release_date": "2026-06-19",
     "original_title": "黒牢城",
+    "alt_titles": []
+  },
+  "tt32219574": {
+    "review_date": "2026-04-20",
+    "title": "Evil Dead Wrath",
+    "release_date": "2028-04-07",
+    "original_title": "Evil Dead Wrath",
+    "alt_titles": []
+  },
+  "tt27426175": {
+    "review_date": "2026-04-20",
+    "title": "Again Again",
+    "release_date": "2026-05-11",
+    "original_title": "Again Again",
+    "alt_titles": []
+  },
+  "tt39150067": {
+    "review_date": "2026-04-20",
+    "title": "BURN",
+    "release_date": "2026-04-10",
+    "original_title": "炎上",
+    "alt_titles": []
+  },
+  "tt34441067": {
+    "review_date": "2026-04-20",
+    "title": "Chili Finger",
+    "release_date": "2026-12-03",
+    "original_title": "Chili Finger",
+    "alt_titles": []
+  },
+  "tt34093882": {
+    "review_date": "2026-04-20",
+    "title": "Brian",
+    "release_date": "2026-03-14",
+    "original_title": "Brian",
+    "alt_titles": []
+  },
+  "tt36270448": {
+    "review_date": "2026-04-20",
+    "title": "The Snake",
+    "release_date": "2026-03-13",
+    "original_title": "The Snake",
+    "alt_titles": []
+  },
+  "tt1261422": {
+    "review_date": "2026-04-20",
+    "title": "RR",
+    "release_date": "2007-11-02",
+    "original_title": "RR",
+    "alt_titles": []
+  },
+  "tt0094933": {
+    "review_date": "2026-04-20",
+    "title": "D.O.A.",
+    "release_date": "1988-03-18",
+    "original_title": "D.O.A.",
+    "alt_titles": [
+      "D.O.A.",
+      "D. O. A."
+    ]
+  },
+  "tt4065212": {
+    "review_date": "2026-04-21",
+    "title": "Bakery in Brooklyn",
+    "release_date": "2016-06-30",
+    "original_title": "My Bakery in Brooklyn",
+    "alt_titles": []
+  },
+  "tt2467700": {
+    "review_date": "2026-04-21",
+    "title": "Animal Farm",
+    "release_date": "2026-04-30",
+    "original_title": "Animal Farm",
+    "alt_titles": [
+      "Animal Farm: A Cautionary Tail"
+    ]
+  },
+  "tt0028331": {
+    "review_date": "2026-04-21",
+    "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+    "release_date": "1936-03-01",
+    "original_title": "Sweeney Todd: The Demon Barber of Fleet Street",
+    "alt_titles": [
+      "The Demon Barber of Fleet Street"
+    ]
+  },
+  "tt29283995": {
+    "review_date": "2026-04-21",
+    "title": "Hen",
+    "release_date": "2026-02-20",
+    "original_title": "Κότα",
+    "alt_titles": []
+  },
+  "tt35636239": {
+    "review_date": "2026-04-22",
+    "title": "Lady",
+    "release_date": "2026-03-21",
+    "original_title": "Lady",
+    "alt_titles": []
+  },
+  "tt36856791": {
+    "review_date": "2026-04-22",
+    "title": "Summer Beats",
+    "release_date": "2026-01-07",
+    "original_title": "Ma frère",
+    "alt_titles": [
+      "Summer Beats"
+    ]
+  },
+  "tt30220107": {
+    "review_date": "2026-04-22",
+    "title": "Renoir",
+    "release_date": "2025-06-20",
+    "original_title": "ルノワール",
+    "alt_titles": []
+  },
+  "tt39318287": {
+    "review_date": "2026-04-22",
+    "title": "The Seoul Guardians",
+    "release_date": "2026-01-30",
+    "original_title": "서울의 밤",
+    "alt_titles": []
+  },
+  "tt27811632": {
+    "review_date": "2026-04-22",
+    "title": "Silent Friend",
+    "release_date": "2026-01-15",
+    "original_title": "Stille Freundin",
+    "alt_titles": [
+      "Still Friends"
+    ]
+  },
+  "tt39150922": {
+    "review_date": "2026-04-22",
+    "title": "Nuisance Bear",
+    "release_date": "2026-01-24",
+    "original_title": "Nuisance Bear",
+    "alt_titles": []
+  },
+  "tt39367915": {
+    "review_date": "2026-04-22",
+    "title": "The Life We Leave",
+    "release_date": "2026-03-13",
+    "original_title": "The Life We Leave",
+    "alt_titles": []
+  },
+  "tt13016388": {
+    "review_date": "2026-04-22",
+    "title": "3 Body Problem",
+    "release_date": "2024-03-21",
+    "original_title": "3 Body Problem",
+    "alt_titles": [
+      "The Bloodthirsty Roses",
+      "Bloodsucking Rose"
+    ]
+  },
+  "tt0048956": {
+    "review_date": "2026-04-28",
+    "title": "Aparajito",
+    "release_date": "1956-10-11",
+    "original_title": "অপরাজিত",
+    "alt_titles": [
+      "The Unvanquished",
+      "Apu Trilogy 2: The Unvanquished"
+    ]
+  },
+  "tt0052572": {
+    "review_date": "2026-04-28",
+    "title": "The World of Apu",
+    "release_date": "1959-05-01",
+    "original_title": "অপুর সংসার",
+    "alt_titles": [
+      "Apu Trilogy 3: The World of Apu",
+      "The World of Apu"
+    ]
+  },
+  "tt0112099": {
+    "review_date": "2026-04-30",
+    "title": "NileCity 105.6",
+    "release_date": "1995-01-18",
+    "original_title": "NileCity 105,6",
+    "alt_titles": []
+  },
+  "tt33095159": {
+    "review_date": "2026-04-30",
+    "title": "Dog Movie",
+    "release_date": "2023-09-13",
+    "original_title": "Dog Movie",
+    "alt_titles": []
+  },
+  "tt1566591": {
+    "review_date": "2026-04-30",
+    "title": "Magic & Bird: A Courtship of Rivals",
+    "release_date": "2010-03-10",
+    "original_title": "Magic & Bird: A Courtship of Rivals",
+    "alt_titles": []
+  },
+  "tt22245582": {
+    "review_date": "2026-05-02",
+    "title": "Stolen Kingdom",
+    "release_date": "2026-05-21",
+    "original_title": "Stolen Kingdom",
+    "alt_titles": []
+  },
+  "tt34379307": {
+    "review_date": "2026-05-02",
+    "title": "Is God Is",
+    "release_date": "2026-05-15",
+    "original_title": "Is God Is",
+    "alt_titles": []
+  },
+  "tt7917178": {
+    "review_date": "2026-05-03",
+    "title": "Caveat",
+    "release_date": "2021-10-20",
+    "original_title": "Caveat",
     "alt_titles": []
   }
 }

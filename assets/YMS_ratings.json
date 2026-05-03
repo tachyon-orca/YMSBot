@@ -33834,5 +33834,45 @@
     "original_title": "Uglies",
     "alt_titles": [],
     "rating": "3"
+  },
+  "tt26443616": {
+    "review_date": "2026-05-03",
+    "title": "Hoppers",
+    "release_date": "2026-03-04",
+    "original_title": "Hoppers",
+    "alt_titles": [],
+    "rating": "6"
+  },
+  "tt11378946": {
+    "review_date": "2026-04-27",
+    "title": "Michael",
+    "release_date": "2026-04-22",
+    "original_title": "Michael",
+    "alt_titles": [
+      "Michael Jackson Biopic"
+    ],
+    "rating": "3"
+  },
+  "tt15729326": {
+    "review_date": "2026-04-21",
+    "rating": "10"
+  },
+  "tt8709186": {
+    "review_date": "2026-04-21",
+    "title": "Munkey Jones Stops a School Shooting",
+    "release_date": "2018-08-10",
+    "original_title": "Munkey Jones Stops a School Shooting",
+    "alt_titles": [],
+    "rating": "10"
+  },
+  "tt0108255": {
+    "review_date": "2026-04-21",
+    "title": "Super Mario Bros.",
+    "release_date": "1993-05-28",
+    "original_title": "Super Mario Bros.",
+    "alt_titles": [
+      "Drain Man"
+    ],
+    "rating": "2"
   }
 }
