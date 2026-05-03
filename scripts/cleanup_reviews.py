@@ -58,6 +58,8 @@ def main():
         if imdb_id not in ratings:
             print(row)
             continue
+        if "title" not in ratings[imdb_id]:
+            ratings[imdb_id]["title"] = row["Title"]
         if imdb_id not in reviews:
             reviews[imdb_id] = {
                 "title": row["Title"],
@@ -66,6 +68,9 @@ def main():
         reviews[imdb_id]["reviews"].append(
             (normalize(row["Video Title"]), row["Video Link"])
         )
+    
+    with open("../assets/YMS_ratings.json", "w") as fout:
+        json.dump(ratings, fout, indent=2, ensure_ascii=False)
 
     for imdb_id, review in reviews.items():
         review["reviews"] = [
