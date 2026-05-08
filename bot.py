@@ -3,6 +3,7 @@ import json
 import logging
 import time
 from datetime import datetime, timezone
+from pathlib import Path
 
 import inflect
 import twitchio
@@ -14,6 +15,8 @@ from twitchio.ext import commands
 LOGGER: logging.Logger = logging.getLogger(__name__)
 
 inflect_engine = inflect.engine()
+BASE_DIR = Path(__file__).resolve().parent
+STATIC_COMMANDS_FILE = BASE_DIR / "assets" / "static_commands.json"
 
 
 def _format_time_interval(nano_seconds):
@@ -39,6 +42,7 @@ class Bot(commands.Bot):
         adapter = web.StarletteAdapter(domain="bot.tachyorca.com", port=4343)
         super().__init__(adapter=adapter, **kwargs)
         self.load_static_commands()
+        self.add_command(self._make_list_commands_command())
 
     async def setup_hook(self) -> None:
         # Add our General Commands Component...
@@ -76,37 +80,44 @@ class Bot(commands.Bot):
         )
         await self.subscribe_websocket(chat)
 
-    def load_static_commands(self, commands_file="assets/static_commands.json"):
+    def load_static_commands(self, commands_file=STATIC_COMMANDS_FILE):
         self.static_commands = []
-        with open(commands_file) as f:
+        commands_path = Path(commands_file)
+        if not commands_path.is_absolute():
+            commands_path = BASE_DIR / commands_path
+
+        with open(commands_path, encoding="utf-8") as f:
             static_commands = json.load(f)
         for cmd in static_commands:
+            self.add_command(self._make_static_command(cmd))
 
-            def _make_command(cmd):
-                @commands.cooldown(rate=1, per=5, key=commands.BucketType.channel)
-                async def _cmd(ctx: commands.Context):
-                    await ctx.send(cmd["message"])
-
-                return _cmd
-
-            packaged = commands.Command(
-                name=cmd["name"], aliases=cmd["aliases"], callback=_make_command(cmd)
-            )
-            self.add_command(packaged)
             hidden = cmd.get("hidden", False)
             if not hidden:
                 self.static_commands.append(cmd["name"])
 
-    @commands.command(name="commands")
-    @commands.cooldown(rate=1, per=5, key=commands.BucketType.channel)
-    async def list_commands(self, ctx: commands.Context):
-        await ctx.send(
-            ", ".join(
-                ["Commands: !review, !left, !back, !brbtime"]
-                + [f"!{cmd}" for cmd in self.static_commands]
+    def _make_static_command(self, cmd):
+        message = cmd["message"]
+
+        @commands.command(name=cmd["name"], aliases=cmd.get("aliases", []))
+        @commands.cooldown(rate=1, per=5, key=commands.BucketType.channel)
+        async def _static_command(ctx: commands.Context):
+            await ctx.send(message)
+
+        return _static_command
+
+    def _make_list_commands_command(self):
+        @commands.command(name="commands")
+        @commands.cooldown(rate=1, per=5, key=commands.BucketType.channel)
+        async def _list_commands(ctx: commands.Context):
+            await ctx.send(
+                ", ".join(
+                    ["Commands: !review, !left, !back, !brbtime"]
+                    + [f"!{cmd}" for cmd in self.static_commands]
+                )
+                + ". All commands have a 5 second cooldown."
             )
-            + ". All commands have a 5 second cooldown."
-        )
+
+        return _list_commands
 
 
 class DynamicCommands(commands.Component):
