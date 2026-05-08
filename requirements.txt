@@ -6,6 +6,8 @@ PyMovieDb
 python-dotenv
 requests
 tqdm
-twitchio[starlette]
+twitchio @ git+https://github.com/TwitchIO/TwitchIO.git
+starlette>=1.0.0
+uvicorn
 discord.py
 lxml[html_clean]

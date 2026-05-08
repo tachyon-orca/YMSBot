@@ -39,7 +39,9 @@ def _format_time_interval(nano_seconds):
 
 class Bot(commands.Bot):
     def __init__(self, **kwargs) -> None:
-        adapter = web.StarletteAdapter(domain="bot.tachyorca.com", port=4343)
+        adapter = web.StarletteAdapter(
+            host="0.0.0.0", domain="bot.tachyorca.com", port=4343
+        )
         super().__init__(adapter=adapter, **kwargs)
         self.load_static_commands()
         self.add_command(self._make_list_commands_command())
