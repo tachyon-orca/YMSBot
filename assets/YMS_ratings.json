@@ -33949,5 +33949,31 @@
     "original_title": "Peter Five Eight",
     "alt_titles": [],
     "rating": "10"
+  },
+  "tt0089881": {
+    "review_date": "2026-05-23",
+    "title": "Ran",
+    "release_date": "1985-06-01",
+    "original_title": "乱",
+    "alt_titles": [],
+    "rating": "7"
+  },
+  "tt22868010": {
+    "review_date": "2026-05-22",
+    "title": "Return to Silent Hill",
+    "release_date": "2026-01-21",
+    "original_title": "Return to Silent Hill",
+    "alt_titles": [
+      "Room 318"
+    ],
+    "rating": "1"
+  },
+  "tt0086984": {
+    "review_date": "2026-05-22",
+    "title": "Body Double",
+    "release_date": "1984-10-25",
+    "original_title": "Body Double",
+    "alt_titles": [],
+    "rating": "7"
   }
 }

@@ -3919,13 +3919,6 @@
     "original_title": "Half Nelson",
     "alt_titles": []
   },
-  "tt0089881": {
-    "review_date": "2015-10-18",
-    "title": "Ran",
-    "release_date": "1985-06-01",
-    "original_title": "乱",
-    "alt_titles": []
-  },
   "tt0089603": {
     "review_date": "2015-10-18",
     "title": "Mishima: A Life in Four Chapters",
@@ -35730,6 +35723,181 @@
     "alt_titles": [
       "Bill and Ted's Bogus Journey",
       "Bill and Ted's 2 - Bogus Journey"
+    ]
+  },
+  "tt4643048": {
+    "review_date": "2026-05-22",
+    "title": "Fatal Pulse",
+    "release_date": "2018-05-25",
+    "original_title": "Fatal Pulse",
+    "alt_titles": [
+      "Night Pulse",
+      "Untitled Yuppie Fear Thriller"
+    ]
+  },
+  "tt0350044": {
+    "review_date": "2026-05-22",
+    "title": "Reflections of Evil",
+    "release_date": "2002-03-22",
+    "original_title": "Reflections of Evil",
+    "alt_titles": []
+  },
+  "tt38058097": {
+    "review_date": "2026-05-22",
+    "title": "Club Kid",
+    "release_date": "2026-05-15",
+    "original_title": "Club Kid",
+    "alt_titles": []
+  },
+  "tt28551050": {
+    "review_date": "2026-05-22",
+    "title": "Nagi Notes",
+    "release_date": "2026-09-25",
+    "original_title": "ナギダイアリー",
+    "alt_titles": []
+  },
+  "tt37522972": {
+    "review_date": "2026-05-22",
+    "title": "The Man I Love",
+    "release_date": "2026-05-20",
+    "original_title": "The Man I Love",
+    "alt_titles": []
+  },
+  "tt34385689": {
+    "review_date": "2026-05-22",
+    "title": "Paper Tiger",
+    "release_date": "2026-05-16",
+    "original_title": "Paper Tiger",
+    "alt_titles": []
+  },
+  "tt0411377": {
+    "review_date": "2026-05-22",
+    "title": "Man in the Mirror: The Michael Jackson Story",
+    "release_date": "2004-08-06",
+    "original_title": "Man in the Mirror: The Michael Jackson Story",
+    "alt_titles": []
+  },
+  "tt35892599": {
+    "review_date": "2026-05-22",
+    "title": "Later the War",
+    "release_date": "",
+    "original_title": "Later the War",
+    "alt_titles": []
+  },
+  "tt0069400": {
+    "review_date": "2026-05-22",
+    "title": "Trafic",
+    "release_date": "1971-04-16",
+    "original_title": "Trafic",
+    "alt_titles": []
+  },
+  "tt0040019": {
+    "review_date": "2026-05-22",
+    "title": "School for Postmen",
+    "release_date": "1946-01-01",
+    "original_title": "L'École des facteurs",
+    "alt_titles": [
+      "The School for Postmen"
+    ]
+  },
+  "tt0040497": {
+    "review_date": "2026-05-22",
+    "title": "Jour de Fête",
+    "release_date": "1949-05-11",
+    "original_title": "Jour de fête",
+    "alt_titles": [
+      "Holiday"
+    ]
+  },
+  "tt0046487": {
+    "review_date": "2026-05-22",
+    "title": "Monsieur Hulot's Holiday",
+    "release_date": "1953-02-25",
+    "original_title": "Les vacances de Monsieur Hulot",
+    "alt_titles": [
+      "Mr. Hulot's Holiday",
+      "Monsieur Hulot's Holiday"
+    ]
+  },
+  "tt0050706": {
+    "review_date": "2026-05-22",
+    "title": "Mon Oncle",
+    "release_date": "1958-05-10",
+    "original_title": "Mon oncle",
+    "alt_titles": [
+      "My Uncle"
+    ]
+  },
+  "tt0171343": {
+    "review_date": "2026-05-23",
+    "title": "Falling Leaves",
+    "release_date": "1966-01-16",
+    "original_title": "გიორგობისთვე",
+    "alt_titles": []
+  },
+  "tt30304841": {
+    "review_date": "2026-05-23",
+    "title": "$POSITIONS",
+    "release_date": "2025-03-08",
+    "original_title": "$POSITIONS",
+    "alt_titles": []
+  },
+  "tt30428188": {
+    "review_date": "2026-05-23",
+    "title": "Fight Night: The Million Dollar Heist",
+    "release_date": "2024-09-05",
+    "original_title": "Fight Night: The Million Dollar Heist",
+    "alt_titles": []
+  },
+  "tt5252624": {
+    "review_date": "2026-05-23",
+    "title": "Stalked by My Doctor",
+    "release_date": "2015-12-26",
+    "original_title": "Stalked by My Doctor",
+    "alt_titles": []
+  },
+  "tt5989054": {
+    "review_date": "2026-05-23",
+    "title": "Stalked by My Doctor: The Return",
+    "release_date": "2016-09-05",
+    "original_title": "Stalked by My Doctor: The Return",
+    "alt_titles": []
+  },
+  "tt8499212": {
+    "review_date": "2026-05-23",
+    "title": "Stalked by My Doctor: Patient's Revenge",
+    "release_date": "2018-06-10",
+    "original_title": "Stalked by My Doctor: Patient's Revenge",
+    "alt_titles": []
+  },
+  "tt10579468": {
+    "review_date": "2026-05-23",
+    "title": "Stalked by My Doctor: A Sleepwalker's Nightmare",
+    "release_date": "2019-07-13",
+    "original_title": "Stalked by My Doctor: A Sleepwalker's Nightmare",
+    "alt_titles": []
+  },
+  "tt36107185": {
+    "review_date": "2026-05-25",
+    "title": "La Gradiva",
+    "release_date": "2026-11-04",
+    "original_title": "La Gradiva",
+    "alt_titles": []
+  },
+  "tt35511966": {
+    "review_date": "2026-05-25",
+    "title": "The Black Ball",
+    "release_date": "2026-10-02",
+    "original_title": "La Bola Negra",
+    "alt_titles": []
+  },
+  "tt22183852": {
+    "review_date": "2026-05-28",
+    "title": "Tangles",
+    "release_date": "2026-05-14",
+    "original_title": "Tangles",
+    "alt_titles": [
+      "Tangles: A Story About Alzheimer's, My Mother and Me"
     ]
   }
 }
