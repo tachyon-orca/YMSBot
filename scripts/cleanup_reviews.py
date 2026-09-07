@@ -1,5 +1,6 @@
 import json
 import unicodedata
+import pathlib
 
 import pandas as pd
 
@@ -48,9 +49,11 @@ def get_series(title):
 
 
 def main():
-    with open("../assets/YMS_ratings.json") as fin:
+    curr_dir = pathlib.Path(__file__).resolve().parent
+    asset_dir = curr_dir.parent / "assets"
+    with open(asset_dir / "YMS_ratings.json") as fin:
         ratings = json.load(fin)
-    videos = pd.read_csv("YMS_videos.csv")
+    videos = pd.read_csv(curr_dir / "YMS_videos.csv")
 
     reviews = dict()
     for _, row in videos.iterrows():
@@ -69,7 +72,7 @@ def main():
             (normalize(row["Video Title"]), row["Video Link"])
         )
     
-    with open("../assets/YMS_ratings.json", "w") as fout:
+    with open(asset_dir / "YMS_ratings.json", "w") as fout:
         json.dump(ratings, fout, indent=2, ensure_ascii=False)
 
     for imdb_id, review in reviews.items():
@@ -84,7 +87,7 @@ def main():
                 print(imdb_id, vids)
             review["reviews"] = [r[1] for r in vids]
 
-    with open("../assets/YMS_videos.json", "w") as fout:
+    with open(asset_dir / "YMS_videos.json", "w") as fout:
         json.dump(reviews, fout, indent=2, ensure_ascii=False)
 
 
