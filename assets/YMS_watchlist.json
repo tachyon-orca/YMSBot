@@ -28744,13 +28744,6 @@
       "Bedeviled"
     ]
   },
-  "tt27369017": {
-    "review_date": "2024-03-22",
-    "title": "Hope",
-    "release_date": "",
-    "original_title": "호프",
-    "alt_titles": []
-  },
   "tt11755740": {
     "review_date": "2024-03-22",
     "title": "Texas Chainsaw Massacre",
@@ -32239,13 +32232,6 @@
   },
   "tt9735572": {
     "review_date": "2025-06-02"
-  },
-  "tt34206385": {
-    "review_date": "2025-06-02",
-    "title": "Primetime",
-    "release_date": "",
-    "original_title": "Primetime",
-    "alt_titles": []
   },
   "tt36958999": {
     "review_date": "2025-06-02",
@@ -36842,6 +36828,48 @@
     "title": "Contact",
     "release_date": "1997-07-11",
     "original_title": "Contact",
+    "alt_titles": []
+  },
+  "tt44766123": {
+    "review_date": "2026-09-25",
+    "title": "NAZA",
+    "release_date": "2026-09-25",
+    "original_title": "NAZA",
+    "alt_titles": []
+  },
+  "tt1295053": {
+    "review_date": "2026-09-25",
+    "title": "AM1200",
+    "release_date": "2008-10-03",
+    "original_title": "AM1200",
+    "alt_titles": []
+  },
+  "tt2996732": {
+    "review_date": "2026-09-27",
+    "title": "The Perfect Fishplate",
+    "release_date": "2005-12-09",
+    "original_title": "완벽한 도미요리",
+    "alt_titles": []
+  },
+  "tt2420072": {
+    "review_date": "2026-09-27",
+    "title": "Sweat",
+    "release_date": "2007-07-11",
+    "original_title": "한",
+    "alt_titles": []
+  },
+  "tt27196706": {
+    "review_date": "2026-09-27",
+    "title": "Faith",
+    "release_date": "2023-03-15",
+    "original_title": "페이스",
+    "alt_titles": []
+  },
+  "tt45368240": {
+    "review_date": "2026-09-27",
+    "title": "You Can See Everything",
+    "release_date": "2026-10-16",
+    "original_title": "You Can See Everything",
     "alt_titles": []
   }
 }
