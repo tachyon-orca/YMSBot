@@ -34442,13 +34442,29 @@
     "rating": "7"
   },
   "tt34206385": {
-    "review_date": "2026-09-26",
+    "review_date": "2026-09-30",
     "title": "Primetime",
     "release_date": "2026-09-23",
     "original_title": "Primetime",
     "alt_titles": [
       "Bluefin Tuna"
     ],
+    "rating": "8"
+  },
+  "tt8488126": {
+    "review_date": "2026-09-30",
+    "title": "The Inventor: Out for Blood in Silicon Valley",
+    "release_date": "2019-01-24",
+    "original_title": "The Inventor: Out for Blood in Silicon Valley",
+    "alt_titles": [],
     "rating": "7"
+  },
+  "tt34963732": {
+    "review_date": "2026-09-28",
+    "title": "Predators",
+    "release_date": "2025-09-19",
+    "original_title": "Predators",
+    "alt_titles": [],
+    "rating": "9"
   }
 }

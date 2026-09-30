@@ -33986,13 +33986,6 @@
       "Blind Spot"
     ]
   },
-  "tt34963732": {
-    "review_date": "2025-12-16",
-    "title": "Predators",
-    "release_date": "2025-09-19",
-    "original_title": "Predators",
-    "alt_titles": []
-  },
   "tt37206123": {
     "review_date": "2025-12-18",
     "title": "End of History",
@@ -36870,6 +36863,29 @@
     "title": "You Can See Everything",
     "release_date": "2026-10-16",
     "original_title": "You Can See Everything",
+    "alt_titles": []
+  },
+  "tt11614054": {
+    "review_date": "2026-09-28",
+    "title": "Mayor",
+    "release_date": "2020-12-02",
+    "original_title": "Mayor",
+    "alt_titles": []
+  },
+  "tt10431500": {
+    "review_date": "2026-09-29",
+    "title": "Miracle in Cell No. 7",
+    "release_date": "2019-10-10",
+    "original_title": "7. Koğuştaki Mucize",
+    "alt_titles": [
+      "Miracle in Cell No.7"
+    ]
+  },
+  "tt6794424": {
+    "review_date": "2026-09-29",
+    "title": "LA 92",
+    "release_date": "2017-04-28",
+    "original_title": "LA 92",
     "alt_titles": []
   }
 }
