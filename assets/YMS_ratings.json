@@ -34466,5 +34466,35 @@
     "original_title": "Predators",
     "alt_titles": [],
     "rating": "9"
+  },
+  "tt39150234": {
+    "review_date": "2026-10-03",
+    "title": "The History of Concrete",
+    "release_date": "2026-09-18",
+    "original_title": "The History of Concrete",
+    "alt_titles": [],
+    "rating": "7"
+  },
+  "tt36955518": {
+    "review_date": "2026-10-02",
+    "title": "Jim Queen and the Quest for Chloroqueer",
+    "release_date": "2026-06-17",
+    "original_title": "Jim Queen",
+    "alt_titles": [
+      "Jim Queen",
+      "Jim Queen and the Quest for Chloroqueer"
+    ],
+    "rating": "8"
+  },
+  "tt31450459": {
+    "review_date": "2026-10-02",
+    "title": "Digger",
+    "release_date": "2026-09-28",
+    "original_title": "Digger",
+    "alt_titles": [
+      "Judy",
+      "Blah, Blah, Blah"
+    ],
+    "rating": "7"
   }
 }

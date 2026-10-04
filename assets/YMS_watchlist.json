@@ -33823,13 +33823,6 @@
   "tt23632942": {
     "review_date": "2025-11-24"
   },
-  "tt31450459": {
-    "review_date": "2025-11-24",
-    "title": "Judy",
-    "release_date": "2026-10-01",
-    "original_title": "Judy",
-    "alt_titles": []
-  },
   "tt5078874": {
     "review_date": "2025-12-01",
     "title": "The Pound Hole",
@@ -33919,13 +33912,6 @@
     "title": "The Chronology of Water",
     "release_date": "2025-10-15",
     "original_title": "The Chronology of Water",
-    "alt_titles": []
-  },
-  "tt39150234": {
-    "review_date": "2025-12-10",
-    "title": "The History of Concrete",
-    "release_date": "2026-01-22",
-    "original_title": "The History of Concrete",
     "alt_titles": []
   },
   "tt39017403": {
@@ -36439,16 +36425,6 @@
     "original_title": "Du fioul dans les artères",
     "alt_titles": []
   },
-  "tt36955518": {
-    "review_date": "2026-08-26",
-    "title": "Jim Queen",
-    "release_date": "2026-06-17",
-    "original_title": "Jim Queen",
-    "alt_titles": [
-      "Jim Queen",
-      "Jim Queen and the Quest for Chloroqueer"
-    ]
-  },
   "tt38991615": {
     "review_date": "2026-08-26",
     "title": "I See Buildings Fall Like Lightning",
@@ -36886,6 +36862,27 @@
     "title": "LA 92",
     "release_date": "2017-04-28",
     "original_title": "LA 92",
+    "alt_titles": []
+  },
+  "tt39026173": {
+    "review_date": "2026-10-01",
+    "title": "Chiikawa the Movie: The Secret of the Mermaid Island",
+    "release_date": "2026-07-24",
+    "original_title": "映画ちいかわ 人魚の島のひみつ",
+    "alt_titles": []
+  },
+  "tt40475200": {
+    "review_date": "2026-10-01",
+    "title": "Drinking and Driving",
+    "release_date": "2026-10-11",
+    "original_title": "Drinking and Driving",
+    "alt_titles": []
+  },
+  "tt42205735": {
+    "review_date": "2026-10-01",
+    "title": "Toronto Apartment",
+    "release_date": "2026-07-15",
+    "original_title": "Toronto Apartment",
     "alt_titles": []
   }
 }
