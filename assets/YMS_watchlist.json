@@ -1199,13 +1199,6 @@
     "original_title": "天空の城ラピュタ",
     "alt_titles": []
   },
-  "tt0106341": {
-    "review_date": "2013-03-05",
-    "title": "Bad Boy Bubby",
-    "release_date": "1993-09-01",
-    "original_title": "Bad Boy Bubby",
-    "alt_titles": []
-  },
   "tt0209463": {
     "review_date": "2013-03-21",
     "title": "The Wind Will Carry Us",
@@ -36883,6 +36876,13 @@
     "title": "Toronto Apartment",
     "release_date": "2026-07-15",
     "original_title": "Toronto Apartment",
+    "alt_titles": []
+  },
+  "tt0078841": {
+    "review_date": "2026-10-06",
+    "title": "Being There",
+    "release_date": "1979-12-19",
+    "original_title": "Being There",
     "alt_titles": []
   }
 }

@@ -34487,7 +34487,7 @@
     "rating": "8"
   },
   "tt31450459": {
-    "review_date": "2026-10-02",
+    "review_date": "2026-10-07",
     "title": "Digger",
     "release_date": "2026-09-28",
     "original_title": "Digger",
@@ -34495,6 +34495,14 @@
       "Judy",
       "Blah, Blah, Blah"
     ],
+    "rating": "8"
+  },
+  "tt0106341": {
+    "review_date": "2026-10-06",
+    "title": "Bad Boy Bubby",
+    "release_date": "1993-09-01",
+    "original_title": "Bad Boy Bubby",
+    "alt_titles": [],
     "rating": "7"
   }
 }
