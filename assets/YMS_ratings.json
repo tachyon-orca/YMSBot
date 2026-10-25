@@ -34504,5 +34504,69 @@
     "original_title": "Bad Boy Bubby",
     "alt_titles": [],
     "rating": "7"
+  },
+  "tt7746734": {
+    "review_date": "2026-10-25",
+    "title": "No Jail Time: The Movie",
+    "release_date": "2017-12-05",
+    "original_title": "No Jail Time: The Movie",
+    "alt_titles": [],
+    "rating": "7"
+  },
+  "tt0115964": {
+    "review_date": "2026-10-22",
+    "title": "Crash",
+    "release_date": "1996-07-17",
+    "original_title": "Crash",
+    "alt_titles": [
+      "Crash 1996"
+    ],
+    "rating": "8"
+  },
+  "tt2056785": {
+    "review_date": "2026-10-20",
+    "title": "Wildwood",
+    "release_date": "2026-10-19",
+    "original_title": "Wildwood",
+    "alt_titles": [],
+    "rating": "7"
+  },
+  "tt45368240": {
+    "review_date": "2026-10-18",
+    "title": "You Can See Everything",
+    "release_date": "2026-10-16",
+    "original_title": "You Can See Everything",
+    "alt_titles": [],
+    "rating": "10"
+  },
+  "tt28535715": {
+    "review_date": "2026-10-18",
+    "title": "Whalefall",
+    "release_date": "2026-10-14",
+    "original_title": "Whalefall",
+    "alt_titles": [],
+    "rating": "3"
+  },
+  "tt0094761": {
+    "review_date": "2026-10-16",
+    "title": "The Blob",
+    "release_date": "1988-08-05",
+    "original_title": "The Blob",
+    "alt_titles": [],
+    "rating": "6"
+  },
+  "tt0051418": {
+    "review_date": "2026-10-16",
+    "title": "The Blob",
+    "release_date": "1958-09-10",
+    "original_title": "The Blob",
+    "alt_titles": [
+      "The Molten Meteor",
+      "The Glob",
+      "The Glob That Girdled the Globe",
+      "The Night of the Creeping Dead",
+      "The Meteorite Monster"
+    ],
+    "rating": "6"
   }
 }

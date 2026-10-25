@@ -4790,15 +4790,6 @@
       "The Transposed Heads"
     ]
   },
-  "tt0115964": {
-    "review_date": "2016-07-26",
-    "title": "Crash",
-    "release_date": "1996-07-17",
-    "original_title": "Crash",
-    "alt_titles": [
-      "Crash 1996"
-    ]
-  },
   "tt0061722": {
     "review_date": "2016-07-28",
     "title": "The Graduate",
@@ -5066,26 +5057,6 @@
     "title": "And the Band Played On",
     "release_date": "1993-09-11",
     "original_title": "And the Band Played On",
-    "alt_titles": []
-  },
-  "tt0051418": {
-    "review_date": "2016-09-08",
-    "title": "The Blob",
-    "release_date": "1958-09-10",
-    "original_title": "The Blob",
-    "alt_titles": [
-      "The Glob That Girdled the Globe",
-      "The Glob",
-      "The Meteorite Monster",
-      "The Molten Meteorite",
-      "The Night of the Creeping Dead"
-    ]
-  },
-  "tt0094761": {
-    "review_date": "2016-09-08",
-    "title": "The Blob",
-    "release_date": "1988-08-05",
-    "original_title": "The Blob",
     "alt_titles": []
   },
   "tt0437800": {
@@ -36757,13 +36728,6 @@
     "original_title": "Marty",
     "alt_titles": []
   },
-  "tt2056785": {
-    "review_date": "2026-09-23",
-    "title": "Wildwood",
-    "release_date": "2026-10-21",
-    "original_title": "Wildwood",
-    "alt_titles": []
-  },
   "tt18270542": {
     "review_date": "2026-09-24",
     "title": "Ray Gunn",
@@ -36827,13 +36791,6 @@
     "original_title": "페이스",
     "alt_titles": []
   },
-  "tt45368240": {
-    "review_date": "2026-09-27",
-    "title": "You Can See Everything",
-    "release_date": "2026-10-16",
-    "original_title": "You Can See Everything",
-    "alt_titles": []
-  },
   "tt11614054": {
     "review_date": "2026-09-28",
     "title": "Mayor",
@@ -36883,6 +36840,147 @@
     "title": "Being There",
     "release_date": "1979-12-19",
     "original_title": "Being There",
+    "alt_titles": []
+  },
+  "tt4074304": {
+    "review_date": "2026-10-07",
+    "title": "Pervert Park",
+    "release_date": "2014-11-06",
+    "original_title": "Pervert Park",
+    "alt_titles": []
+  },
+  "tt34874865": {
+    "review_date": "2026-10-12",
+    "title": "The Peril at Pincer Point",
+    "release_date": "2026-03-14",
+    "original_title": "The Peril at Pincer Point",
+    "alt_titles": []
+  },
+  "tt39196981": {
+    "review_date": "2026-10-13",
+    "title": "Chronovisor",
+    "release_date": "2026-09-04",
+    "original_title": "Chronovisor",
+    "alt_titles": []
+  },
+  "tt38793765": {
+    "review_date": "2026-10-14",
+    "title": "Don Bluth: Somewhere Out There",
+    "release_date": "2025-10-25",
+    "original_title": "Don Bluth: Somewhere Out There",
+    "alt_titles": []
+  },
+  "tt3153634": {
+    "review_date": "2026-10-14",
+    "title": "Hope",
+    "release_date": "2013-10-02",
+    "original_title": "소원",
+    "alt_titles": [
+      "Hope"
+    ]
+  },
+  "tt0068271": {
+    "review_date": "2026-10-16",
+    "title": "Beware! The Blob",
+    "release_date": "1972-06-21",
+    "original_title": "Beware! The Blob",
+    "alt_titles": []
+  },
+  "tt0047573": {
+    "review_date": "2026-10-16",
+    "title": "Them!",
+    "release_date": "1954-06-16",
+    "original_title": "Them!",
+    "alt_titles": [
+      "Them"
+    ]
+  },
+  "tt0051622": {
+    "review_date": "2026-10-16",
+    "title": "The Fly",
+    "release_date": "1958-07-16",
+    "original_title": "The Fly",
+    "alt_titles": []
+  },
+  "tt0120802": {
+    "review_date": "2026-10-19",
+    "title": "The Red Violin",
+    "release_date": "1998-11-13",
+    "original_title": "Le violon rouge",
+    "alt_titles": [
+      "The Red Violin"
+    ]
+  },
+  "tt0390336": {
+    "review_date": "2026-10-20",
+    "title": "Overnight",
+    "release_date": "2003-06-12",
+    "original_title": "Overnight",
+    "alt_titles": []
+  },
+  "tt43655467": {
+    "review_date": "2026-10-20",
+    "title": "Ali G: Who Iz I?",
+    "release_date": "2026-10-22",
+    "original_title": "Ali G: Who Iz I?",
+    "alt_titles": []
+  },
+  "tt39656291": {
+    "review_date": "2026-10-20",
+    "title": "The Dark Wizard",
+    "release_date": "2026-04-14",
+    "original_title": "The Dark Wizard",
+    "alt_titles": []
+  },
+  "tt0096409": {
+    "review_date": "2026-10-21",
+    "title": "Walker",
+    "release_date": "1987-12-04",
+    "original_title": "Walker",
+    "alt_titles": []
+  },
+  "tt0043338": {
+    "review_date": "2026-10-21",
+    "title": "Ace in the Hole",
+    "release_date": "1951-06-29",
+    "original_title": "Ace in the Hole",
+    "alt_titles": [
+      "The Big Carnival"
+    ]
+  },
+  "tt0038733": {
+    "review_date": "2026-10-21",
+    "title": "A Matter of Life and Death",
+    "release_date": "1946-12-15",
+    "original_title": "A Matter of Life and Death",
+    "alt_titles": [
+      "Stairway to Heaven"
+    ]
+  },
+  "tt0023649": {
+    "review_date": "2026-10-21",
+    "title": "Vampyr",
+    "release_date": "1932-05-06",
+    "original_title": "Vampyr - Der Traum des Allan Grey",
+    "alt_titles": [
+      "Castle of Doom",
+      "Not Against the Flesh",
+      "The Vampire",
+      "The Strange Adventure of David Gray"
+    ]
+  },
+  "tt0002130": {
+    "review_date": "2026-10-21",
+    "title": "Dante's Inferno",
+    "release_date": "1911-03-01",
+    "original_title": "L’Inferno",
+    "alt_titles": []
+  },
+  "tt21382792": {
+    "review_date": "2026-10-23",
+    "title": "Anything That Moves",
+    "release_date": "2025-07-25",
+    "original_title": "Anything That Moves",
     "alt_titles": []
   }
 }
