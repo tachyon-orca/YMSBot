@@ -1,0 +1,38 @@
+name: Dependency audit
+
+on:
+  push:
+    paths:
+      - '**/*.py'
+      - 'requirements*'
+      - 'Dockerfile'
+      - '.github/workflows/dependency-audit.yml'
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 8 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Build Python 3.15 image
+        run: docker build --pull -t ymsbot-test .
+      - name: Run offline compatibility and review tests
+        run: >-
+          docker run --rm --network none
+          -v "$GITHUB_WORKSPACE:/app:ro" ymsbot-test
+          sh -c 'git config --global --add safe.directory /app && python -m unittest discover -s tests -v'
+      - name: Audit installed Python packages and maintenance lock
+        run: |
+          python3 -m venv "$RUNNER_TEMP/pip-audit"
+          "$RUNNER_TEMP/pip-audit/bin/pip" install pip-audit==2.10.1
+          docker run --rm --network none ymsbot-test python -m pip freeze --all > "$RUNNER_TEMP/installed.txt"
+          "$RUNNER_TEMP/pip-audit/bin/pip-audit" --disable-pip --no-deps -r "$RUNNER_TEMP/installed.txt"
+          "$RUNNER_TEMP/pip-audit/bin/pip-audit" --disable-pip --no-deps -r requirements-maintenance.txt

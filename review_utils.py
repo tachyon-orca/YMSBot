@@ -1,4 +1,5 @@
 import json
+import logging
 import os
 import re
 from datetime import datetime
@@ -7,7 +8,9 @@ import git
 import inflect
 import requests
 from dotenv import dotenv_values
-from PyMovieDb import IMDB
+from lxml import etree, html
+
+LOGGER = logging.getLogger(__name__)
 
 secrets = dotenv_values(".env")
 access_token = secrets["TMDB_READ_ACCESS_TOKEN"]
@@ -22,13 +25,44 @@ def correct_date(date_string):
     return date_string
 
 
+def _search_imdb(title):
+    """Return title IDs from IMDb's search page without a browser dependency."""
+    try:
+        response = requests.get(
+            "https://www.imdb.com/find/",
+            params={"q": title},
+            headers={"User-Agent": "Mozilla/5.0"},
+            timeout=10,
+        )
+        response.raise_for_status()
+        document = html.fromstring(response.content)
+    except (requests.RequestException, etree.ParserError):
+        LOGGER.warning("IMDb fallback search failed", exc_info=True)
+        return []
+
+    ids = []
+    for result in document.xpath(
+        "//section[@data-testid='find-results-section-title']/div/ul/li"
+    ):
+        name = result.text_content()
+        if "Podcast" in name or "Music Video" in name:
+            continue
+        for href in result.xpath(".//a/@href"):
+            match = re.match(r"/title/(tt\d{7,})(?:/|$)", href)
+            if match:
+                imdb_id = match.group(1)
+                if imdb_id not in ids:
+                    ids.append(imdb_id)
+                break
+    return ids
+
+
 class ReviewGetter:
     def __init__(self):
         self.headers = {
             "accept": "application/json",
             "Authorization": f"Bearer {access_token}",
         }
-        self.imdb = IMDB()
         self.inflection = inflect.engine()
         self.repo = git.Repo(".")
         self.last_modified = dict()
@@ -80,12 +114,7 @@ class ReviewGetter:
 
         results = [r for r in results if r is not None]
         if len(results) == 0:
-            results = json.loads(self.imdb.search(title))
-            results = results.get("results", [])
-            if len(results) == 0:
-                return None, None
-            else:
-                results = [res["id"] for res in results]
+            results = _search_imdb(title)
 
         for imdb_id in results:
             if imdb_id in self.ratings:
@@ -126,7 +155,7 @@ class ReviewGetter:
                 title = f"[{title}](https://www.imdb.com/title/{imdb_id}/)"
 
             if rec_type == "watchlist":
-                return "Adum has not rated {} yet, but he added it to his watchlist on {}.".format(
+                return "Adum has not rated {} yet, but they added it to their watchlist on {}.".format(
                     title, correct_date(rating["review_date"])
                 )
             else:
@@ -135,7 +164,7 @@ class ReviewGetter:
         else:
             resp = "I can't say the title of that movie, but "
             if rec_type == "watchlist":
-                return resp + "Adum added it to his watchlist on {}.".format(
+                return resp + "Adum added it to their watchlist on {}.".format(
                     correct_date(rating["review_date"])
                 )
             else:
@@ -176,5 +205,5 @@ class ReviewGetter:
             case "YMS Watches":
                 resp += " Check out the Watch-Along here: {}".format(review["url"])
             case _:
-                resp += " Check out his review here: {}".format(review["url"])
+                resp += " Check out their review here: {}".format(review["url"])
         return resp

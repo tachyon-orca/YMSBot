@@ -1,0 +1,9 @@
+.env
+.git
+.github
+.tio.tokens.json
+brb_log.jsonl
+__pycache__/
+*.py[cod]
+venv/
+.venv/
