@@ -5643,13 +5643,6 @@
       "Ushpizin"
     ]
   },
-  "tt0286751": {
-    "review_date": "2017-02-01",
-    "title": "Pulse",
-    "release_date": "2001-02-03",
-    "original_title": "回路",
-    "alt_titles": []
-  },
   "tt0330500": {
     "review_date": "2017-02-01",
     "title": "Ju-on: The Curse",
@@ -36981,6 +36974,62 @@
     "title": "Anything That Moves",
     "release_date": "2025-07-25",
     "original_title": "Anything That Moves",
+    "alt_titles": []
+  },
+  "tt43704171": {
+    "review_date": "2026-10-26",
+    "title": "A Day in the Life of Jo: Chapter Phaedra",
+    "release_date": "2026-09-08",
+    "original_title": "Μία μέρα στη ζωή της Τζο: Κεφάλαιο Φαίδρα",
+    "alt_titles": []
+  },
+  "tt14576898": {
+    "review_date": "2026-10-26",
+    "title": "Cherry and Virgin",
+    "release_date": "2026-07-18",
+    "original_title": "CHERRY AND VIRGIN",
+    "alt_titles": []
+  },
+  "tt10095288": {
+    "review_date": "2026-10-27",
+    "title": "Out There",
+    "release_date": "",
+    "original_title": "Out There",
+    "alt_titles": []
+  },
+  "tt22751454": {
+    "review_date": "2026-10-27",
+    "title": "The Caretaker",
+    "release_date": "",
+    "original_title": "The Caretaker",
+    "alt_titles": []
+  },
+  "tt1862107": {
+    "review_date": "2026-10-27",
+    "title": "Talk Show",
+    "release_date": "2011-06-23",
+    "original_title": "Talk Show",
+    "alt_titles": []
+  },
+  "tt4820370": {
+    "review_date": "2026-10-27",
+    "title": "Channel Zero",
+    "release_date": "2016-10-11",
+    "original_title": "Channel Zero",
+    "alt_titles": []
+  },
+  "tt35672862": {
+    "review_date": "2026-10-27",
+    "title": "Hokum",
+    "release_date": "2026-04-29",
+    "original_title": "Hokum",
+    "alt_titles": []
+  },
+  "tt36834996": {
+    "review_date": "2026-10-30",
+    "title": "All of a Sudden",
+    "release_date": "2026-06-19",
+    "original_title": "急に具合が悪くなる",
     "alt_titles": []
   }
 }
