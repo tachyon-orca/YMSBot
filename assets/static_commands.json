@@ -36,8 +36,13 @@
     },
     {
         "name": "tts",
-        "aliases": ["TTS"],
+        "aliases": ["TTS", "coolcat"],
         "message": "COOL CAT TTS https://streamlabs.com/ymsplays/tip"
+    },
+    {
+        "name": "jason",
+        "aliases": [],
+        "message": "Cool Cat TTS voiced by Jason. Jason's PayPal: http://www.paypal.me/jasonjohnson1890 Jason's Cameo: https://www.cameo.com/jasonj138"
     },
     {
         "name": "notgus",
